@@ -1,14 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import { IntlProvider } from "react-intl";
+import "./index.scss";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import "fontsource-roboto";
+import messages from "../src/i18n";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <IntlProvider messages={messages["es"]} locale="es" defaultLocale="es">
+      <App />
+    </IntlProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
