@@ -1,0 +1,6913 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bos2y0');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bos2y0#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bos2y0') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bos2y0') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bos2y0##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-2k-sports {
+  &:before {
+    content: $icon-2k-sports; 
+  }
+}
+.icon-assassins-creed {
+  &:before {
+    content: $icon-assassins-creed; 
+  }
+}
+.icon-atari {
+  &:before {
+    content: $icon-atari; 
+  }
+}
+.icon-bandai {
+  &:before {
+    content: $icon-bandai; 
+  }
+}
+.icon-bandai1 {
+  &:before {
+    content: $icon-bandai1; 
+  }
+}
+.icon-capcom {
+  &:before {
+    content: $icon-capcom; 
+  }
+}
+.icon-crytek {
+  &:before {
+    content: $icon-crytek; 
+  }
+}
+.icon-dota-2 {
+  &:before {
+    content: $icon-dota-2; 
+  }
+}
+.icon-ea-sports {
+  &:before {
+    content: $icon-ea-sports; 
+  }
+}
+.icon-game-boy {
+  &:before {
+    content: $icon-game-boy; 
+  }
+}
+.icon-gears-of-war {
+  &:before {
+    content: $icon-gears-of-war; 
+  }
+}
+.icon-gta {
+  &:before {
+    content: $icon-gta; 
+  }
+}
+.icon-guitar-hero {
+  &:before {
+    content: $icon-guitar-hero; 
+  }
+}
+.icon-lego {
+  &:before {
+    content: $icon-lego; 
+  }
+}
+.icon-namco {
+  &:before {
+    content: $icon-namco; 
+  }
+}
+.icon-nintendo-ds1 {
+  &:before {
+    content: $icon-nintendo-ds1; 
+  }
+}
+.icon-nintendo1 {
+  &:before {
+    content: $icon-nintendo1; 
+  }
+}
+.icon-nintendo-switch {
+  &:before {
+    content: $icon-nintendo-switch; 
+  }
+}
+.icon-wii {
+  &:before {
+    content: $icon-wii; 
+  }
+}
+.icon-wii-u {
+  &:before {
+    content: $icon-wii-u; 
+  }
+}
+.icon-pes {
+  &:before {
+    content: $icon-pes; 
+  }
+}
+.icon-playstation1 {
+  &:before {
+    content: $icon-playstation1; 
+  }
+}
+.icon-pokemon-go {
+  &:before {
+    content: $icon-pokemon-go; 
+  }
+}
+.icon-ps2 {
+  &:before {
+    content: $icon-ps2; 
+  }
+}
+.icon-ps31 {
+  &:before {
+    content: $icon-ps31; 
+  }
+}
+.icon-ps41 {
+  &:before {
+    content: $icon-ps41; 
+  }
+}
+.icon-psp1 {
+  &:before {
+    content: $icon-psp1; 
+  }
+}
+.icon-play-station {
+  &:before {
+    content: $icon-play-station; 
+  }
+}
+.icon-rovio {
+  &:before {
+    content: $icon-rovio; 
+  }
+}
+.icon-sega {
+  &:before {
+    content: $icon-sega; 
+  }
+}
+.icon-sony {
+  &:before {
+    content: $icon-sony; 
+  }
+}
+.icon-super-mario {
+  &:before {
+    content: $icon-super-mario; 
+  }
+}
+.icon-tamiya {
+  &:before {
+    content: $icon-tamiya; 
+  }
+}
+.icon-ubisoft {
+  &:before {
+    content: $icon-ubisoft; 
+  }
+}
+.icon-valve {
+  &:before {
+    content: $icon-valve; 
+  }
+}
+.icon-we-pes {
+  &:before {
+    content: $icon-we-pes; 
+  }
+}
+.icon-xbox {
+  &:before {
+    content: $icon-xbox; 
+  }
+}
+.icon-zynga {
+  &:before {
+    content: $icon-zynga; 
+  }
+}
+.icon-fuse .path1 {
+  &:before {
+    content: $icon-fuse-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-fuse .path2 {
+  &:before {
+    content: $icon-fuse-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-fuse .path3 {
+  &:before {
+    content: $icon-fuse-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-fuse .path4 {
+  &:before {
+    content: $icon-fuse-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-cupid .path1 {
+  &:before {
+    content: $icon-cupid-path1;  
+    color: rgb(190, 135, 107);
+  }
+}
+.icon-cupid .path2 {
+  &:before {
+    content: $icon-cupid-path2;  
+    margin-left: -1em;  
+    color: rgb(170, 100, 85);
+  }
+}
+.icon-cupid .path3 {
+  &:before {
+    content: $icon-cupid-path3;  
+    margin-left: -1em;  
+    color: rgb(135, 70, 65);
+  }
+}
+.icon-cupid .path4 {
+  &:before {
+    content: $icon-cupid-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console .path1 {
+  &:before {
+    content: $icon-game-console-path1;  
+    color: rgb(81, 82, 98);
+  }
+}
+.icon-game-console .path2 {
+  &:before {
+    content: $icon-game-console-path2;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-game-console .path3 {
+  &:before {
+    content: $icon-game-console-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console .path4 {
+  &:before {
+    content: $icon-game-console-path4;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console .path5 {
+  &:before {
+    content: $icon-game-console-path5;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console .path6 {
+  &:before {
+    content: $icon-game-console-path6;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console .path7 {
+  &:before {
+    content: $icon-game-console-path7;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console .path8 {
+  &:before {
+    content: $icon-game-console-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-computing .path1 {
+  &:before {
+    content: $icon-computing-path1;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-computing .path2 {
+  &:before {
+    content: $icon-computing-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-computing .path3 {
+  &:before {
+    content: $icon-computing-path3;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-computing .path4 {
+  &:before {
+    content: $icon-computing-path4;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-computing .path5 {
+  &:before {
+    content: $icon-computing-path5;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-computing .path6 {
+  &:before {
+    content: $icon-computing-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-computer-monitor .path1 {
+  &:before {
+    content: $icon-computer-monitor-path1;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-computer-monitor .path2 {
+  &:before {
+    content: $icon-computer-monitor-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-computer-monitor .path3 {
+  &:before {
+    content: $icon-computer-monitor-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-computer-monitor .path4 {
+  &:before {
+    content: $icon-computer-monitor-path4;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-computer-monitor .path5 {
+  &:before {
+    content: $icon-computer-monitor-path5;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-computer-monitor .path6 {
+  &:before {
+    content: $icon-computer-monitor-path6;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-computer-monitor .path7 {
+  &:before {
+    content: $icon-computer-monitor-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-computer-monitor .path8 {
+  &:before {
+    content: $icon-computer-monitor-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-jewels .path1 {
+  &:before {
+    content: $icon-jewels-path1;  
+    color: rgb(0, 210, 255);
+  }
+}
+.icon-jewels .path2 {
+  &:before {
+    content: $icon-jewels-path2;  
+    margin-left: -1em;  
+    color: rgb(89, 226, 255);
+  }
+}
+.icon-jewels .path3 {
+  &:before {
+    content: $icon-jewels-path3;  
+    margin-left: -1em;  
+    color: rgb(40, 175, 240);
+  }
+}
+.icon-jewels .path4 {
+  &:before {
+    content: $icon-jewels-path4;  
+    margin-left: -1em;  
+    color: rgb(24, 189, 246);
+  }
+}
+.icon-jewels .path5 {
+  &:before {
+    content: $icon-jewels-path5;  
+    margin-left: -1em;  
+    color: rgb(24, 189, 246);
+  }
+}
+.icon-jewels .path6 {
+  &:before {
+    content: $icon-jewels-path6;  
+    margin-left: -1em;  
+    color: rgb(24, 189, 246);
+  }
+}
+.icon-jewels .path7 {
+  &:before {
+    content: $icon-jewels-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 210, 255);
+  }
+}
+.icon-jewels .path8 {
+  &:before {
+    content: $icon-jewels-path8;  
+    margin-left: -1em;  
+    color: rgb(40, 175, 240);
+  }
+}
+.icon-jewels .path9 {
+  &:before {
+    content: $icon-jewels-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-controller .path1 {
+  &:before {
+    content: $icon-game-controller-path1;  
+    color: rgb(215, 222, 237);
+  }
+}
+.icon-game-controller .path2 {
+  &:before {
+    content: $icon-game-controller-path2;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-controller .path3 {
+  &:before {
+    content: $icon-game-controller-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-controller .path4 {
+  &:before {
+    content: $icon-game-controller-path4;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.icon-game-controller .path5 {
+  &:before {
+    content: $icon-game-controller-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-Maps-and-Flags .path1 {
+  &:before {
+    content: $icon-Maps-and-Flags-path1;  
+    color: rgb(210, 170, 130);
+  }
+}
+.icon-Maps-and-Flags .path2 {
+  &:before {
+    content: $icon-Maps-and-Flags-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-Maps-and-Flags .path3 {
+  &:before {
+    content: $icon-Maps-and-Flags-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-control .path1 {
+  &:before {
+    content: $icon-game-control-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-control .path2 {
+  &:before {
+    content: $icon-game-control-path2;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-game-control .path3 {
+  &:before {
+    content: $icon-game-control-path3;  
+    margin-left: -1em;  
+    color: rgb(190, 220, 175);
+  }
+}
+.icon-game-control .path4 {
+  &:before {
+    content: $icon-game-control-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-control .path5 {
+  &:before {
+    content: $icon-game-control-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-control .path6 {
+  &:before {
+    content: $icon-game-control-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-control .path7 {
+  &:before {
+    content: $icon-game-control-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console1 .path1 {
+  &:before {
+    content: $icon-game-console1-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console1 .path2 {
+  &:before {
+    content: $icon-game-console1-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console1 .path3 {
+  &:before {
+    content: $icon-game-console1-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-game-console1 .path4 {
+  &:before {
+    content: $icon-game-console1-path4;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.icon-game-console1 .path5 {
+  &:before {
+    content: $icon-game-console1-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console1 .path6 {
+  &:before {
+    content: $icon-game-console1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gamer .path1 {
+  &:before {
+    content: $icon-gamer-path1;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-gamer .path2 {
+  &:before {
+    content: $icon-gamer-path2;  
+    margin-left: -1em;  
+    color: rgb(190, 220, 175);
+  }
+}
+.icon-gamer .path3 {
+  &:before {
+    content: $icon-gamer-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 220, 80);
+  }
+}
+.icon-gamer .path4 {
+  &:before {
+    content: $icon-gamer-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gamer2 .path1 {
+  &:before {
+    content: $icon-gamer2-path1;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-gamer2 .path2 {
+  &:before {
+    content: $icon-gamer2-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-gamer2 .path3 {
+  &:before {
+    content: $icon-gamer2-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-gamer2 .path4 {
+  &:before {
+    content: $icon-gamer2-path4;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-gamer2 .path5 {
+  &:before {
+    content: $icon-gamer2-path5;  
+    margin-left: -1em;  
+    color: rgb(210, 250, 80);
+  }
+}
+.icon-gamer2 .path6 {
+  &:before {
+    content: $icon-gamer2-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-weapong .path1 {
+  &:before {
+    content: $icon-weapong-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-weapong .path2 {
+  &:before {
+    content: $icon-weapong-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-weapong .path3 {
+  &:before {
+    content: $icon-weapong-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-weapong .path4 {
+  &:before {
+    content: $icon-weapong-path4;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.icon-weapong .path5 {
+  &:before {
+    content: $icon-weapong-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-weapong .path6 {
+  &:before {
+    content: $icon-weapong-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console14 .path1 {
+  &:before {
+    content: $icon-game-console14-path1;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console14 .path2 {
+  &:before {
+    content: $icon-game-console14-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console14 .path3 {
+  &:before {
+    content: $icon-game-console14-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-game-console14 .path4 {
+  &:before {
+    content: $icon-game-console14-path4;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-game-console14 .path5 {
+  &:before {
+    content: $icon-game-console14-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console14 .path6 {
+  &:before {
+    content: $icon-game-console14-path6;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console14 .path7 {
+  &:before {
+    content: $icon-game-console14-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-lover .path1 {
+  &:before {
+    content: $icon-lover-path1;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-lover .path2 {
+  &:before {
+    content: $icon-lover-path2;  
+    margin-left: -1em;  
+    color: rgb(210, 85, 90);
+  }
+}
+.icon-lover .path3 {
+  &:before {
+    content: $icon-lover-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sand-clock .path1 {
+  &:before {
+    content: $icon-sand-clock-path1;  
+    color: rgb(210, 170, 130);
+  }
+}
+.icon-sand-clock .path2 {
+  &:before {
+    content: $icon-sand-clock-path2;  
+    margin-left: -1em;  
+    color: rgb(210, 170, 130);
+  }
+}
+.icon-sand-clock .path3 {
+  &:before {
+    content: $icon-sand-clock-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-sand-clock .path4 {
+  &:before {
+    content: $icon-sand-clock-path4;  
+    margin-left: -1em;  
+    color: rgb(225, 190, 145);
+  }
+}
+.icon-sand-clock .path5 {
+  &:before {
+    content: $icon-sand-clock-path5;  
+    margin-left: -1em;  
+    color: rgb(225, 190, 145);
+  }
+}
+.icon-sand-clock .path6 {
+  &:before {
+    content: $icon-sand-clock-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-controller1 .path1 {
+  &:before {
+    content: $icon-game-controller1-path1;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-controller1 .path2 {
+  &:before {
+    content: $icon-game-controller1-path2;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.icon-game-controller1 .path3 {
+  &:before {
+    content: $icon-game-controller1-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-controller1 .path4 {
+  &:before {
+    content: $icon-game-controller1-path4;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.icon-game-controller1 .path5 {
+  &:before {
+    content: $icon-game-controller1-path5;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.icon-game-controller1 .path6 {
+  &:before {
+    content: $icon-game-controller1-path6;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-controller1 .path7 {
+  &:before {
+    content: $icon-game-controller1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console2 .path1 {
+  &:before {
+    content: $icon-game-console2-path1;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-game-console2 .path2 {
+  &:before {
+    content: $icon-game-console2-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-game-console2 .path3 {
+  &:before {
+    content: $icon-game-console2-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console2 .path4 {
+  &:before {
+    content: $icon-game-console2-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console2 .path5 {
+  &:before {
+    content: $icon-game-console2-path5;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-game-console2 .path6 {
+  &:before {
+    content: $icon-game-console2-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-Lightnings .path1 {
+  &:before {
+    content: $icon-Lightnings-path1;  
+    color: rgb(255, 215, 130);
+  }
+}
+.icon-Lightnings .path2 {
+  &:before {
+    content: $icon-Lightnings-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.icon-Lightnings .path3 {
+  &:before {
+    content: $icon-Lightnings-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-horseshoe .path1 {
+  &:before {
+    content: $icon-horseshoe-path1;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-horseshoe .path2 {
+  &:before {
+    content: $icon-horseshoe-path2;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.icon-horseshoe .path3 {
+  &:before {
+    content: $icon-horseshoe-path3;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.icon-horseshoe .path4 {
+  &:before {
+    content: $icon-horseshoe-path4;  
+    margin-left: -1em;  
+    color: rgb(40, 175, 240);
+  }
+}
+.icon-horseshoe .path5 {
+  &:before {
+    content: $icon-horseshoe-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-badge .path1 {
+  &:before {
+    content: $icon-badge-path1;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-badge .path2 {
+  &:before {
+    content: $icon-badge-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-badge .path3 {
+  &:before {
+    content: $icon-badge-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 215, 130);
+  }
+}
+.icon-badge .path4 {
+  &:before {
+    content: $icon-badge-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 227, 168);
+  }
+}
+.icon-badge .path5 {
+  &:before {
+    content: $icon-badge-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.icon-badge .path6 {
+  &:before {
+    content: $icon-badge-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-technological .path1 {
+  &:before {
+    content: $icon-technological-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-technological .path2 {
+  &:before {
+    content: $icon-technological-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-technological .path3 {
+  &:before {
+    content: $icon-technological-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-technological .path4 {
+  &:before {
+    content: $icon-technological-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console3 .path1 {
+  &:before {
+    content: $icon-game-console3-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console3 .path2 {
+  &:before {
+    content: $icon-game-console3-path2;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console3 .path3 {
+  &:before {
+    content: $icon-game-console3-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console3 .path4 {
+  &:before {
+    content: $icon-game-console3-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console3 .path5 {
+  &:before {
+    content: $icon-game-console3-path5;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-game-console3 .path6 {
+  &:before {
+    content: $icon-game-console3-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-controller2 .path1 {
+  &:before {
+    content: $icon-game-controller2-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-controller2 .path2 {
+  &:before {
+    content: $icon-game-controller2-path2;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.icon-game-controller2 .path3 {
+  &:before {
+    content: $icon-game-controller2-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-game-controller2 .path4 {
+  &:before {
+    content: $icon-game-controller2-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 220, 200);
+  }
+}
+.icon-game-controller2 .path5 {
+  &:before {
+    content: $icon-game-controller2-path5;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.icon-game-controller2 .path6 {
+  &:before {
+    content: $icon-game-controller2-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 205, 70);
+  }
+}
+.icon-game-controller2 .path7 {
+  &:before {
+    content: $icon-game-controller2-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-controller2 .path8 {
+  &:before {
+    content: $icon-game-controller2-path8;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-game-controller2 .path9 {
+  &:before {
+    content: $icon-game-controller2-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console4 .path1 {
+  &:before {
+    content: $icon-game-console4-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console4 .path2 {
+  &:before {
+    content: $icon-game-console4-path2;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.icon-game-console4 .path3 {
+  &:before {
+    content: $icon-game-console4-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console4 .path4 {
+  &:before {
+    content: $icon-game-console4-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console4 .path5 {
+  &:before {
+    content: $icon-game-console4-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console4 .path6 {
+  &:before {
+    content: $icon-game-console4-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console4 .path7 {
+  &:before {
+    content: $icon-game-console4-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console4 .path8 {
+  &:before {
+    content: $icon-game-console4-path8;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console4 .path9 {
+  &:before {
+    content: $icon-game-console4-path9;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-game-console4 .path10 {
+  &:before {
+    content: $icon-game-console4-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console5 .path1 {
+  &:before {
+    content: $icon-game-console5-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console5 .path2 {
+  &:before {
+    content: $icon-game-console5-path2;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.icon-game-console5 .path3 {
+  &:before {
+    content: $icon-game-console5-path3;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.icon-game-console5 .path4 {
+  &:before {
+    content: $icon-game-console5-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console5 .path5 {
+  &:before {
+    content: $icon-game-console5-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console5 .path6 {
+  &:before {
+    content: $icon-game-console5-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console5 .path7 {
+  &:before {
+    content: $icon-game-console5-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console5 .path8 {
+  &:before {
+    content: $icon-game-console5-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-virtual-reality .path1 {
+  &:before {
+    content: $icon-virtual-reality-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-virtual-reality .path2 {
+  &:before {
+    content: $icon-virtual-reality-path2;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-virtual-reality .path3 {
+  &:before {
+    content: $icon-virtual-reality-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-virtual-reality .path4 {
+  &:before {
+    content: $icon-virtual-reality-path4;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-virtual-reality .path5 {
+  &:before {
+    content: $icon-virtual-reality-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gamer1 .path1 {
+  &:before {
+    content: $icon-gamer1-path1;  
+    color: rgb(255, 215, 130);
+  }
+}
+.icon-gamer1 .path2 {
+  &:before {
+    content: $icon-gamer1-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.icon-gamer1 .path3 {
+  &:before {
+    content: $icon-gamer1-path3;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-gamer1 .path4 {
+  &:before {
+    content: $icon-gamer1-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.icon-gamer1 .path5 {
+  &:before {
+    content: $icon-gamer1-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.icon-gamer1 .path6 {
+  &:before {
+    content: $icon-gamer1-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.icon-gamer1 .path7 {
+  &:before {
+    content: $icon-gamer1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-controller3 .path1 {
+  &:before {
+    content: $icon-game-controller3-path1;  
+    color: rgb(81, 82, 98);
+  }
+}
+.icon-game-controller3 .path2 {
+  &:before {
+    content: $icon-game-controller3-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-controller3 .path3 {
+  &:before {
+    content: $icon-game-controller3-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 210, 255);
+  }
+}
+.icon-game-controller3 .path4 {
+  &:before {
+    content: $icon-game-controller3-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-controller3 .path5 {
+  &:before {
+    content: $icon-game-controller3-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-controller3 .path6 {
+  &:before {
+    content: $icon-game-controller3-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-racing .path1 {
+  &:before {
+    content: $icon-racing-path1;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-racing .path2 {
+  &:before {
+    content: $icon-racing-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-racing .path3 {
+  &:before {
+    content: $icon-racing-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-racing .path4 {
+  &:before {
+    content: $icon-racing-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-racing .path5 {
+  &:before {
+    content: $icon-racing-path5;  
+    margin-left: -1em;  
+    color: rgb(184, 191, 212);
+  }
+}
+.icon-racing .path6 {
+  &:before {
+    content: $icon-racing-path6;  
+    margin-left: -1em;  
+    color: rgb(184, 191, 212);
+  }
+}
+.icon-racing .path7 {
+  &:before {
+    content: $icon-racing-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-racing .path8 {
+  &:before {
+    content: $icon-racing-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-droid .path1 {
+  &:before {
+    content: $icon-droid-path1;  
+    color: rgb(149, 156, 179);
+  }
+}
+.icon-droid .path2 {
+  &:before {
+    content: $icon-droid-path2;  
+    margin-left: -1em;  
+    color: rgb(149, 156, 179);
+  }
+}
+.icon-droid .path3 {
+  &:before {
+    content: $icon-droid-path3;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-droid .path4 {
+  &:before {
+    content: $icon-droid-path4;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-droid .path5 {
+  &:before {
+    content: $icon-droid-path5;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-droid .path6 {
+  &:before {
+    content: $icon-droid-path6;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-droid .path7 {
+  &:before {
+    content: $icon-droid-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-droid .path8 {
+  &:before {
+    content: $icon-droid-path8;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-droid .path9 {
+  &:before {
+    content: $icon-droid-path9;  
+    margin-left: -1em;  
+    color: rgb(149, 156, 179);
+  }
+}
+.icon-droid .path10 {
+  &:before {
+    content: $icon-droid-path10;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-droid .path11 {
+  &:before {
+    content: $icon-droid-path11;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-droid .path12 {
+  &:before {
+    content: $icon-droid-path12;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-droid .path13 {
+  &:before {
+    content: $icon-droid-path13;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-droid .path14 {
+  &:before {
+    content: $icon-droid-path14;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-droid .path15 {
+  &:before {
+    content: $icon-droid-path15;  
+    margin-left: -1em;  
+    color: rgb(162, 170, 194);
+  }
+}
+.icon-droid .path16 {
+  &:before {
+    content: $icon-droid-path16;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-droid .path17 {
+  &:before {
+    content: $icon-droid-path17;  
+    margin-left: -1em;  
+    color: rgb(175, 185, 210);
+  }
+}
+.icon-droid .path18 {
+  &:before {
+    content: $icon-droid-path18;  
+    margin-left: -1em;  
+    color: rgb(162, 170, 194);
+  }
+}
+.icon-droid .path19 {
+  &:before {
+    content: $icon-droid-path19;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-droid .path20 {
+  &:before {
+    content: $icon-droid-path20;  
+    margin-left: -1em;  
+    color: rgb(175, 185, 210);
+  }
+}
+.icon-droid .path21 {
+  &:before {
+    content: $icon-droid-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-rocket-ship-launch .path1 {
+  &:before {
+    content: $icon-rocket-ship-launch-path1;  
+    color: rgb(255, 225, 100);
+  }
+}
+.icon-rocket-ship-launch .path2 {
+  &:before {
+    content: $icon-rocket-ship-launch-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 225, 100);
+  }
+}
+.icon-rocket-ship-launch .path3 {
+  &:before {
+    content: $icon-rocket-ship-launch-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-rocket-ship-launch .path4 {
+  &:before {
+    content: $icon-rocket-ship-launch-path4;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-rocket-ship-launch .path5 {
+  &:before {
+    content: $icon-rocket-ship-launch-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-rocket-ship-launch .path6 {
+  &:before {
+    content: $icon-rocket-ship-launch-path6;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-rocket-ship-launch .path7 {
+  &:before {
+    content: $icon-rocket-ship-launch-path7;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-rocket-ship-launch .path8 {
+  &:before {
+    content: $icon-rocket-ship-launch-path8;  
+    margin-left: -1em;  
+    color: rgb(210, 85, 90);
+  }
+}
+.icon-rocket-ship-launch .path9 {
+  &:before {
+    content: $icon-rocket-ship-launch-path9;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-rocket-ship-launch .path10 {
+  &:before {
+    content: $icon-rocket-ship-launch-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-controller4 .path1 {
+  &:before {
+    content: $icon-game-controller4-path1;  
+    color: rgb(81, 82, 98);
+  }
+}
+.icon-game-controller4 .path2 {
+  &:before {
+    content: $icon-game-controller4-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 205, 70);
+  }
+}
+.icon-game-controller4 .path3 {
+  &:before {
+    content: $icon-game-controller4-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-controller4 .path4 {
+  &:before {
+    content: $icon-game-controller4-path4;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.icon-game-controller4 .path5 {
+  &:before {
+    content: $icon-game-controller4-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 205, 70);
+  }
+}
+.icon-game-controller4 .path6 {
+  &:before {
+    content: $icon-game-controller4-path6;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-controller4 .path7 {
+  &:before {
+    content: $icon-game-controller4-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console6 .path1 {
+  &:before {
+    content: $icon-game-console6-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-game-console6 .path2 {
+  &:before {
+    content: $icon-game-console6-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console6 .path3 {
+  &:before {
+    content: $icon-game-console6-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console6 .path4 {
+  &:before {
+    content: $icon-game-console6-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console6 .path5 {
+  &:before {
+    content: $icon-game-console6-path5;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-game-console6 .path6 {
+  &:before {
+    content: $icon-game-console6-path6;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.icon-game-console6 .path7 {
+  &:before {
+    content: $icon-game-console6-path7;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.icon-game-console6 .path8 {
+  &:before {
+    content: $icon-game-console6-path8;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console6 .path9 {
+  &:before {
+    content: $icon-game-console6-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-defense .path1 {
+  &:before {
+    content: $icon-defense-path1;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-defense .path2 {
+  &:before {
+    content: $icon-defense-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 215, 130);
+  }
+}
+.icon-defense .path3 {
+  &:before {
+    content: $icon-defense-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.icon-defense .path4 {
+  &:before {
+    content: $icon-defense-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-circular-target .path1 {
+  &:before {
+    content: $icon-circular-target-path1;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-circular-target .path2 {
+  &:before {
+    content: $icon-circular-target-path2;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.icon-circular-target .path3 {
+  &:before {
+    content: $icon-circular-target-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-dead .path1 {
+  &:before {
+    content: $icon-dead-path1;  
+    color: rgb(215, 222, 237);
+  }
+}
+.icon-dead .path2 {
+  &:before {
+    content: $icon-dead-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-dead .path3 {
+  &:before {
+    content: $icon-dead-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-dead .path4 {
+  &:before {
+    content: $icon-dead-path4;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-dead .path5 {
+  &:before {
+    content: $icon-dead-path5;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-dead .path6 {
+  &:before {
+    content: $icon-dead-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-controller5 .path1 {
+  &:before {
+    content: $icon-game-controller5-path1;  
+    color: rgb(215, 222, 237);
+  }
+}
+.icon-game-controller5 .path2 {
+  &:before {
+    content: $icon-game-controller5-path2;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-controller5 .path3 {
+  &:before {
+    content: $icon-game-controller5-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-controller5 .path4 {
+  &:before {
+    content: $icon-game-controller5-path4;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.icon-game-controller5 .path5 {
+  &:before {
+    content: $icon-game-controller5-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console7 .path1 {
+  &:before {
+    content: $icon-game-console7-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console7 .path2 {
+  &:before {
+    content: $icon-game-console7-path2;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.icon-game-console7 .path3 {
+  &:before {
+    content: $icon-game-console7-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console7 .path4 {
+  &:before {
+    content: $icon-game-console7-path4;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console7 .path5 {
+  &:before {
+    content: $icon-game-console7-path5;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console7 .path6 {
+  &:before {
+    content: $icon-game-console7-path6;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console7 .path7 {
+  &:before {
+    content: $icon-game-console7-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console8 .path1 {
+  &:before {
+    content: $icon-game-console8-path1;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-game-console8 .path2 {
+  &:before {
+    content: $icon-game-console8-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-game-console8 .path3 {
+  &:before {
+    content: $icon-game-console8-path3;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-game-console8 .path4 {
+  &:before {
+    content: $icon-game-console8-path4;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.icon-game-console8 .path5 {
+  &:before {
+    content: $icon-game-console8-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 220, 200);
+  }
+}
+.icon-game-console8 .path6 {
+  &:before {
+    content: $icon-game-console8-path6;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.icon-game-console8 .path7 {
+  &:before {
+    content: $icon-game-console8-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-races .path1 {
+  &:before {
+    content: $icon-races-path1;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-races .path2 {
+  &:before {
+    content: $icon-races-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-races .path3 {
+  &:before {
+    content: $icon-races-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-races .path4 {
+  &:before {
+    content: $icon-races-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-races .path5 {
+  &:before {
+    content: $icon-races-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console9 .path1 {
+  &:before {
+    content: $icon-game-console9-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-game-console9 .path2 {
+  &:before {
+    content: $icon-game-console9-path2;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console9 .path3 {
+  &:before {
+    content: $icon-game-console9-path3;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-game-console9 .path4 {
+  &:before {
+    content: $icon-game-console9-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-knight .path1 {
+  &:before {
+    content: $icon-knight-path1;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-knight .path2 {
+  &:before {
+    content: $icon-knight-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-knight .path3 {
+  &:before {
+    content: $icon-knight-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-knight .path4 {
+  &:before {
+    content: $icon-knight-path4;  
+    margin-left: -1em;  
+    color: rgb(149, 156, 179);
+  }
+}
+.icon-knight .path5 {
+  &:before {
+    content: $icon-knight-path5;  
+    margin-left: -1em;  
+    color: rgb(190, 135, 107);
+  }
+}
+.icon-knight .path6 {
+  &:before {
+    content: $icon-knight-path6;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-knight .path7 {
+  &:before {
+    content: $icon-knight-path7;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-knight .path8 {
+  &:before {
+    content: $icon-knight-path8;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-knight .path9 {
+  &:before {
+    content: $icon-knight-path9;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.icon-knight .path10 {
+  &:before {
+    content: $icon-knight-path10;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-knight .path11 {
+  &:before {
+    content: $icon-knight-path11;  
+    margin-left: -1em;  
+    color: rgb(149, 156, 179);
+  }
+}
+.icon-knight .path12 {
+  &:before {
+    content: $icon-knight-path12;  
+    margin-left: -1em;  
+    color: rgb(190, 135, 107);
+  }
+}
+.icon-knight .path13 {
+  &:before {
+    content: $icon-knight-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-technological1 .path1 {
+  &:before {
+    content: $icon-technological1-path1;  
+    color: rgb(174, 87, 96);
+  }
+}
+.icon-technological1 .path2 {
+  &:before {
+    content: $icon-technological1-path2;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.icon-technological1 .path3 {
+  &:before {
+    content: $icon-technological1-path3;  
+    margin-left: -1em;  
+    color: rgb(235, 210, 175);
+  }
+}
+.icon-technological1 .path4 {
+  &:before {
+    content: $icon-technological1-path4;  
+    margin-left: -1em;  
+    color: rgb(235, 210, 175);
+  }
+}
+.icon-technological1 .path5 {
+  &:before {
+    content: $icon-technological1-path5;  
+    margin-left: -1em;  
+    color: rgb(235, 210, 175);
+  }
+}
+.icon-technological1 .path6 {
+  &:before {
+    content: $icon-technological1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console10 .path1 {
+  &:before {
+    content: $icon-game-console10-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console10 .path2 {
+  &:before {
+    content: $icon-game-console10-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console10 .path3 {
+  &:before {
+    content: $icon-game-console10-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-game-console10 .path4 {
+  &:before {
+    content: $icon-game-console10-path4;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.icon-game-console10 .path5 {
+  &:before {
+    content: $icon-game-console10-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.icon-game-console10 .path6 {
+  &:before {
+    content: $icon-game-console10-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console11 .path1 {
+  &:before {
+    content: $icon-game-console11-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.icon-game-console11 .path2 {
+  &:before {
+    content: $icon-game-console11-path2;  
+    margin-left: -1em;  
+    color: rgb(210, 250, 80);
+  }
+}
+.icon-game-console11 .path3 {
+  &:before {
+    content: $icon-game-console11-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-game-console11 .path4 {
+  &:before {
+    content: $icon-game-console11-path4;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-game-console11 .path5 {
+  &:before {
+    content: $icon-game-console11-path5;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.icon-game-console11 .path6 {
+  &:before {
+    content: $icon-game-console11-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console12 .path1 {
+  &:before {
+    content: $icon-game-console12-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-game-console12 .path2 {
+  &:before {
+    content: $icon-game-console12-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-console13 .path1 {
+  &:before {
+    content: $icon-game-console13-path1;  
+    color: rgb(70, 70, 85);
+  }
+}
+.icon-game-console13 .path2 {
+  &:before {
+    content: $icon-game-console13-path2;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.icon-game-console13 .path3 {
+  &:before {
+    content: $icon-game-console13-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 220, 130);
+  }
+}
+.icon-game-console13 .path4 {
+  &:before {
+    content: $icon-game-console13-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps4 .path1 {
+  &:before {
+    content: $icon-ps4-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.icon-ps4 .path2 {
+  &:before {
+    content: $icon-ps4-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-ps4 .path3 {
+  &:before {
+    content: $icon-ps4-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps4 .path4 {
+  &:before {
+    content: $icon-ps4-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps4 .path5 {
+  &:before {
+    content: $icon-ps4-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps4 .path6 {
+  &:before {
+    content: $icon-ps4-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps4 .path7 {
+  &:before {
+    content: $icon-ps4-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psvita .path1 {
+  &:before {
+    content: $icon-psvita-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.icon-psvita .path2 {
+  &:before {
+    content: $icon-psvita-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-psvita .path3 {
+  &:before {
+    content: $icon-psvita-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psvita .path4 {
+  &:before {
+    content: $icon-psvita-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psvita .path5 {
+  &:before {
+    content: $icon-psvita-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psvita .path6 {
+  &:before {
+    content: $icon-psvita-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psvita .path7 {
+  &:before {
+    content: $icon-psvita-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psvita .path8 {
+  &:before {
+    content: $icon-psvita-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psvita .path9 {
+  &:before {
+    content: $icon-psvita-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psvita .path10 {
+  &:before {
+    content: $icon-psvita-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps3 .path1 {
+  &:before {
+    content: $icon-ps3-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.icon-ps3 .path2 {
+  &:before {
+    content: $icon-ps3-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-ps3 .path3 {
+  &:before {
+    content: $icon-ps3-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps3 .path4 {
+  &:before {
+    content: $icon-ps3-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps3 .path5 {
+  &:before {
+    content: $icon-ps3-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps3 .path6 {
+  &:before {
+    content: $icon-ps3-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps3 .path7 {
+  &:before {
+    content: $icon-ps3-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps21 .path1 {
+  &:before {
+    content: $icon-ps21-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.icon-ps21 .path2 {
+  &:before {
+    content: $icon-ps21-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-ps21 .path3 {
+  &:before {
+    content: $icon-ps21-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps21 .path4 {
+  &:before {
+    content: $icon-ps21-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps21 .path5 {
+  &:before {
+    content: $icon-ps21-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps21 .path6 {
+  &:before {
+    content: $icon-ps21-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ps21 .path7 {
+  &:before {
+    content: $icon-ps21-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ea-sports1 .path1 {
+  &:before {
+    content: $icon-ea-sports1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-ea-sports1 .path2 {
+  &:before {
+    content: $icon-ea-sports1-path2;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-ea-sports1 .path3 {
+  &:before {
+    content: $icon-ea-sports1-path3;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-ea-sports1 .path4 {
+  &:before {
+    content: $icon-ea-sports1-path4;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-ea-sports1 .path5 {
+  &:before {
+    content: $icon-ea-sports1-path5;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-ea-sports1 .path6 {
+  &:before {
+    content: $icon-ea-sports1-path6;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-ea-sports1 .path7 {
+  &:before {
+    content: $icon-ea-sports1-path7;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-ea-sports1 .path8 {
+  &:before {
+    content: $icon-ea-sports1-path8;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-ea-sports1 .path9 {
+  &:before {
+    content: $icon-ea-sports1-path9;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-ea-sports1 .path10 {
+  &:before {
+    content: $icon-ea-sports1-path10;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-ea-sports1 .path11 {
+  &:before {
+    content: $icon-ea-sports1-path11;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-ea-sports1 .path12 {
+  &:before {
+    content: $icon-ea-sports1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ea-sports1 .path13 {
+  &:before {
+    content: $icon-ea-sports1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ea-sports1 .path14 {
+  &:before {
+    content: $icon-ea-sports1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ea-sports1 .path15 {
+  &:before {
+    content: $icon-ea-sports1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ea-sports1 .path16 {
+  &:before {
+    content: $icon-ea-sports1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ea-sports1 .path17 {
+  &:before {
+    content: $icon-ea-sports1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ea-sports1 .path18 {
+  &:before {
+    content: $icon-ea-sports1-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ea-sports1 .path19 {
+  &:before {
+    content: $icon-ea-sports1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ea-sports1 .path20 {
+  &:before {
+    content: $icon-ea-sports1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ea-sports1 .path21 {
+  &:before {
+    content: $icon-ea-sports1-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-lego1 .path1 {
+  &:before {
+    content: $icon-lego1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-lego1 .path2 {
+  &:before {
+    content: $icon-lego1-path2;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-lego1 .path3 {
+  &:before {
+    content: $icon-lego1-path3;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-lego1 .path4 {
+  &:before {
+    content: $icon-lego1-path4;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-lego1 .path5 {
+  &:before {
+    content: $icon-lego1-path5;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-lego1 .path6 {
+  &:before {
+    content: $icon-lego1-path6;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-lego1 .path7 {
+  &:before {
+    content: $icon-lego1-path7;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-lego1 .path8 {
+  &:before {
+    content: $icon-lego1-path8;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-lego1 .path9 {
+  &:before {
+    content: $icon-lego1-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-lego1 .path10 {
+  &:before {
+    content: $icon-lego1-path10;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-lego1 .path11 {
+  &:before {
+    content: $icon-lego1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-lego1 .path12 {
+  &:before {
+    content: $icon-lego1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-lego1 .path13 {
+  &:before {
+    content: $icon-lego1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-lego1 .path14 {
+  &:before {
+    content: $icon-lego1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-atari1 .path1 {
+  &:before {
+    content: $icon-atari1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-atari1 .path2 {
+  &:before {
+    content: $icon-atari1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-atari1 .path3 {
+  &:before {
+    content: $icon-atari1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-atari1 .path4 {
+  &:before {
+    content: $icon-atari1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-atari1 .path5 {
+  &:before {
+    content: $icon-atari1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-atari1 .path6 {
+  &:before {
+    content: $icon-atari1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-atari1 .path7 {
+  &:before {
+    content: $icon-atari1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-atari1 .path8 {
+  &:before {
+    content: $icon-atari1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-atari1 .path9 {
+  &:before {
+    content: $icon-atari1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-atari1 .path10 {
+  &:before {
+    content: $icon-atari1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-atari1 .path11 {
+  &:before {
+    content: $icon-atari1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-guitar-hero1 .path1 {
+  &:before {
+    content: $icon-guitar-hero1-path1;  
+    color: rgb(152, 157, 160);
+  }
+}
+.icon-guitar-hero1 .path2 {
+  &:before {
+    content: $icon-guitar-hero1-path2;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-guitar-hero1 .path3 {
+  &:before {
+    content: $icon-guitar-hero1-path3;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-guitar-hero1 .path4 {
+  &:before {
+    content: $icon-guitar-hero1-path4;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path5 {
+  &:before {
+    content: $icon-guitar-hero1-path5;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-guitar-hero1 .path6 {
+  &:before {
+    content: $icon-guitar-hero1-path6;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path7 {
+  &:before {
+    content: $icon-guitar-hero1-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-guitar-hero1 .path8 {
+  &:before {
+    content: $icon-guitar-hero1-path8;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path9 {
+  &:before {
+    content: $icon-guitar-hero1-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path10 {
+  &:before {
+    content: $icon-guitar-hero1-path10;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-guitar-hero1 .path11 {
+  &:before {
+    content: $icon-guitar-hero1-path11;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-guitar-hero1 .path12 {
+  &:before {
+    content: $icon-guitar-hero1-path12;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path13 {
+  &:before {
+    content: $icon-guitar-hero1-path13;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-guitar-hero1 .path14 {
+  &:before {
+    content: $icon-guitar-hero1-path14;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path15 {
+  &:before {
+    content: $icon-guitar-hero1-path15;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-guitar-hero1 .path16 {
+  &:before {
+    content: $icon-guitar-hero1-path16;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.icon-guitar-hero1 .path17 {
+  &:before {
+    content: $icon-guitar-hero1-path17;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path18 {
+  &:before {
+    content: $icon-guitar-hero1-path18;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path19 {
+  &:before {
+    content: $icon-guitar-hero1-path19;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path20 {
+  &:before {
+    content: $icon-guitar-hero1-path20;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path21 {
+  &:before {
+    content: $icon-guitar-hero1-path21;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path22 {
+  &:before {
+    content: $icon-guitar-hero1-path22;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path23 {
+  &:before {
+    content: $icon-guitar-hero1-path23;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-guitar-hero1 .path24 {
+  &:before {
+    content: $icon-guitar-hero1-path24;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-guitar-hero1 .path25 {
+  &:before {
+    content: $icon-guitar-hero1-path25;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-guitar-hero1 .path26 {
+  &:before {
+    content: $icon-guitar-hero1-path26;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-guitar-hero1 .path27 {
+  &:before {
+    content: $icon-guitar-hero1-path27;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-guitar-hero1 .path28 {
+  &:before {
+    content: $icon-guitar-hero1-path28;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-guitar-hero1 .path29 {
+  &:before {
+    content: $icon-guitar-hero1-path29;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-guitar-hero1 .path30 {
+  &:before {
+    content: $icon-guitar-hero1-path30;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-guitar-hero1 .path31 {
+  &:before {
+    content: $icon-guitar-hero1-path31;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-tamiya1 .path1 {
+  &:before {
+    content: $icon-tamiya1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-tamiya1 .path2 {
+  &:before {
+    content: $icon-tamiya1-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-tamiya1 .path3 {
+  &:before {
+    content: $icon-tamiya1-path3;  
+    margin-left: -1em;  
+    color: rgb(74, 148, 204);
+  }
+}
+.icon-tamiya1 .path4 {
+  &:before {
+    content: $icon-tamiya1-path4;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-tamiya1 .path5 {
+  &:before {
+    content: $icon-tamiya1-path5;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-tamiya1 .path6 {
+  &:before {
+    content: $icon-tamiya1-path6;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-tamiya1 .path7 {
+  &:before {
+    content: $icon-tamiya1-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-tamiya1 .path8 {
+  &:before {
+    content: $icon-tamiya1-path8;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-tamiya1 .path9 {
+  &:before {
+    content: $icon-tamiya1-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-tamiya1 .path10 {
+  &:before {
+    content: $icon-tamiya1-path10;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-tamiya1 .path11 {
+  &:before {
+    content: $icon-tamiya1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-tamiya1 .path12 {
+  &:before {
+    content: $icon-tamiya1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-tamiya1 .path13 {
+  &:before {
+    content: $icon-tamiya1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-tamiya1 .path14 {
+  &:before {
+    content: $icon-tamiya1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-tamiya1 .path15 {
+  &:before {
+    content: $icon-tamiya1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-tamiya1 .path16 {
+  &:before {
+    content: $icon-tamiya1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-tamiya1 .path17 {
+  &:before {
+    content: $icon-tamiya1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-tamiya1 .path18 {
+  &:before {
+    content: $icon-tamiya1-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-tamiya1 .path19 {
+  &:before {
+    content: $icon-tamiya1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-super-mario1 .path1 {
+  &:before {
+    content: $icon-super-mario1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-super-mario1 .path2 {
+  &:before {
+    content: $icon-super-mario1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-super-mario1 .path3 {
+  &:before {
+    content: $icon-super-mario1-path3;  
+    margin-left: -1em;  
+    color: rgb(74, 148, 204);
+  }
+}
+.icon-super-mario1 .path4 {
+  &:before {
+    content: $icon-super-mario1-path4;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-super-mario1 .path5 {
+  &:before {
+    content: $icon-super-mario1-path5;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-super-mario1 .path6 {
+  &:before {
+    content: $icon-super-mario1-path6;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.icon-super-mario1 .path7 {
+  &:before {
+    content: $icon-super-mario1-path7;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.icon-super-mario1 .path8 {
+  &:before {
+    content: $icon-super-mario1-path8;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.icon-super-mario1 .path9 {
+  &:before {
+    content: $icon-super-mario1-path9;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.icon-super-mario1 .path10 {
+  &:before {
+    content: $icon-super-mario1-path10;  
+    margin-left: -1em;  
+    color: rgb(74, 148, 204);
+  }
+}
+.icon-super-mario1 .path11 {
+  &:before {
+    content: $icon-super-mario1-path11;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-super-mario1 .path12 {
+  &:before {
+    content: $icon-super-mario1-path12;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-super-mario1 .path13 {
+  &:before {
+    content: $icon-super-mario1-path13;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-super-mario1 .path14 {
+  &:before {
+    content: $icon-super-mario1-path14;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-super-mario1 .path15 {
+  &:before {
+    content: $icon-super-mario1-path15;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-super-mario1 .path16 {
+  &:before {
+    content: $icon-super-mario1-path16;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-super-mario1 .path17 {
+  &:before {
+    content: $icon-super-mario1-path17;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-super-mario1 .path18 {
+  &:before {
+    content: $icon-super-mario1-path18;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-super-mario1 .path19 {
+  &:before {
+    content: $icon-super-mario1-path19;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-super-mario1 .path20 {
+  &:before {
+    content: $icon-super-mario1-path20;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.icon-super-mario1 .path21 {
+  &:before {
+    content: $icon-super-mario1-path21;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.icon-super-mario1 .path22 {
+  &:before {
+    content: $icon-super-mario1-path22;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-super-mario1 .path23 {
+  &:before {
+    content: $icon-super-mario1-path23;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-super-mario1 .path24 {
+  &:before {
+    content: $icon-super-mario1-path24;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-super-mario1 .path25 {
+  &:before {
+    content: $icon-super-mario1-path25;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-super-mario1 .path26 {
+  &:before {
+    content: $icon-super-mario1-path26;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-super-mario1 .path27 {
+  &:before {
+    content: $icon-super-mario1-path27;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psp .path1 {
+  &:before {
+    content: $icon-psp-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.icon-psp .path2 {
+  &:before {
+    content: $icon-psp-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-psp .path3 {
+  &:before {
+    content: $icon-psp-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psp .path4 {
+  &:before {
+    content: $icon-psp-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psp .path5 {
+  &:before {
+    content: $icon-psp-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psp .path6 {
+  &:before {
+    content: $icon-psp-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-psp .path7 {
+  &:before {
+    content: $icon-psp-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path1 {
+  &:before {
+    content: $icon-pes1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-pes1 .path2 {
+  &:before {
+    content: $icon-pes1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-pes1 .path3 {
+  &:before {
+    content: $icon-pes1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path4 {
+  &:before {
+    content: $icon-pes1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path5 {
+  &:before {
+    content: $icon-pes1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path6 {
+  &:before {
+    content: $icon-pes1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path7 {
+  &:before {
+    content: $icon-pes1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path8 {
+  &:before {
+    content: $icon-pes1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path9 {
+  &:before {
+    content: $icon-pes1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path10 {
+  &:before {
+    content: $icon-pes1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path11 {
+  &:before {
+    content: $icon-pes1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path12 {
+  &:before {
+    content: $icon-pes1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path13 {
+  &:before {
+    content: $icon-pes1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path14 {
+  &:before {
+    content: $icon-pes1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path15 {
+  &:before {
+    content: $icon-pes1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path16 {
+  &:before {
+    content: $icon-pes1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path17 {
+  &:before {
+    content: $icon-pes1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path18 {
+  &:before {
+    content: $icon-pes1-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path19 {
+  &:before {
+    content: $icon-pes1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path20 {
+  &:before {
+    content: $icon-pes1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path21 {
+  &:before {
+    content: $icon-pes1-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path22 {
+  &:before {
+    content: $icon-pes1-path22;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path23 {
+  &:before {
+    content: $icon-pes1-path23;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path24 {
+  &:before {
+    content: $icon-pes1-path24;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path25 {
+  &:before {
+    content: $icon-pes1-path25;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path26 {
+  &:before {
+    content: $icon-pes1-path26;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path27 {
+  &:before {
+    content: $icon-pes1-path27;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path28 {
+  &:before {
+    content: $icon-pes1-path28;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pes1 .path29 {
+  &:before {
+    content: $icon-pes1-path29;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pokemon .path1 {
+  &:before {
+    content: $icon-pokemon-path1;  
+    color: rgb(77, 80, 102);
+  }
+}
+.icon-pokemon .path2 {
+  &:before {
+    content: $icon-pokemon-path2;  
+    margin-left: -1em;  
+    color: rgb(65, 67, 86);
+  }
+}
+.icon-pokemon .path3 {
+  &:before {
+    content: $icon-pokemon-path3;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-pokemon .path4 {
+  &:before {
+    content: $icon-pokemon-path4;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-pokemon .path5 {
+  &:before {
+    content: $icon-pokemon-path5;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-pokemon .path6 {
+  &:before {
+    content: $icon-pokemon-path6;  
+    margin-left: -1em;  
+    color: rgb(65, 67, 86);
+  }
+}
+.icon-pokemon .path7 {
+  &:before {
+    content: $icon-pokemon-path7;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 63);
+  }
+}
+.icon-pokemon .path8 {
+  &:before {
+    content: $icon-pokemon-path8;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-pokemon .path9 {
+  &:before {
+    content: $icon-pokemon-path9;  
+    margin-left: -1em;  
+    color: rgb(65, 67, 86);
+  }
+}
+.icon-pokemon .path10 {
+  &:before {
+    content: $icon-pokemon-path10;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 63);
+  }
+}
+.icon-pokemon .path11 {
+  &:before {
+    content: $icon-pokemon-path11;  
+    margin-left: -1em;  
+    color: rgb(91, 98, 140);
+  }
+}
+.icon-pokemon .path12 {
+  &:before {
+    content: $icon-pokemon-path12;  
+    margin-left: -1em;  
+    color: rgb(68, 76, 114);
+  }
+}
+.icon-pokemon .path13 {
+  &:before {
+    content: $icon-pokemon-path13;  
+    margin-left: -1em;  
+    color: rgb(91, 98, 140);
+  }
+}
+.icon-pokemon .path14 {
+  &:before {
+    content: $icon-pokemon-path14;  
+    margin-left: -1em;  
+    color: rgb(68, 76, 114);
+  }
+}
+.icon-pokemon .path15 {
+  &:before {
+    content: $icon-pokemon-path15;  
+    margin-left: -1em;  
+    color: rgb(65, 67, 86);
+  }
+}
+.icon-pokemon .path16 {
+  &:before {
+    content: $icon-pokemon-path16;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-pokemon .path17 {
+  &:before {
+    content: $icon-pokemon-path17;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-pokemon .path18 {
+  &:before {
+    content: $icon-pokemon-path18;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-pokemon .path19 {
+  &:before {
+    content: $icon-pokemon-path19;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-pokemon .path20 {
+  &:before {
+    content: $icon-pokemon-path20;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-pokemon .path21 {
+  &:before {
+    content: $icon-pokemon-path21;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-pokemon .path22 {
+  &:before {
+    content: $icon-pokemon-path22;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-pokemon .path23 {
+  &:before {
+    content: $icon-pokemon-path23;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-pokemon .path24 {
+  &:before {
+    content: $icon-pokemon-path24;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-pokemon .path25 {
+  &:before {
+    content: $icon-pokemon-path25;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-pokemon .path26 {
+  &:before {
+    content: $icon-pokemon-path26;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-pokemon .path27 {
+  &:before {
+    content: $icon-pokemon-path27;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-pokemon .path28 {
+  &:before {
+    content: $icon-pokemon-path28;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-pokemon .path29 {
+  &:before {
+    content: $icon-pokemon-path29;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-pokemon .path30 {
+  &:before {
+    content: $icon-pokemon-path30;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pokemon .path31 {
+  &:before {
+    content: $icon-pokemon-path31;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pokemon .path32 {
+  &:before {
+    content: $icon-pokemon-path32;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pokemon .path33 {
+  &:before {
+    content: $icon-pokemon-path33;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pokemon .path34 {
+  &:before {
+    content: $icon-pokemon-path34;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pokemon .path35 {
+  &:before {
+    content: $icon-pokemon-path35;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pokemon .path36 {
+  &:before {
+    content: $icon-pokemon-path36;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-pokemon .path37 {
+  &:before {
+    content: $icon-pokemon-path37;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-we-pes1 .path1 {
+  &:before {
+    content: $icon-we-pes1-path1;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-we-pes1 .path2 {
+  &:before {
+    content: $icon-we-pes1-path2;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-we-pes1 .path3 {
+  &:before {
+    content: $icon-we-pes1-path3;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-we-pes1 .path4 {
+  &:before {
+    content: $icon-we-pes1-path4;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-we-pes1 .path5 {
+  &:before {
+    content: $icon-we-pes1-path5;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-we-pes1 .path6 {
+  &:before {
+    content: $icon-we-pes1-path6;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-we-pes1 .path7 {
+  &:before {
+    content: $icon-we-pes1-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-we-pes1 .path8 {
+  &:before {
+    content: $icon-we-pes1-path8;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-we-pes1 .path9 {
+  &:before {
+    content: $icon-we-pes1-path9;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-we-pes1 .path10 {
+  &:before {
+    content: $icon-we-pes1-path10;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-we-pes1 .path11 {
+  &:before {
+    content: $icon-we-pes1-path11;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-we-pes1 .path12 {
+  &:before {
+    content: $icon-we-pes1-path12;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-we-pes1 .path13 {
+  &:before {
+    content: $icon-we-pes1-path13;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-we-pes1 .path14 {
+  &:before {
+    content: $icon-we-pes1-path14;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-we-pes1 .path15 {
+  &:before {
+    content: $icon-we-pes1-path15;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-we-pes1 .path16 {
+  &:before {
+    content: $icon-we-pes1-path16;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-we-pes1 .path17 {
+  &:before {
+    content: $icon-we-pes1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-grand-theft-auto .path1 {
+  &:before {
+    content: $icon-grand-theft-auto-path1;  
+    color: rgb(152, 157, 160);
+  }
+}
+.icon-grand-theft-auto .path2 {
+  &:before {
+    content: $icon-grand-theft-auto-path2;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path3 {
+  &:before {
+    content: $icon-grand-theft-auto-path3;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path4 {
+  &:before {
+    content: $icon-grand-theft-auto-path4;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path5 {
+  &:before {
+    content: $icon-grand-theft-auto-path5;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path6 {
+  &:before {
+    content: $icon-grand-theft-auto-path6;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path7 {
+  &:before {
+    content: $icon-grand-theft-auto-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path8 {
+  &:before {
+    content: $icon-grand-theft-auto-path8;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path9 {
+  &:before {
+    content: $icon-grand-theft-auto-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path10 {
+  &:before {
+    content: $icon-grand-theft-auto-path10;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path11 {
+  &:before {
+    content: $icon-grand-theft-auto-path11;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path12 {
+  &:before {
+    content: $icon-grand-theft-auto-path12;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path13 {
+  &:before {
+    content: $icon-grand-theft-auto-path13;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path14 {
+  &:before {
+    content: $icon-grand-theft-auto-path14;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path15 {
+  &:before {
+    content: $icon-grand-theft-auto-path15;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path16 {
+  &:before {
+    content: $icon-grand-theft-auto-path16;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path17 {
+  &:before {
+    content: $icon-grand-theft-auto-path17;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path18 {
+  &:before {
+    content: $icon-grand-theft-auto-path18;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path19 {
+  &:before {
+    content: $icon-grand-theft-auto-path19;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path20 {
+  &:before {
+    content: $icon-grand-theft-auto-path20;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path21 {
+  &:before {
+    content: $icon-grand-theft-auto-path21;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path22 {
+  &:before {
+    content: $icon-grand-theft-auto-path22;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path23 {
+  &:before {
+    content: $icon-grand-theft-auto-path23;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-grand-theft-auto .path24 {
+  &:before {
+    content: $icon-grand-theft-auto-path24;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path25 {
+  &:before {
+    content: $icon-grand-theft-auto-path25;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path26 {
+  &:before {
+    content: $icon-grand-theft-auto-path26;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path27 {
+  &:before {
+    content: $icon-grand-theft-auto-path27;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path28 {
+  &:before {
+    content: $icon-grand-theft-auto-path28;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.icon-grand-theft-auto .path29 {
+  &:before {
+    content: $icon-grand-theft-auto-path29;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path30 {
+  &:before {
+    content: $icon-grand-theft-auto-path30;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path31 {
+  &:before {
+    content: $icon-grand-theft-auto-path31;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path32 {
+  &:before {
+    content: $icon-grand-theft-auto-path32;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path33 {
+  &:before {
+    content: $icon-grand-theft-auto-path33;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-grand-theft-auto .path34 {
+  &:before {
+    content: $icon-grand-theft-auto-path34;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-grand-theft-auto .path35 {
+  &:before {
+    content: $icon-grand-theft-auto-path35;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-grand-theft-auto .path36 {
+  &:before {
+    content: $icon-grand-theft-auto-path36;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-grand-theft-auto .path37 {
+  &:before {
+    content: $icon-grand-theft-auto-path37;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-grand-theft-auto .path38 {
+  &:before {
+    content: $icon-grand-theft-auto-path38;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-grand-theft-auto .path39 {
+  &:before {
+    content: $icon-grand-theft-auto-path39;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-grand-theft-auto .path40 {
+  &:before {
+    content: $icon-grand-theft-auto-path40;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-grand-theft-auto .path41 {
+  &:before {
+    content: $icon-grand-theft-auto-path41;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-grand-theft-auto .path42 {
+  &:before {
+    content: $icon-grand-theft-auto-path42;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-grand-theft-auto .path43 {
+  &:before {
+    content: $icon-grand-theft-auto-path43;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path1 {
+  &:before {
+    content: $icon-gears-of-war1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-gears-of-war1 .path2 {
+  &:before {
+    content: $icon-gears-of-war1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-gears-of-war1 .path3 {
+  &:before {
+    content: $icon-gears-of-war1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path4 {
+  &:before {
+    content: $icon-gears-of-war1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path5 {
+  &:before {
+    content: $icon-gears-of-war1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path6 {
+  &:before {
+    content: $icon-gears-of-war1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path7 {
+  &:before {
+    content: $icon-gears-of-war1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path8 {
+  &:before {
+    content: $icon-gears-of-war1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path9 {
+  &:before {
+    content: $icon-gears-of-war1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path10 {
+  &:before {
+    content: $icon-gears-of-war1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path11 {
+  &:before {
+    content: $icon-gears-of-war1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path12 {
+  &:before {
+    content: $icon-gears-of-war1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path13 {
+  &:before {
+    content: $icon-gears-of-war1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-gears-of-war1 .path14 {
+  &:before {
+    content: $icon-gears-of-war1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-2k-sports1 .path1 {
+  &:before {
+    content: $icon-2k-sports1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-2k-sports1 .path2 {
+  &:before {
+    content: $icon-2k-sports1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-2k-sports1 .path3 {
+  &:before {
+    content: $icon-2k-sports1-path3;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-2k-sports1 .path4 {
+  &:before {
+    content: $icon-2k-sports1-path4;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-2k-sports1 .path5 {
+  &:before {
+    content: $icon-2k-sports1-path5;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-2k-sports1 .path6 {
+  &:before {
+    content: $icon-2k-sports1-path6;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-2k-sports1 .path7 {
+  &:before {
+    content: $icon-2k-sports1-path7;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-2k-sports1 .path8 {
+  &:before {
+    content: $icon-2k-sports1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-2k-sports1 .path9 {
+  &:before {
+    content: $icon-2k-sports1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-2k-sports1 .path10 {
+  &:before {
+    content: $icon-2k-sports1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-2k-sports1 .path11 {
+  &:before {
+    content: $icon-2k-sports1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-2k-sports1 .path12 {
+  &:before {
+    content: $icon-2k-sports1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-2k-sports1 .path13 {
+  &:before {
+    content: $icon-2k-sports1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-2k-sports1 .path14 {
+  &:before {
+    content: $icon-2k-sports1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-2k-sports1 .path15 {
+  &:before {
+    content: $icon-2k-sports1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-konami1 .path1 {
+  &:before {
+    content: $icon-konami1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-konami1 .path2 {
+  &:before {
+    content: $icon-konami1-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-konami1 .path3 {
+  &:before {
+    content: $icon-konami1-path3;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-konami1 .path4 {
+  &:before {
+    content: $icon-konami1-path4;  
+    margin-left: -1em;  
+    color: rgb(247, 172, 22);
+  }
+}
+.icon-konami1 .path5 {
+  &:before {
+    content: $icon-konami1-path5;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-konami1 .path6 {
+  &:before {
+    content: $icon-konami1-path6;  
+    margin-left: -1em;  
+    color: rgb(244, 155, 25);
+  }
+}
+.icon-konami1 .path7 {
+  &:before {
+    content: $icon-konami1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-konami1 .path8 {
+  &:before {
+    content: $icon-konami1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-konami1 .path9 {
+  &:before {
+    content: $icon-konami1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-konami1 .path10 {
+  &:before {
+    content: $icon-konami1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-konami1 .path11 {
+  &:before {
+    content: $icon-konami1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-konami1 .path12 {
+  &:before {
+    content: $icon-konami1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-konami1 .path13 {
+  &:before {
+    content: $icon-konami1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-konami1 .path14 {
+  &:before {
+    content: $icon-konami1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-konami1 .path15 {
+  &:before {
+    content: $icon-konami1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-konami1 .path16 {
+  &:before {
+    content: $icon-konami1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-boy1 .path1 {
+  &:before {
+    content: $icon-game-boy1-path1;  
+    color: rgb(110, 220, 249);
+  }
+}
+.icon-game-boy1 .path2 {
+  &:before {
+    content: $icon-game-boy1-path2;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.icon-game-boy1 .path3 {
+  &:before {
+    content: $icon-game-boy1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-boy1 .path4 {
+  &:before {
+    content: $icon-game-boy1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-boy1 .path5 {
+  &:before {
+    content: $icon-game-boy1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-boy1 .path6 {
+  &:before {
+    content: $icon-game-boy1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-boy1 .path7 {
+  &:before {
+    content: $icon-game-boy1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-boy1 .path8 {
+  &:before {
+    content: $icon-game-boy1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-game-boy1 .path9 {
+  &:before {
+    content: $icon-game-boy1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-fifa .path1 {
+  &:before {
+    content: $icon-fifa-path1;  
+    color: rgb(152, 157, 160);
+  }
+}
+.icon-fifa .path2 {
+  &:before {
+    content: $icon-fifa-path2;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-fifa .path3 {
+  &:before {
+    content: $icon-fifa-path3;  
+    margin-left: -1em;  
+    color: rgb(152, 157, 160);
+  }
+}
+.icon-fifa .path4 {
+  &:before {
+    content: $icon-fifa-path4;  
+    margin-left: -1em;  
+    color: rgb(152, 157, 160);
+  }
+}
+.icon-fifa .path5 {
+  &:before {
+    content: $icon-fifa-path5;  
+    margin-left: -1em;  
+    color: rgb(152, 157, 160);
+  }
+}
+.icon-fifa .path6 {
+  &:before {
+    content: $icon-fifa-path6;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-fifa .path7 {
+  &:before {
+    content: $icon-fifa-path7;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.icon-fifa .path8 {
+  &:before {
+    content: $icon-fifa-path8;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-fifa .path9 {
+  &:before {
+    content: $icon-fifa-path9;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.icon-fifa .path10 {
+  &:before {
+    content: $icon-fifa-path10;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.icon-fifa .path11 {
+  &:before {
+    content: $icon-fifa-path11;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.icon-fifa .path12 {
+  &:before {
+    content: $icon-fifa-path12;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-fifa .path13 {
+  &:before {
+    content: $icon-fifa-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-fifa .path14 {
+  &:before {
+    content: $icon-fifa-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-fifa .path15 {
+  &:before {
+    content: $icon-fifa-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-fifa .path16 {
+  &:before {
+    content: $icon-fifa-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-dota-21 .path1 {
+  &:before {
+    content: $icon-dota-21-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-dota-21 .path2 {
+  &:before {
+    content: $icon-dota-21-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-dota-21 .path3 {
+  &:before {
+    content: $icon-dota-21-path3;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-dota-21 .path4 {
+  &:before {
+    content: $icon-dota-21-path4;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-dota-21 .path5 {
+  &:before {
+    content: $icon-dota-21-path5;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-dota-21 .path6 {
+  &:before {
+    content: $icon-dota-21-path6;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-dota-21 .path7 {
+  &:before {
+    content: $icon-dota-21-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-dota-21 .path8 {
+  &:before {
+    content: $icon-dota-21-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-dota-21 .path9 {
+  &:before {
+    content: $icon-dota-21-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-dota-21 .path10 {
+  &:before {
+    content: $icon-dota-21-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-dota-21 .path11 {
+  &:before {
+    content: $icon-dota-21-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-dota-21 .path12 {
+  &:before {
+    content: $icon-dota-21-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-dota-21 .path13 {
+  &:before {
+    content: $icon-dota-21-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-dota-21 .path14 {
+  &:before {
+    content: $icon-dota-21-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-dota-21 .path15 {
+  &:before {
+    content: $icon-dota-21-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path1 {
+  &:before {
+    content: $icon-assassins-creed1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-assassins-creed1 .path2 {
+  &:before {
+    content: $icon-assassins-creed1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-assassins-creed1 .path3 {
+  &:before {
+    content: $icon-assassins-creed1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path4 {
+  &:before {
+    content: $icon-assassins-creed1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path5 {
+  &:before {
+    content: $icon-assassins-creed1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path6 {
+  &:before {
+    content: $icon-assassins-creed1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path7 {
+  &:before {
+    content: $icon-assassins-creed1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path8 {
+  &:before {
+    content: $icon-assassins-creed1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path9 {
+  &:before {
+    content: $icon-assassins-creed1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path10 {
+  &:before {
+    content: $icon-assassins-creed1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path11 {
+  &:before {
+    content: $icon-assassins-creed1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path12 {
+  &:before {
+    content: $icon-assassins-creed1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path13 {
+  &:before {
+    content: $icon-assassins-creed1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path14 {
+  &:before {
+    content: $icon-assassins-creed1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path15 {
+  &:before {
+    content: $icon-assassins-creed1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path16 {
+  &:before {
+    content: $icon-assassins-creed1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path17 {
+  &:before {
+    content: $icon-assassins-creed1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path18 {
+  &:before {
+    content: $icon-assassins-creed1-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-assassins-creed1 .path19 {
+  &:before {
+    content: $icon-assassins-creed1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-namco1 .path1 {
+  &:before {
+    content: $icon-namco1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-namco1 .path2 {
+  &:before {
+    content: $icon-namco1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-namco1 .path3 {
+  &:before {
+    content: $icon-namco1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-namco1 .path4 {
+  &:before {
+    content: $icon-namco1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-namco1 .path5 {
+  &:before {
+    content: $icon-namco1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-namco1 .path6 {
+  &:before {
+    content: $icon-namco1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-namco1 .path7 {
+  &:before {
+    content: $icon-namco1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-namco1 .path8 {
+  &:before {
+    content: $icon-namco1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-namco1 .path9 {
+  &:before {
+    content: $icon-namco1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-zynga1 .path1 {
+  &:before {
+    content: $icon-zynga1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-zynga1 .path2 {
+  &:before {
+    content: $icon-zynga1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-zynga1 .path3 {
+  &:before {
+    content: $icon-zynga1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-zynga1 .path4 {
+  &:before {
+    content: $icon-zynga1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-zynga1 .path5 {
+  &:before {
+    content: $icon-zynga1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-zynga1 .path6 {
+  &:before {
+    content: $icon-zynga1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-zynga1 .path7 {
+  &:before {
+    content: $icon-zynga1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-zynga1 .path8 {
+  &:before {
+    content: $icon-zynga1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-zynga1 .path9 {
+  &:before {
+    content: $icon-zynga1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-zynga1 .path10 {
+  &:before {
+    content: $icon-zynga1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-capcom1 .path1 {
+  &:before {
+    content: $icon-capcom1-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.icon-capcom1 .path2 {
+  &:before {
+    content: $icon-capcom1-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-capcom1 .path3 {
+  &:before {
+    content: $icon-capcom1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-capcom1 .path4 {
+  &:before {
+    content: $icon-capcom1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-capcom1 .path5 {
+  &:before {
+    content: $icon-capcom1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-capcom1 .path6 {
+  &:before {
+    content: $icon-capcom1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-capcom1 .path7 {
+  &:before {
+    content: $icon-capcom1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-capcom1 .path8 {
+  &:before {
+    content: $icon-capcom1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-capcom1 .path9 {
+  &:before {
+    content: $icon-capcom1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-capcom1 .path10 {
+  &:before {
+    content: $icon-capcom1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-valve1 .path1 {
+  &:before {
+    content: $icon-valve1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-valve1 .path2 {
+  &:before {
+    content: $icon-valve1-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-valve1 .path3 {
+  &:before {
+    content: $icon-valve1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-valve1 .path4 {
+  &:before {
+    content: $icon-valve1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-valve1 .path5 {
+  &:before {
+    content: $icon-valve1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-valve1 .path6 {
+  &:before {
+    content: $icon-valve1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-valve1 .path7 {
+  &:before {
+    content: $icon-valve1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-valve1 .path8 {
+  &:before {
+    content: $icon-valve1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-valve1 .path9 {
+  &:before {
+    content: $icon-valve1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path1 {
+  &:before {
+    content: $icon-bandai-1-path1;  
+    color: rgb(255, 136, 40);
+  }
+}
+.icon-bandai-1 .path2 {
+  &:before {
+    content: $icon-bandai-1-path2;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-bandai-1 .path3 {
+  &:before {
+    content: $icon-bandai-1-path3;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-bandai-1 .path4 {
+  &:before {
+    content: $icon-bandai-1-path4;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-bandai-1 .path5 {
+  &:before {
+    content: $icon-bandai-1-path5;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-bandai-1 .path6 {
+  &:before {
+    content: $icon-bandai-1-path6;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-bandai-1 .path7 {
+  &:before {
+    content: $icon-bandai-1-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-bandai-1 .path8 {
+  &:before {
+    content: $icon-bandai-1-path8;  
+    margin-left: -1em;  
+    color: rgb(252, 117, 26);
+  }
+}
+.icon-bandai-1 .path9 {
+  &:before {
+    content: $icon-bandai-1-path9;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-bandai-1 .path10 {
+  &:before {
+    content: $icon-bandai-1-path10;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-bandai-1 .path11 {
+  &:before {
+    content: $icon-bandai-1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path12 {
+  &:before {
+    content: $icon-bandai-1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path13 {
+  &:before {
+    content: $icon-bandai-1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path14 {
+  &:before {
+    content: $icon-bandai-1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path15 {
+  &:before {
+    content: $icon-bandai-1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path16 {
+  &:before {
+    content: $icon-bandai-1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path17 {
+  &:before {
+    content: $icon-bandai-1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path18 {
+  &:before {
+    content: $icon-bandai-1-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path19 {
+  &:before {
+    content: $icon-bandai-1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path20 {
+  &:before {
+    content: $icon-bandai-1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path21 {
+  &:before {
+    content: $icon-bandai-1-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai-1 .path22 {
+  &:before {
+    content: $icon-bandai-1-path22;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-rovio1 .path1 {
+  &:before {
+    content: $icon-rovio1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-rovio1 .path2 {
+  &:before {
+    content: $icon-rovio1-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-rovio1 .path3 {
+  &:before {
+    content: $icon-rovio1-path3;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-rovio1 .path4 {
+  &:before {
+    content: $icon-rovio1-path4;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-rovio1 .path5 {
+  &:before {
+    content: $icon-rovio1-path5;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-rovio1 .path6 {
+  &:before {
+    content: $icon-rovio1-path6;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-rovio1 .path7 {
+  &:before {
+    content: $icon-rovio1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-rovio1 .path8 {
+  &:before {
+    content: $icon-rovio1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-rovio1 .path9 {
+  &:before {
+    content: $icon-rovio1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-rovio1 .path10 {
+  &:before {
+    content: $icon-rovio1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-rovio1 .path11 {
+  &:before {
+    content: $icon-rovio1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-rovio1 .path12 {
+  &:before {
+    content: $icon-rovio1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-rovio1 .path13 {
+  &:before {
+    content: $icon-rovio1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-rovio1 .path14 {
+  &:before {
+    content: $icon-rovio1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai2 .path1 {
+  &:before {
+    content: $icon-bandai2-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-bandai2 .path2 {
+  &:before {
+    content: $icon-bandai2-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-bandai2 .path3 {
+  &:before {
+    content: $icon-bandai2-path3;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-bandai2 .path4 {
+  &:before {
+    content: $icon-bandai2-path4;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-bandai2 .path5 {
+  &:before {
+    content: $icon-bandai2-path5;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-bandai2 .path6 {
+  &:before {
+    content: $icon-bandai2-path6;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-bandai2 .path7 {
+  &:before {
+    content: $icon-bandai2-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-bandai2 .path8 {
+  &:before {
+    content: $icon-bandai2-path8;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.icon-bandai2 .path9 {
+  &:before {
+    content: $icon-bandai2-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-bandai2 .path10 {
+  &:before {
+    content: $icon-bandai2-path10;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-bandai2 .path11 {
+  &:before {
+    content: $icon-bandai2-path11;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-bandai2 .path12 {
+  &:before {
+    content: $icon-bandai2-path12;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-bandai2 .path13 {
+  &:before {
+    content: $icon-bandai2-path13;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-bandai2 .path14 {
+  &:before {
+    content: $icon-bandai2-path14;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-bandai2 .path15 {
+  &:before {
+    content: $icon-bandai2-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai2 .path16 {
+  &:before {
+    content: $icon-bandai2-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai2 .path17 {
+  &:before {
+    content: $icon-bandai2-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai2 .path18 {
+  &:before {
+    content: $icon-bandai2-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai2 .path19 {
+  &:before {
+    content: $icon-bandai2-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-bandai2 .path20 {
+  &:before {
+    content: $icon-bandai2-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation-1 .path1 {
+  &:before {
+    content: $icon-playstation-1-path1;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-playstation-1 .path2 {
+  &:before {
+    content: $icon-playstation-1-path2;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-playstation-1 .path3 {
+  &:before {
+    content: $icon-playstation-1-path3;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-playstation-1 .path4 {
+  &:before {
+    content: $icon-playstation-1-path4;  
+    margin-left: -1em;  
+    color: rgb(74, 148, 204);
+  }
+}
+.icon-playstation-1 .path5 {
+  &:before {
+    content: $icon-playstation-1-path5;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-playstation-1 .path6 {
+  &:before {
+    content: $icon-playstation-1-path6;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-playstation-1 .path7 {
+  &:before {
+    content: $icon-playstation-1-path7;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.icon-playstation-1 .path8 {
+  &:before {
+    content: $icon-playstation-1-path8;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-playstation-1 .path9 {
+  &:before {
+    content: $icon-playstation-1-path9;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.icon-playstation-1 .path10 {
+  &:before {
+    content: $icon-playstation-1-path10;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.icon-playstation-1 .path11 {
+  &:before {
+    content: $icon-playstation-1-path11;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-playstation-1 .path12 {
+  &:before {
+    content: $icon-playstation-1-path12;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-playstation-1 .path13 {
+  &:before {
+    content: $icon-playstation-1-path13;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-playstation-1 .path14 {
+  &:before {
+    content: $icon-playstation-1-path14;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.icon-playstation-1 .path15 {
+  &:before {
+    content: $icon-playstation-1-path15;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.icon-playstation-1 .path16 {
+  &:before {
+    content: $icon-playstation-1-path16;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.icon-playstation-1 .path17 {
+  &:before {
+    content: $icon-playstation-1-path17;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.icon-playstation-1 .path18 {
+  &:before {
+    content: $icon-playstation-1-path18;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.icon-playstation-1 .path19 {
+  &:before {
+    content: $icon-playstation-1-path19;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.icon-playstation-1 .path20 {
+  &:before {
+    content: $icon-playstation-1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation-1 .path21 {
+  &:before {
+    content: $icon-playstation-1-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-xbox1 .path1 {
+  &:before {
+    content: $icon-xbox1-path1;  
+    color: rgb(141, 216, 61);
+  }
+}
+.icon-xbox1 .path2 {
+  &:before {
+    content: $icon-xbox1-path2;  
+    margin-left: -1em;  
+    color: rgb(141, 216, 61);
+  }
+}
+.icon-xbox1 .path3 {
+  &:before {
+    content: $icon-xbox1-path3;  
+    margin-left: -1em;  
+    color: rgb(141, 216, 61);
+  }
+}
+.icon-xbox1 .path4 {
+  &:before {
+    content: $icon-xbox1-path4;  
+    margin-left: -1em;  
+    color: rgb(141, 216, 61);
+  }
+}
+.icon-xbox1 .path5 {
+  &:before {
+    content: $icon-xbox1-path5;  
+    margin-left: -1em;  
+    color: rgb(121, 196, 34);
+  }
+}
+.icon-xbox1 .path6 {
+  &:before {
+    content: $icon-xbox1-path6;  
+    margin-left: -1em;  
+    color: rgb(121, 196, 34);
+  }
+}
+.icon-xbox1 .path7 {
+  &:before {
+    content: $icon-xbox1-path7;  
+    margin-left: -1em;  
+    color: rgb(121, 196, 34);
+  }
+}
+.icon-xbox1 .path8 {
+  &:before {
+    content: $icon-xbox1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-xbox1 .path9 {
+  &:before {
+    content: $icon-xbox1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-xbox1 .path10 {
+  &:before {
+    content: $icon-xbox1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-xbox1 .path11 {
+  &:before {
+    content: $icon-xbox1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-xbox1 .path12 {
+  &:before {
+    content: $icon-xbox1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path1 {
+  &:before {
+    content: $icon-ubisoft1-path1;  
+    color: rgb(152, 157, 160);
+  }
+}
+.icon-ubisoft1 .path2 {
+  &:before {
+    content: $icon-ubisoft1-path2;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.icon-ubisoft1 .path3 {
+  &:before {
+    content: $icon-ubisoft1-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.icon-ubisoft1 .path4 {
+  &:before {
+    content: $icon-ubisoft1-path4;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-ubisoft1 .path5 {
+  &:before {
+    content: $icon-ubisoft1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path6 {
+  &:before {
+    content: $icon-ubisoft1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path7 {
+  &:before {
+    content: $icon-ubisoft1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path8 {
+  &:before {
+    content: $icon-ubisoft1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path9 {
+  &:before {
+    content: $icon-ubisoft1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path10 {
+  &:before {
+    content: $icon-ubisoft1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path11 {
+  &:before {
+    content: $icon-ubisoft1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path12 {
+  &:before {
+    content: $icon-ubisoft1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path13 {
+  &:before {
+    content: $icon-ubisoft1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path14 {
+  &:before {
+    content: $icon-ubisoft1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path15 {
+  &:before {
+    content: $icon-ubisoft1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path16 {
+  &:before {
+    content: $icon-ubisoft1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-ubisoft1 .path17 {
+  &:before {
+    content: $icon-ubisoft1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sony1 .path1 {
+  &:before {
+    content: $icon-sony1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-sony1 .path2 {
+  &:before {
+    content: $icon-sony1-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-sony1 .path3 {
+  &:before {
+    content: $icon-sony1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sony1 .path4 {
+  &:before {
+    content: $icon-sony1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sony1 .path5 {
+  &:before {
+    content: $icon-sony1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sony1 .path6 {
+  &:before {
+    content: $icon-sony1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sony1 .path7 {
+  &:before {
+    content: $icon-sony1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sony1 .path8 {
+  &:before {
+    content: $icon-sony1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path1 {
+  &:before {
+    content: $icon-crytek1-path1;  
+    color: rgb(110, 220, 249);
+  }
+}
+.icon-crytek1 .path2 {
+  &:before {
+    content: $icon-crytek1-path2;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.icon-crytek1 .path3 {
+  &:before {
+    content: $icon-crytek1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path4 {
+  &:before {
+    content: $icon-crytek1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path5 {
+  &:before {
+    content: $icon-crytek1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path6 {
+  &:before {
+    content: $icon-crytek1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path7 {
+  &:before {
+    content: $icon-crytek1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path8 {
+  &:before {
+    content: $icon-crytek1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path9 {
+  &:before {
+    content: $icon-crytek1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path10 {
+  &:before {
+    content: $icon-crytek1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path11 {
+  &:before {
+    content: $icon-crytek1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path12 {
+  &:before {
+    content: $icon-crytek1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path13 {
+  &:before {
+    content: $icon-crytek1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path14 {
+  &:before {
+    content: $icon-crytek1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path15 {
+  &:before {
+    content: $icon-crytek1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-crytek1 .path16 {
+  &:before {
+    content: $icon-crytek1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sega1 .path1 {
+  &:before {
+    content: $icon-sega1-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.icon-sega1 .path2 {
+  &:before {
+    content: $icon-sega1-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.icon-sega1 .path3 {
+  &:before {
+    content: $icon-sega1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sega1 .path4 {
+  &:before {
+    content: $icon-sega1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sega1 .path5 {
+  &:before {
+    content: $icon-sega1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sega1 .path6 {
+  &:before {
+    content: $icon-sega1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sega1 .path7 {
+  &:before {
+    content: $icon-sega1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sega1 .path8 {
+  &:before {
+    content: $icon-sega1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sega1 .path9 {
+  &:before {
+    content: $icon-sega1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sega1 .path10 {
+  &:before {
+    content: $icon-sega1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sega1 .path11 {
+  &:before {
+    content: $icon-sega1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sega1 .path12 {
+  &:before {
+    content: $icon-sega1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-sega1 .path13 {
+  &:before {
+    content: $icon-sega1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii-u1 .path1 {
+  &:before {
+    content: $icon-wii-u1-path1;  
+    color: rgb(110, 220, 249);
+  }
+}
+.icon-wii-u1 .path2 {
+  &:before {
+    content: $icon-wii-u1-path2;  
+    margin-left: -1em;  
+    color: rgb(110, 220, 249);
+  }
+}
+.icon-wii-u1 .path3 {
+  &:before {
+    content: $icon-wii-u1-path3;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.icon-wii-u1 .path4 {
+  &:before {
+    content: $icon-wii-u1-path4;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.icon-wii-u1 .path5 {
+  &:before {
+    content: $icon-wii-u1-path5;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.icon-wii-u1 .path6 {
+  &:before {
+    content: $icon-wii-u1-path6;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-wii-u1 .path7 {
+  &:before {
+    content: $icon-wii-u1-path7;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-wii-u1 .path8 {
+  &:before {
+    content: $icon-wii-u1-path8;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-wii-u1 .path9 {
+  &:before {
+    content: $icon-wii-u1-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-wii-u1 .path10 {
+  &:before {
+    content: $icon-wii-u1-path10;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-wii-u1 .path11 {
+  &:before {
+    content: $icon-wii-u1-path11;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii-u1 .path12 {
+  &:before {
+    content: $icon-wii-u1-path12;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii-u1 .path13 {
+  &:before {
+    content: $icon-wii-u1-path13;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii-u1 .path14 {
+  &:before {
+    content: $icon-wii-u1-path14;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii-u1 .path15 {
+  &:before {
+    content: $icon-wii-u1-path15;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii-u1 .path16 {
+  &:before {
+    content: $icon-wii-u1-path16;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii-u1 .path17 {
+  &:before {
+    content: $icon-wii-u1-path17;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii-u1 .path18 {
+  &:before {
+    content: $icon-wii-u1-path18;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii-u1 .path19 {
+  &:before {
+    content: $icon-wii-u1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii-u1 .path20 {
+  &:before {
+    content: $icon-wii-u1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii-u1 .path21 {
+  &:before {
+    content: $icon-wii-u1-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii-u1 .path22 {
+  &:before {
+    content: $icon-wii-u1-path22;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii-u1 .path23 {
+  &:before {
+    content: $icon-wii-u1-path23;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii-u1 .path24 {
+  &:before {
+    content: $icon-wii-u1-path24;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii-u1 .path25 {
+  &:before {
+    content: $icon-wii-u1-path25;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii1 .path1 {
+  &:before {
+    content: $icon-wii1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-wii1 .path2 {
+  &:before {
+    content: $icon-wii1-path2;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-wii1 .path3 {
+  &:before {
+    content: $icon-wii1-path3;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-wii1 .path4 {
+  &:before {
+    content: $icon-wii1-path4;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-wii1 .path5 {
+  &:before {
+    content: $icon-wii1-path5;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-wii1 .path6 {
+  &:before {
+    content: $icon-wii1-path6;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii1 .path7 {
+  &:before {
+    content: $icon-wii1-path7;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii1 .path8 {
+  &:before {
+    content: $icon-wii1-path8;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii1 .path9 {
+  &:before {
+    content: $icon-wii1-path9;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii1 .path10 {
+  &:before {
+    content: $icon-wii1-path10;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii1 .path11 {
+  &:before {
+    content: $icon-wii1-path11;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii1 .path12 {
+  &:before {
+    content: $icon-wii1-path12;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii1 .path13 {
+  &:before {
+    content: $icon-wii1-path13;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-wii1 .path14 {
+  &:before {
+    content: $icon-wii1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii1 .path15 {
+  &:before {
+    content: $icon-wii1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii1 .path16 {
+  &:before {
+    content: $icon-wii1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii1 .path17 {
+  &:before {
+    content: $icon-wii1-path17;  
+    margin-left: -1em;  
+    color: rgb(35, 31, 32);
+  }
+}
+.icon-wii1 .path18 {
+  &:before {
+    content: $icon-wii1-path18;  
+    margin-left: -1em;  
+    color: rgb(35, 31, 32);
+  }
+}
+.icon-wii1 .path19 {
+  &:before {
+    content: $icon-wii1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-wii1 .path20 {
+  &:before {
+    content: $icon-wii1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path1 {
+  &:before {
+    content: $icon-nintendo-ds-path1;  
+    color: rgb(110, 220, 249);
+  }
+}
+.icon-nintendo-ds .path2 {
+  &:before {
+    content: $icon-nintendo-ds-path2;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.icon-nintendo-ds .path3 {
+  &:before {
+    content: $icon-nintendo-ds-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path4 {
+  &:before {
+    content: $icon-nintendo-ds-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path5 {
+  &:before {
+    content: $icon-nintendo-ds-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path6 {
+  &:before {
+    content: $icon-nintendo-ds-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path7 {
+  &:before {
+    content: $icon-nintendo-ds-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path8 {
+  &:before {
+    content: $icon-nintendo-ds-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path9 {
+  &:before {
+    content: $icon-nintendo-ds-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path10 {
+  &:before {
+    content: $icon-nintendo-ds-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path11 {
+  &:before {
+    content: $icon-nintendo-ds-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path12 {
+  &:before {
+    content: $icon-nintendo-ds-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path13 {
+  &:before {
+    content: $icon-nintendo-ds-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path14 {
+  &:before {
+    content: $icon-nintendo-ds-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo-ds .path15 {
+  &:before {
+    content: $icon-nintendo-ds-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path1 {
+  &:before {
+    content: $icon-playstation-path1;  
+    color: rgb(242, 212, 34);
+  }
+}
+.icon-playstation .path2 {
+  &:before {
+    content: $icon-playstation-path2;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.icon-playstation .path3 {
+  &:before {
+    content: $icon-playstation-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path4 {
+  &:before {
+    content: $icon-playstation-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path5 {
+  &:before {
+    content: $icon-playstation-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path6 {
+  &:before {
+    content: $icon-playstation-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path7 {
+  &:before {
+    content: $icon-playstation-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path8 {
+  &:before {
+    content: $icon-playstation-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path9 {
+  &:before {
+    content: $icon-playstation-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path10 {
+  &:before {
+    content: $icon-playstation-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path11 {
+  &:before {
+    content: $icon-playstation-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path12 {
+  &:before {
+    content: $icon-playstation-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path13 {
+  &:before {
+    content: $icon-playstation-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path14 {
+  &:before {
+    content: $icon-playstation-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path15 {
+  &:before {
+    content: $icon-playstation-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-playstation .path16 {
+  &:before {
+    content: $icon-playstation-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo .path1 {
+  &:before {
+    content: $icon-nintendo-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.icon-nintendo .path2 {
+  &:before {
+    content: $icon-nintendo-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.icon-nintendo .path3 {
+  &:before {
+    content: $icon-nintendo-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo .path4 {
+  &:before {
+    content: $icon-nintendo-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo .path5 {
+  &:before {
+    content: $icon-nintendo-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo .path6 {
+  &:before {
+    content: $icon-nintendo-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo .path7 {
+  &:before {
+    content: $icon-nintendo-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo .path8 {
+  &:before {
+    content: $icon-nintendo-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo .path9 {
+  &:before {
+    content: $icon-nintendo-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo .path10 {
+  &:before {
+    content: $icon-nintendo-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo .path11 {
+  &:before {
+    content: $icon-nintendo-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo .path12 {
+  &:before {
+    content: $icon-nintendo-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-nintendo .path13 {
+  &:before {
+    content: $icon-nintendo-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.icon-konami {
+  &:before {
+    content: $icon-konami; 
+  }
+}
+

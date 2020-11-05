@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# icon png's
+/src/assets/icons/306752-gaming/png
+/src/assets/icons/588288-videogame-logo/png
+/src/assets/icons/871450-videogame-logo/png

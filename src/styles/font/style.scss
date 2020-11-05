@@ -1,0 +1,6961 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?pqfrpw');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?pqfrpw#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?pqfrpw') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?pqfrpw') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?pqfrpw##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="prueba-"], [class*=" prueba-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.prueba-2k-sports {
+  &:before {
+    content: $prueba-2k-sports; 
+  }
+}
+.prueba-assassins-creed {
+  &:before {
+    content: $prueba-assassins-creed; 
+  }
+}
+.prueba-atari {
+  &:before {
+    content: $prueba-atari; 
+  }
+}
+.prueba-bandai {
+  &:before {
+    content: $prueba-bandai; 
+  }
+}
+.prueba-bandai1 {
+  &:before {
+    content: $prueba-bandai1; 
+  }
+}
+.prueba-capcom {
+  &:before {
+    content: $prueba-capcom; 
+  }
+}
+.prueba-crytek {
+  &:before {
+    content: $prueba-crytek; 
+  }
+}
+.prueba-dota-2 {
+  &:before {
+    content: $prueba-dota-2; 
+  }
+}
+.prueba-ea-sports {
+  &:before {
+    content: $prueba-ea-sports; 
+  }
+}
+.prueba-game-boy {
+  &:before {
+    content: $prueba-game-boy; 
+  }
+}
+.prueba-gears-of-war {
+  &:before {
+    content: $prueba-gears-of-war; 
+  }
+}
+.prueba-gta {
+  &:before {
+    content: $prueba-gta; 
+  }
+}
+.prueba-guitar-hero {
+  &:before {
+    content: $prueba-guitar-hero; 
+  }
+}
+.prueba-konami {
+  &:before {
+    content: $prueba-konami; 
+  }
+}
+.prueba-lego {
+  &:before {
+    content: $prueba-lego; 
+  }
+}
+.prueba-namco {
+  &:before {
+    content: $prueba-namco; 
+  }
+}
+.prueba-nintendo-ds1 {
+  &:before {
+    content: $prueba-nintendo-ds1; 
+  }
+}
+.prueba-nintendo1 {
+  &:before {
+    content: $prueba-nintendo1; 
+  }
+}
+.prueba-nintendo-switch {
+  &:before {
+    content: $prueba-nintendo-switch; 
+  }
+}
+.prueba-wii {
+  &:before {
+    content: $prueba-wii; 
+  }
+}
+.prueba-wii-u {
+  &:before {
+    content: $prueba-wii-u; 
+  }
+}
+.prueba-pes {
+  &:before {
+    content: $prueba-pes; 
+  }
+}
+.prueba-playstation1 {
+  &:before {
+    content: $prueba-playstation1; 
+  }
+}
+.prueba-pokemon-go {
+  &:before {
+    content: $prueba-pokemon-go; 
+  }
+}
+.prueba-ps2 {
+  &:before {
+    content: $prueba-ps2; 
+  }
+}
+.prueba-ps31 {
+  &:before {
+    content: $prueba-ps31; 
+  }
+}
+.prueba-ps41 {
+  &:before {
+    content: $prueba-ps41; 
+  }
+}
+.prueba-psp1 {
+  &:before {
+    content: $prueba-psp1; 
+  }
+}
+.prueba-play-station {
+  &:before {
+    content: $prueba-play-station; 
+  }
+}
+.prueba-rovio {
+  &:before {
+    content: $prueba-rovio; 
+  }
+}
+.prueba-sega {
+  &:before {
+    content: $prueba-sega; 
+  }
+}
+.prueba-sony {
+  &:before {
+    content: $prueba-sony; 
+  }
+}
+.prueba-super-mario {
+  &:before {
+    content: $prueba-super-mario; 
+  }
+}
+.prueba-tamiya {
+  &:before {
+    content: $prueba-tamiya; 
+  }
+}
+.prueba-ubisoft {
+  &:before {
+    content: $prueba-ubisoft; 
+  }
+}
+.prueba-valve {
+  &:before {
+    content: $prueba-valve; 
+  }
+}
+.prueba-we-pes {
+  &:before {
+    content: $prueba-we-pes; 
+  }
+}
+.prueba-xbox {
+  &:before {
+    content: $prueba-xbox; 
+  }
+}
+.prueba-zynga {
+  &:before {
+    content: $prueba-zynga; 
+  }
+}
+.prueba-fuse .path1 {
+  &:before {
+    content: $prueba-fuse-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-fuse .path2 {
+  &:before {
+    content: $prueba-fuse-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-fuse .path3 {
+  &:before {
+    content: $prueba-fuse-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-fuse .path4 {
+  &:before {
+    content: $prueba-fuse-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-cupid .path1 {
+  &:before {
+    content: $prueba-cupid-path1;  
+    color: rgb(190, 135, 107);
+  }
+}
+.prueba-cupid .path2 {
+  &:before {
+    content: $prueba-cupid-path2;  
+    margin-left: -1em;  
+    color: rgb(170, 100, 85);
+  }
+}
+.prueba-cupid .path3 {
+  &:before {
+    content: $prueba-cupid-path3;  
+    margin-left: -1em;  
+    color: rgb(135, 70, 65);
+  }
+}
+.prueba-cupid .path4 {
+  &:before {
+    content: $prueba-cupid-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console .path1 {
+  &:before {
+    content: $prueba-game-console-path1;  
+    color: rgb(81, 82, 98);
+  }
+}
+.prueba-game-console .path2 {
+  &:before {
+    content: $prueba-game-console-path2;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-game-console .path3 {
+  &:before {
+    content: $prueba-game-console-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console .path4 {
+  &:before {
+    content: $prueba-game-console-path4;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console .path5 {
+  &:before {
+    content: $prueba-game-console-path5;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console .path6 {
+  &:before {
+    content: $prueba-game-console-path6;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console .path7 {
+  &:before {
+    content: $prueba-game-console-path7;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console .path8 {
+  &:before {
+    content: $prueba-game-console-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-computing .path1 {
+  &:before {
+    content: $prueba-computing-path1;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-computing .path2 {
+  &:before {
+    content: $prueba-computing-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-computing .path3 {
+  &:before {
+    content: $prueba-computing-path3;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-computing .path4 {
+  &:before {
+    content: $prueba-computing-path4;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-computing .path5 {
+  &:before {
+    content: $prueba-computing-path5;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-computing .path6 {
+  &:before {
+    content: $prueba-computing-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-computer-monitor .path1 {
+  &:before {
+    content: $prueba-computer-monitor-path1;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-computer-monitor .path2 {
+  &:before {
+    content: $prueba-computer-monitor-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-computer-monitor .path3 {
+  &:before {
+    content: $prueba-computer-monitor-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-computer-monitor .path4 {
+  &:before {
+    content: $prueba-computer-monitor-path4;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-computer-monitor .path5 {
+  &:before {
+    content: $prueba-computer-monitor-path5;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-computer-monitor .path6 {
+  &:before {
+    content: $prueba-computer-monitor-path6;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-computer-monitor .path7 {
+  &:before {
+    content: $prueba-computer-monitor-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-computer-monitor .path8 {
+  &:before {
+    content: $prueba-computer-monitor-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-jewels .path1 {
+  &:before {
+    content: $prueba-jewels-path1;  
+    color: rgb(0, 210, 255);
+  }
+}
+.prueba-jewels .path2 {
+  &:before {
+    content: $prueba-jewels-path2;  
+    margin-left: -1em;  
+    color: rgb(89, 226, 255);
+  }
+}
+.prueba-jewels .path3 {
+  &:before {
+    content: $prueba-jewels-path3;  
+    margin-left: -1em;  
+    color: rgb(40, 175, 240);
+  }
+}
+.prueba-jewels .path4 {
+  &:before {
+    content: $prueba-jewels-path4;  
+    margin-left: -1em;  
+    color: rgb(24, 189, 246);
+  }
+}
+.prueba-jewels .path5 {
+  &:before {
+    content: $prueba-jewels-path5;  
+    margin-left: -1em;  
+    color: rgb(24, 189, 246);
+  }
+}
+.prueba-jewels .path6 {
+  &:before {
+    content: $prueba-jewels-path6;  
+    margin-left: -1em;  
+    color: rgb(24, 189, 246);
+  }
+}
+.prueba-jewels .path7 {
+  &:before {
+    content: $prueba-jewels-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 210, 255);
+  }
+}
+.prueba-jewels .path8 {
+  &:before {
+    content: $prueba-jewels-path8;  
+    margin-left: -1em;  
+    color: rgb(40, 175, 240);
+  }
+}
+.prueba-jewels .path9 {
+  &:before {
+    content: $prueba-jewels-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-controller .path1 {
+  &:before {
+    content: $prueba-game-controller-path1;  
+    color: rgb(215, 222, 237);
+  }
+}
+.prueba-game-controller .path2 {
+  &:before {
+    content: $prueba-game-controller-path2;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-controller .path3 {
+  &:before {
+    content: $prueba-game-controller-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-controller .path4 {
+  &:before {
+    content: $prueba-game-controller-path4;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.prueba-game-controller .path5 {
+  &:before {
+    content: $prueba-game-controller-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-Maps-and-Flags .path1 {
+  &:before {
+    content: $prueba-Maps-and-Flags-path1;  
+    color: rgb(210, 170, 130);
+  }
+}
+.prueba-Maps-and-Flags .path2 {
+  &:before {
+    content: $prueba-Maps-and-Flags-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-Maps-and-Flags .path3 {
+  &:before {
+    content: $prueba-Maps-and-Flags-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-control .path1 {
+  &:before {
+    content: $prueba-game-control-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-control .path2 {
+  &:before {
+    content: $prueba-game-control-path2;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-game-control .path3 {
+  &:before {
+    content: $prueba-game-control-path3;  
+    margin-left: -1em;  
+    color: rgb(190, 220, 175);
+  }
+}
+.prueba-game-control .path4 {
+  &:before {
+    content: $prueba-game-control-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-control .path5 {
+  &:before {
+    content: $prueba-game-control-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-control .path6 {
+  &:before {
+    content: $prueba-game-control-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-control .path7 {
+  &:before {
+    content: $prueba-game-control-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console1 .path1 {
+  &:before {
+    content: $prueba-game-console1-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console1 .path2 {
+  &:before {
+    content: $prueba-game-console1-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console1 .path3 {
+  &:before {
+    content: $prueba-game-console1-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.prueba-game-console1 .path4 {
+  &:before {
+    content: $prueba-game-console1-path4;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.prueba-game-console1 .path5 {
+  &:before {
+    content: $prueba-game-console1-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console1 .path6 {
+  &:before {
+    content: $prueba-game-console1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gamer .path1 {
+  &:before {
+    content: $prueba-gamer-path1;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-gamer .path2 {
+  &:before {
+    content: $prueba-gamer-path2;  
+    margin-left: -1em;  
+    color: rgb(190, 220, 175);
+  }
+}
+.prueba-gamer .path3 {
+  &:before {
+    content: $prueba-gamer-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 220, 80);
+  }
+}
+.prueba-gamer .path4 {
+  &:before {
+    content: $prueba-gamer-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gamer2 .path1 {
+  &:before {
+    content: $prueba-gamer2-path1;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-gamer2 .path2 {
+  &:before {
+    content: $prueba-gamer2-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-gamer2 .path3 {
+  &:before {
+    content: $prueba-gamer2-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-gamer2 .path4 {
+  &:before {
+    content: $prueba-gamer2-path4;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-gamer2 .path5 {
+  &:before {
+    content: $prueba-gamer2-path5;  
+    margin-left: -1em;  
+    color: rgb(210, 250, 80);
+  }
+}
+.prueba-gamer2 .path6 {
+  &:before {
+    content: $prueba-gamer2-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-weapong .path1 {
+  &:before {
+    content: $prueba-weapong-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-weapong .path2 {
+  &:before {
+    content: $prueba-weapong-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-weapong .path3 {
+  &:before {
+    content: $prueba-weapong-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-weapong .path4 {
+  &:before {
+    content: $prueba-weapong-path4;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.prueba-weapong .path5 {
+  &:before {
+    content: $prueba-weapong-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-weapong .path6 {
+  &:before {
+    content: $prueba-weapong-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console14 .path1 {
+  &:before {
+    content: $prueba-game-console14-path1;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console14 .path2 {
+  &:before {
+    content: $prueba-game-console14-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console14 .path3 {
+  &:before {
+    content: $prueba-game-console14-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-game-console14 .path4 {
+  &:before {
+    content: $prueba-game-console14-path4;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-game-console14 .path5 {
+  &:before {
+    content: $prueba-game-console14-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console14 .path6 {
+  &:before {
+    content: $prueba-game-console14-path6;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console14 .path7 {
+  &:before {
+    content: $prueba-game-console14-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-lover .path1 {
+  &:before {
+    content: $prueba-lover-path1;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-lover .path2 {
+  &:before {
+    content: $prueba-lover-path2;  
+    margin-left: -1em;  
+    color: rgb(210, 85, 90);
+  }
+}
+.prueba-lover .path3 {
+  &:before {
+    content: $prueba-lover-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sand-clock .path1 {
+  &:before {
+    content: $prueba-sand-clock-path1;  
+    color: rgb(210, 170, 130);
+  }
+}
+.prueba-sand-clock .path2 {
+  &:before {
+    content: $prueba-sand-clock-path2;  
+    margin-left: -1em;  
+    color: rgb(210, 170, 130);
+  }
+}
+.prueba-sand-clock .path3 {
+  &:before {
+    content: $prueba-sand-clock-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-sand-clock .path4 {
+  &:before {
+    content: $prueba-sand-clock-path4;  
+    margin-left: -1em;  
+    color: rgb(225, 190, 145);
+  }
+}
+.prueba-sand-clock .path5 {
+  &:before {
+    content: $prueba-sand-clock-path5;  
+    margin-left: -1em;  
+    color: rgb(225, 190, 145);
+  }
+}
+.prueba-sand-clock .path6 {
+  &:before {
+    content: $prueba-sand-clock-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-controller1 .path1 {
+  &:before {
+    content: $prueba-game-controller1-path1;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-controller1 .path2 {
+  &:before {
+    content: $prueba-game-controller1-path2;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.prueba-game-controller1 .path3 {
+  &:before {
+    content: $prueba-game-controller1-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-controller1 .path4 {
+  &:before {
+    content: $prueba-game-controller1-path4;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.prueba-game-controller1 .path5 {
+  &:before {
+    content: $prueba-game-controller1-path5;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.prueba-game-controller1 .path6 {
+  &:before {
+    content: $prueba-game-controller1-path6;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-controller1 .path7 {
+  &:before {
+    content: $prueba-game-controller1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console2 .path1 {
+  &:before {
+    content: $prueba-game-console2-path1;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-game-console2 .path2 {
+  &:before {
+    content: $prueba-game-console2-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-game-console2 .path3 {
+  &:before {
+    content: $prueba-game-console2-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console2 .path4 {
+  &:before {
+    content: $prueba-game-console2-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console2 .path5 {
+  &:before {
+    content: $prueba-game-console2-path5;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-game-console2 .path6 {
+  &:before {
+    content: $prueba-game-console2-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-Lightnings .path1 {
+  &:before {
+    content: $prueba-Lightnings-path1;  
+    color: rgb(255, 215, 130);
+  }
+}
+.prueba-Lightnings .path2 {
+  &:before {
+    content: $prueba-Lightnings-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.prueba-Lightnings .path3 {
+  &:before {
+    content: $prueba-Lightnings-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-horseshoe .path1 {
+  &:before {
+    content: $prueba-horseshoe-path1;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-horseshoe .path2 {
+  &:before {
+    content: $prueba-horseshoe-path2;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.prueba-horseshoe .path3 {
+  &:before {
+    content: $prueba-horseshoe-path3;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.prueba-horseshoe .path4 {
+  &:before {
+    content: $prueba-horseshoe-path4;  
+    margin-left: -1em;  
+    color: rgb(40, 175, 240);
+  }
+}
+.prueba-horseshoe .path5 {
+  &:before {
+    content: $prueba-horseshoe-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-badge .path1 {
+  &:before {
+    content: $prueba-badge-path1;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-badge .path2 {
+  &:before {
+    content: $prueba-badge-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-badge .path3 {
+  &:before {
+    content: $prueba-badge-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 215, 130);
+  }
+}
+.prueba-badge .path4 {
+  &:before {
+    content: $prueba-badge-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 227, 168);
+  }
+}
+.prueba-badge .path5 {
+  &:before {
+    content: $prueba-badge-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.prueba-badge .path6 {
+  &:before {
+    content: $prueba-badge-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-technological .path1 {
+  &:before {
+    content: $prueba-technological-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-technological .path2 {
+  &:before {
+    content: $prueba-technological-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-technological .path3 {
+  &:before {
+    content: $prueba-technological-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-technological .path4 {
+  &:before {
+    content: $prueba-technological-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console3 .path1 {
+  &:before {
+    content: $prueba-game-console3-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console3 .path2 {
+  &:before {
+    content: $prueba-game-console3-path2;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console3 .path3 {
+  &:before {
+    content: $prueba-game-console3-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console3 .path4 {
+  &:before {
+    content: $prueba-game-console3-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console3 .path5 {
+  &:before {
+    content: $prueba-game-console3-path5;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-game-console3 .path6 {
+  &:before {
+    content: $prueba-game-console3-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-controller2 .path1 {
+  &:before {
+    content: $prueba-game-controller2-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-controller2 .path2 {
+  &:before {
+    content: $prueba-game-controller2-path2;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.prueba-game-controller2 .path3 {
+  &:before {
+    content: $prueba-game-controller2-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-game-controller2 .path4 {
+  &:before {
+    content: $prueba-game-controller2-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 220, 200);
+  }
+}
+.prueba-game-controller2 .path5 {
+  &:before {
+    content: $prueba-game-controller2-path5;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.prueba-game-controller2 .path6 {
+  &:before {
+    content: $prueba-game-controller2-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 205, 70);
+  }
+}
+.prueba-game-controller2 .path7 {
+  &:before {
+    content: $prueba-game-controller2-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-controller2 .path8 {
+  &:before {
+    content: $prueba-game-controller2-path8;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-game-controller2 .path9 {
+  &:before {
+    content: $prueba-game-controller2-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console4 .path1 {
+  &:before {
+    content: $prueba-game-console4-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console4 .path2 {
+  &:before {
+    content: $prueba-game-console4-path2;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.prueba-game-console4 .path3 {
+  &:before {
+    content: $prueba-game-console4-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console4 .path4 {
+  &:before {
+    content: $prueba-game-console4-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console4 .path5 {
+  &:before {
+    content: $prueba-game-console4-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console4 .path6 {
+  &:before {
+    content: $prueba-game-console4-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console4 .path7 {
+  &:before {
+    content: $prueba-game-console4-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console4 .path8 {
+  &:before {
+    content: $prueba-game-console4-path8;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console4 .path9 {
+  &:before {
+    content: $prueba-game-console4-path9;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-game-console4 .path10 {
+  &:before {
+    content: $prueba-game-console4-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console5 .path1 {
+  &:before {
+    content: $prueba-game-console5-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console5 .path2 {
+  &:before {
+    content: $prueba-game-console5-path2;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.prueba-game-console5 .path3 {
+  &:before {
+    content: $prueba-game-console5-path3;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.prueba-game-console5 .path4 {
+  &:before {
+    content: $prueba-game-console5-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console5 .path5 {
+  &:before {
+    content: $prueba-game-console5-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console5 .path6 {
+  &:before {
+    content: $prueba-game-console5-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console5 .path7 {
+  &:before {
+    content: $prueba-game-console5-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console5 .path8 {
+  &:before {
+    content: $prueba-game-console5-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-virtual-reality .path1 {
+  &:before {
+    content: $prueba-virtual-reality-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-virtual-reality .path2 {
+  &:before {
+    content: $prueba-virtual-reality-path2;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-virtual-reality .path3 {
+  &:before {
+    content: $prueba-virtual-reality-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-virtual-reality .path4 {
+  &:before {
+    content: $prueba-virtual-reality-path4;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-virtual-reality .path5 {
+  &:before {
+    content: $prueba-virtual-reality-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gamer1 .path1 {
+  &:before {
+    content: $prueba-gamer1-path1;  
+    color: rgb(255, 215, 130);
+  }
+}
+.prueba-gamer1 .path2 {
+  &:before {
+    content: $prueba-gamer1-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.prueba-gamer1 .path3 {
+  &:before {
+    content: $prueba-gamer1-path3;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-gamer1 .path4 {
+  &:before {
+    content: $prueba-gamer1-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.prueba-gamer1 .path5 {
+  &:before {
+    content: $prueba-gamer1-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.prueba-gamer1 .path6 {
+  &:before {
+    content: $prueba-gamer1-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.prueba-gamer1 .path7 {
+  &:before {
+    content: $prueba-gamer1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-controller3 .path1 {
+  &:before {
+    content: $prueba-game-controller3-path1;  
+    color: rgb(81, 82, 98);
+  }
+}
+.prueba-game-controller3 .path2 {
+  &:before {
+    content: $prueba-game-controller3-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-controller3 .path3 {
+  &:before {
+    content: $prueba-game-controller3-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 210, 255);
+  }
+}
+.prueba-game-controller3 .path4 {
+  &:before {
+    content: $prueba-game-controller3-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-controller3 .path5 {
+  &:before {
+    content: $prueba-game-controller3-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-controller3 .path6 {
+  &:before {
+    content: $prueba-game-controller3-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-racing .path1 {
+  &:before {
+    content: $prueba-racing-path1;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-racing .path2 {
+  &:before {
+    content: $prueba-racing-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-racing .path3 {
+  &:before {
+    content: $prueba-racing-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-racing .path4 {
+  &:before {
+    content: $prueba-racing-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-racing .path5 {
+  &:before {
+    content: $prueba-racing-path5;  
+    margin-left: -1em;  
+    color: rgb(184, 191, 212);
+  }
+}
+.prueba-racing .path6 {
+  &:before {
+    content: $prueba-racing-path6;  
+    margin-left: -1em;  
+    color: rgb(184, 191, 212);
+  }
+}
+.prueba-racing .path7 {
+  &:before {
+    content: $prueba-racing-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-racing .path8 {
+  &:before {
+    content: $prueba-racing-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-droid .path1 {
+  &:before {
+    content: $prueba-droid-path1;  
+    color: rgb(149, 156, 179);
+  }
+}
+.prueba-droid .path2 {
+  &:before {
+    content: $prueba-droid-path2;  
+    margin-left: -1em;  
+    color: rgb(149, 156, 179);
+  }
+}
+.prueba-droid .path3 {
+  &:before {
+    content: $prueba-droid-path3;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-droid .path4 {
+  &:before {
+    content: $prueba-droid-path4;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-droid .path5 {
+  &:before {
+    content: $prueba-droid-path5;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-droid .path6 {
+  &:before {
+    content: $prueba-droid-path6;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-droid .path7 {
+  &:before {
+    content: $prueba-droid-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-droid .path8 {
+  &:before {
+    content: $prueba-droid-path8;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-droid .path9 {
+  &:before {
+    content: $prueba-droid-path9;  
+    margin-left: -1em;  
+    color: rgb(149, 156, 179);
+  }
+}
+.prueba-droid .path10 {
+  &:before {
+    content: $prueba-droid-path10;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-droid .path11 {
+  &:before {
+    content: $prueba-droid-path11;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-droid .path12 {
+  &:before {
+    content: $prueba-droid-path12;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-droid .path13 {
+  &:before {
+    content: $prueba-droid-path13;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-droid .path14 {
+  &:before {
+    content: $prueba-droid-path14;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-droid .path15 {
+  &:before {
+    content: $prueba-droid-path15;  
+    margin-left: -1em;  
+    color: rgb(162, 170, 194);
+  }
+}
+.prueba-droid .path16 {
+  &:before {
+    content: $prueba-droid-path16;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-droid .path17 {
+  &:before {
+    content: $prueba-droid-path17;  
+    margin-left: -1em;  
+    color: rgb(175, 185, 210);
+  }
+}
+.prueba-droid .path18 {
+  &:before {
+    content: $prueba-droid-path18;  
+    margin-left: -1em;  
+    color: rgb(162, 170, 194);
+  }
+}
+.prueba-droid .path19 {
+  &:before {
+    content: $prueba-droid-path19;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-droid .path20 {
+  &:before {
+    content: $prueba-droid-path20;  
+    margin-left: -1em;  
+    color: rgb(175, 185, 210);
+  }
+}
+.prueba-droid .path21 {
+  &:before {
+    content: $prueba-droid-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-rocket-ship-launch .path1 {
+  &:before {
+    content: $prueba-rocket-ship-launch-path1;  
+    color: rgb(255, 225, 100);
+  }
+}
+.prueba-rocket-ship-launch .path2 {
+  &:before {
+    content: $prueba-rocket-ship-launch-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 225, 100);
+  }
+}
+.prueba-rocket-ship-launch .path3 {
+  &:before {
+    content: $prueba-rocket-ship-launch-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-rocket-ship-launch .path4 {
+  &:before {
+    content: $prueba-rocket-ship-launch-path4;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-rocket-ship-launch .path5 {
+  &:before {
+    content: $prueba-rocket-ship-launch-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-rocket-ship-launch .path6 {
+  &:before {
+    content: $prueba-rocket-ship-launch-path6;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-rocket-ship-launch .path7 {
+  &:before {
+    content: $prueba-rocket-ship-launch-path7;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-rocket-ship-launch .path8 {
+  &:before {
+    content: $prueba-rocket-ship-launch-path8;  
+    margin-left: -1em;  
+    color: rgb(210, 85, 90);
+  }
+}
+.prueba-rocket-ship-launch .path9 {
+  &:before {
+    content: $prueba-rocket-ship-launch-path9;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-rocket-ship-launch .path10 {
+  &:before {
+    content: $prueba-rocket-ship-launch-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-controller4 .path1 {
+  &:before {
+    content: $prueba-game-controller4-path1;  
+    color: rgb(81, 82, 98);
+  }
+}
+.prueba-game-controller4 .path2 {
+  &:before {
+    content: $prueba-game-controller4-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 205, 70);
+  }
+}
+.prueba-game-controller4 .path3 {
+  &:before {
+    content: $prueba-game-controller4-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-controller4 .path4 {
+  &:before {
+    content: $prueba-game-controller4-path4;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.prueba-game-controller4 .path5 {
+  &:before {
+    content: $prueba-game-controller4-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 205, 70);
+  }
+}
+.prueba-game-controller4 .path6 {
+  &:before {
+    content: $prueba-game-controller4-path6;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-controller4 .path7 {
+  &:before {
+    content: $prueba-game-controller4-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console6 .path1 {
+  &:before {
+    content: $prueba-game-console6-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-game-console6 .path2 {
+  &:before {
+    content: $prueba-game-console6-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console6 .path3 {
+  &:before {
+    content: $prueba-game-console6-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console6 .path4 {
+  &:before {
+    content: $prueba-game-console6-path4;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console6 .path5 {
+  &:before {
+    content: $prueba-game-console6-path5;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-game-console6 .path6 {
+  &:before {
+    content: $prueba-game-console6-path6;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.prueba-game-console6 .path7 {
+  &:before {
+    content: $prueba-game-console6-path7;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.prueba-game-console6 .path8 {
+  &:before {
+    content: $prueba-game-console6-path8;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console6 .path9 {
+  &:before {
+    content: $prueba-game-console6-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-defense .path1 {
+  &:before {
+    content: $prueba-defense-path1;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-defense .path2 {
+  &:before {
+    content: $prueba-defense-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 215, 130);
+  }
+}
+.prueba-defense .path3 {
+  &:before {
+    content: $prueba-defense-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 195, 110);
+  }
+}
+.prueba-defense .path4 {
+  &:before {
+    content: $prueba-defense-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-circular-target .path1 {
+  &:before {
+    content: $prueba-circular-target-path1;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-circular-target .path2 {
+  &:before {
+    content: $prueba-circular-target-path2;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.prueba-circular-target .path3 {
+  &:before {
+    content: $prueba-circular-target-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-dead .path1 {
+  &:before {
+    content: $prueba-dead-path1;  
+    color: rgb(215, 222, 237);
+  }
+}
+.prueba-dead .path2 {
+  &:before {
+    content: $prueba-dead-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-dead .path3 {
+  &:before {
+    content: $prueba-dead-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-dead .path4 {
+  &:before {
+    content: $prueba-dead-path4;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-dead .path5 {
+  &:before {
+    content: $prueba-dead-path5;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-dead .path6 {
+  &:before {
+    content: $prueba-dead-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console15 .path1 {
+  &:before {
+    content: $prueba-game-console15-path1;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console15 .path2 {
+  &:before {
+    content: $prueba-game-console15-path2;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-game-console15 .path3 {
+  &:before {
+    content: $prueba-game-console15-path3;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console15 .path4 {
+  &:before {
+    content: $prueba-game-console15-path4;  
+    margin-left: -1em;  
+    color: none;
+  }
+}
+.prueba-game-console15 .path5 {
+  &:before {
+    content: $prueba-game-console15-path5;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-game-console15 .path6 {
+  &:before {
+    content: $prueba-game-console15-path6;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-game-console15 .path7 {
+  &:before {
+    content: $prueba-game-console15-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-controller5 .path1 {
+  &:before {
+    content: $prueba-game-controller5-path1;  
+    color: rgb(215, 222, 237);
+  }
+}
+.prueba-game-controller5 .path2 {
+  &:before {
+    content: $prueba-game-controller5-path2;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-controller5 .path3 {
+  &:before {
+    content: $prueba-game-controller5-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-controller5 .path4 {
+  &:before {
+    content: $prueba-game-controller5-path4;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.prueba-game-controller5 .path5 {
+  &:before {
+    content: $prueba-game-controller5-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console7 .path1 {
+  &:before {
+    content: $prueba-game-console7-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console7 .path2 {
+  &:before {
+    content: $prueba-game-console7-path2;  
+    margin-left: -1em;  
+    color: rgb(81, 82, 98);
+  }
+}
+.prueba-game-console7 .path3 {
+  &:before {
+    content: $prueba-game-console7-path3;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console7 .path4 {
+  &:before {
+    content: $prueba-game-console7-path4;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console7 .path5 {
+  &:before {
+    content: $prueba-game-console7-path5;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console7 .path6 {
+  &:before {
+    content: $prueba-game-console7-path6;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console7 .path7 {
+  &:before {
+    content: $prueba-game-console7-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console8 .path1 {
+  &:before {
+    content: $prueba-game-console8-path1;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-game-console8 .path2 {
+  &:before {
+    content: $prueba-game-console8-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-game-console8 .path3 {
+  &:before {
+    content: $prueba-game-console8-path3;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-game-console8 .path4 {
+  &:before {
+    content: $prueba-game-console8-path4;  
+    margin-left: -1em;  
+    color: rgb(215, 222, 237);
+  }
+}
+.prueba-game-console8 .path5 {
+  &:before {
+    content: $prueba-game-console8-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 220, 200);
+  }
+}
+.prueba-game-console8 .path6 {
+  &:before {
+    content: $prueba-game-console8-path6;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.prueba-game-console8 .path7 {
+  &:before {
+    content: $prueba-game-console8-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-races .path1 {
+  &:before {
+    content: $prueba-races-path1;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-races .path2 {
+  &:before {
+    content: $prueba-races-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-races .path3 {
+  &:before {
+    content: $prueba-races-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-races .path4 {
+  &:before {
+    content: $prueba-races-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-races .path5 {
+  &:before {
+    content: $prueba-races-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console9 .path1 {
+  &:before {
+    content: $prueba-game-console9-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-game-console9 .path2 {
+  &:before {
+    content: $prueba-game-console9-path2;  
+    margin-left: -1em;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console9 .path3 {
+  &:before {
+    content: $prueba-game-console9-path3;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-game-console9 .path4 {
+  &:before {
+    content: $prueba-game-console9-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-knight .path1 {
+  &:before {
+    content: $prueba-knight-path1;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-knight .path2 {
+  &:before {
+    content: $prueba-knight-path2;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-knight .path3 {
+  &:before {
+    content: $prueba-knight-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-knight .path4 {
+  &:before {
+    content: $prueba-knight-path4;  
+    margin-left: -1em;  
+    color: rgb(149, 156, 179);
+  }
+}
+.prueba-knight .path5 {
+  &:before {
+    content: $prueba-knight-path5;  
+    margin-left: -1em;  
+    color: rgb(190, 135, 107);
+  }
+}
+.prueba-knight .path6 {
+  &:before {
+    content: $prueba-knight-path6;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-knight .path7 {
+  &:before {
+    content: $prueba-knight-path7;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-knight .path8 {
+  &:before {
+    content: $prueba-knight-path8;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-knight .path9 {
+  &:before {
+    content: $prueba-knight-path9;  
+    margin-left: -1em;  
+    color: rgb(199, 207, 226);
+  }
+}
+.prueba-knight .path10 {
+  &:before {
+    content: $prueba-knight-path10;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-knight .path11 {
+  &:before {
+    content: $prueba-knight-path11;  
+    margin-left: -1em;  
+    color: rgb(149, 156, 179);
+  }
+}
+.prueba-knight .path12 {
+  &:before {
+    content: $prueba-knight-path12;  
+    margin-left: -1em;  
+    color: rgb(190, 135, 107);
+  }
+}
+.prueba-knight .path13 {
+  &:before {
+    content: $prueba-knight-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-technological1 .path1 {
+  &:before {
+    content: $prueba-technological1-path1;  
+    color: rgb(174, 87, 96);
+  }
+}
+.prueba-technological1 .path2 {
+  &:before {
+    content: $prueba-technological1-path2;  
+    margin-left: -1em;  
+    color: rgb(174, 181, 202);
+  }
+}
+.prueba-technological1 .path3 {
+  &:before {
+    content: $prueba-technological1-path3;  
+    margin-left: -1em;  
+    color: rgb(235, 210, 175);
+  }
+}
+.prueba-technological1 .path4 {
+  &:before {
+    content: $prueba-technological1-path4;  
+    margin-left: -1em;  
+    color: rgb(235, 210, 175);
+  }
+}
+.prueba-technological1 .path5 {
+  &:before {
+    content: $prueba-technological1-path5;  
+    margin-left: -1em;  
+    color: rgb(235, 210, 175);
+  }
+}
+.prueba-technological1 .path6 {
+  &:before {
+    content: $prueba-technological1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console10 .path1 {
+  &:before {
+    content: $prueba-game-console10-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console10 .path2 {
+  &:before {
+    content: $prueba-game-console10-path2;  
+    margin-left: -1em;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console10 .path3 {
+  &:before {
+    content: $prueba-game-console10-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.prueba-game-console10 .path4 {
+  &:before {
+    content: $prueba-game-console10-path4;  
+    margin-left: -1em;  
+    color: rgb(130, 185, 255);
+  }
+}
+.prueba-game-console10 .path5 {
+  &:before {
+    content: $prueba-game-console10-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 100, 100);
+  }
+}
+.prueba-game-console10 .path6 {
+  &:before {
+    content: $prueba-game-console10-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console11 .path1 {
+  &:before {
+    content: $prueba-game-console11-path1;  
+    color: rgb(228, 234, 246);
+  }
+}
+.prueba-game-console11 .path2 {
+  &:before {
+    content: $prueba-game-console11-path2;  
+    margin-left: -1em;  
+    color: rgb(210, 250, 80);
+  }
+}
+.prueba-game-console11 .path3 {
+  &:before {
+    content: $prueba-game-console11-path3;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-game-console11 .path4 {
+  &:before {
+    content: $prueba-game-console11-path4;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-game-console11 .path5 {
+  &:before {
+    content: $prueba-game-console11-path5;  
+    margin-left: -1em;  
+    color: rgb(112, 116, 135);
+  }
+}
+.prueba-game-console11 .path6 {
+  &:before {
+    content: $prueba-game-console11-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console12 .path1 {
+  &:before {
+    content: $prueba-game-console12-path1;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-game-console12 .path2 {
+  &:before {
+    content: $prueba-game-console12-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-console13 .path1 {
+  &:before {
+    content: $prueba-game-console13-path1;  
+    color: rgb(70, 70, 85);
+  }
+}
+.prueba-game-console13 .path2 {
+  &:before {
+    content: $prueba-game-console13-path2;  
+    margin-left: -1em;  
+    color: rgb(91, 93, 110);
+  }
+}
+.prueba-game-console13 .path3 {
+  &:before {
+    content: $prueba-game-console13-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 220, 130);
+  }
+}
+.prueba-game-console13 .path4 {
+  &:before {
+    content: $prueba-game-console13-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps4 .path1 {
+  &:before {
+    content: $prueba-ps4-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.prueba-ps4 .path2 {
+  &:before {
+    content: $prueba-ps4-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-ps4 .path3 {
+  &:before {
+    content: $prueba-ps4-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps4 .path4 {
+  &:before {
+    content: $prueba-ps4-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps4 .path5 {
+  &:before {
+    content: $prueba-ps4-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps4 .path6 {
+  &:before {
+    content: $prueba-ps4-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps4 .path7 {
+  &:before {
+    content: $prueba-ps4-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psvita .path1 {
+  &:before {
+    content: $prueba-psvita-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.prueba-psvita .path2 {
+  &:before {
+    content: $prueba-psvita-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-psvita .path3 {
+  &:before {
+    content: $prueba-psvita-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psvita .path4 {
+  &:before {
+    content: $prueba-psvita-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psvita .path5 {
+  &:before {
+    content: $prueba-psvita-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psvita .path6 {
+  &:before {
+    content: $prueba-psvita-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psvita .path7 {
+  &:before {
+    content: $prueba-psvita-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psvita .path8 {
+  &:before {
+    content: $prueba-psvita-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psvita .path9 {
+  &:before {
+    content: $prueba-psvita-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psvita .path10 {
+  &:before {
+    content: $prueba-psvita-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps3 .path1 {
+  &:before {
+    content: $prueba-ps3-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.prueba-ps3 .path2 {
+  &:before {
+    content: $prueba-ps3-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-ps3 .path3 {
+  &:before {
+    content: $prueba-ps3-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps3 .path4 {
+  &:before {
+    content: $prueba-ps3-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps3 .path5 {
+  &:before {
+    content: $prueba-ps3-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps3 .path6 {
+  &:before {
+    content: $prueba-ps3-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps3 .path7 {
+  &:before {
+    content: $prueba-ps3-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps21 .path1 {
+  &:before {
+    content: $prueba-ps21-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.prueba-ps21 .path2 {
+  &:before {
+    content: $prueba-ps21-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-ps21 .path3 {
+  &:before {
+    content: $prueba-ps21-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps21 .path4 {
+  &:before {
+    content: $prueba-ps21-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps21 .path5 {
+  &:before {
+    content: $prueba-ps21-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps21 .path6 {
+  &:before {
+    content: $prueba-ps21-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ps21 .path7 {
+  &:before {
+    content: $prueba-ps21-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ea-sports1 .path1 {
+  &:before {
+    content: $prueba-ea-sports1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-ea-sports1 .path2 {
+  &:before {
+    content: $prueba-ea-sports1-path2;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-ea-sports1 .path3 {
+  &:before {
+    content: $prueba-ea-sports1-path3;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-ea-sports1 .path4 {
+  &:before {
+    content: $prueba-ea-sports1-path4;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-ea-sports1 .path5 {
+  &:before {
+    content: $prueba-ea-sports1-path5;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-ea-sports1 .path6 {
+  &:before {
+    content: $prueba-ea-sports1-path6;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-ea-sports1 .path7 {
+  &:before {
+    content: $prueba-ea-sports1-path7;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-ea-sports1 .path8 {
+  &:before {
+    content: $prueba-ea-sports1-path8;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-ea-sports1 .path9 {
+  &:before {
+    content: $prueba-ea-sports1-path9;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-ea-sports1 .path10 {
+  &:before {
+    content: $prueba-ea-sports1-path10;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-ea-sports1 .path11 {
+  &:before {
+    content: $prueba-ea-sports1-path11;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-ea-sports1 .path12 {
+  &:before {
+    content: $prueba-ea-sports1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ea-sports1 .path13 {
+  &:before {
+    content: $prueba-ea-sports1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ea-sports1 .path14 {
+  &:before {
+    content: $prueba-ea-sports1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ea-sports1 .path15 {
+  &:before {
+    content: $prueba-ea-sports1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ea-sports1 .path16 {
+  &:before {
+    content: $prueba-ea-sports1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ea-sports1 .path17 {
+  &:before {
+    content: $prueba-ea-sports1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ea-sports1 .path18 {
+  &:before {
+    content: $prueba-ea-sports1-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ea-sports1 .path19 {
+  &:before {
+    content: $prueba-ea-sports1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ea-sports1 .path20 {
+  &:before {
+    content: $prueba-ea-sports1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ea-sports1 .path21 {
+  &:before {
+    content: $prueba-ea-sports1-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-lego1 .path1 {
+  &:before {
+    content: $prueba-lego1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-lego1 .path2 {
+  &:before {
+    content: $prueba-lego1-path2;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-lego1 .path3 {
+  &:before {
+    content: $prueba-lego1-path3;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-lego1 .path4 {
+  &:before {
+    content: $prueba-lego1-path4;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-lego1 .path5 {
+  &:before {
+    content: $prueba-lego1-path5;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-lego1 .path6 {
+  &:before {
+    content: $prueba-lego1-path6;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-lego1 .path7 {
+  &:before {
+    content: $prueba-lego1-path7;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-lego1 .path8 {
+  &:before {
+    content: $prueba-lego1-path8;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-lego1 .path9 {
+  &:before {
+    content: $prueba-lego1-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-lego1 .path10 {
+  &:before {
+    content: $prueba-lego1-path10;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-lego1 .path11 {
+  &:before {
+    content: $prueba-lego1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-lego1 .path12 {
+  &:before {
+    content: $prueba-lego1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-lego1 .path13 {
+  &:before {
+    content: $prueba-lego1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-lego1 .path14 {
+  &:before {
+    content: $prueba-lego1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-atari1 .path1 {
+  &:before {
+    content: $prueba-atari1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-atari1 .path2 {
+  &:before {
+    content: $prueba-atari1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-atari1 .path3 {
+  &:before {
+    content: $prueba-atari1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-atari1 .path4 {
+  &:before {
+    content: $prueba-atari1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-atari1 .path5 {
+  &:before {
+    content: $prueba-atari1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-atari1 .path6 {
+  &:before {
+    content: $prueba-atari1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-atari1 .path7 {
+  &:before {
+    content: $prueba-atari1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-atari1 .path8 {
+  &:before {
+    content: $prueba-atari1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-atari1 .path9 {
+  &:before {
+    content: $prueba-atari1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-atari1 .path10 {
+  &:before {
+    content: $prueba-atari1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-atari1 .path11 {
+  &:before {
+    content: $prueba-atari1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-guitar-hero1 .path1 {
+  &:before {
+    content: $prueba-guitar-hero1-path1;  
+    color: rgb(152, 157, 160);
+  }
+}
+.prueba-guitar-hero1 .path2 {
+  &:before {
+    content: $prueba-guitar-hero1-path2;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-guitar-hero1 .path3 {
+  &:before {
+    content: $prueba-guitar-hero1-path3;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-guitar-hero1 .path4 {
+  &:before {
+    content: $prueba-guitar-hero1-path4;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path5 {
+  &:before {
+    content: $prueba-guitar-hero1-path5;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-guitar-hero1 .path6 {
+  &:before {
+    content: $prueba-guitar-hero1-path6;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path7 {
+  &:before {
+    content: $prueba-guitar-hero1-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-guitar-hero1 .path8 {
+  &:before {
+    content: $prueba-guitar-hero1-path8;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path9 {
+  &:before {
+    content: $prueba-guitar-hero1-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path10 {
+  &:before {
+    content: $prueba-guitar-hero1-path10;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-guitar-hero1 .path11 {
+  &:before {
+    content: $prueba-guitar-hero1-path11;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-guitar-hero1 .path12 {
+  &:before {
+    content: $prueba-guitar-hero1-path12;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path13 {
+  &:before {
+    content: $prueba-guitar-hero1-path13;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-guitar-hero1 .path14 {
+  &:before {
+    content: $prueba-guitar-hero1-path14;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path15 {
+  &:before {
+    content: $prueba-guitar-hero1-path15;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-guitar-hero1 .path16 {
+  &:before {
+    content: $prueba-guitar-hero1-path16;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.prueba-guitar-hero1 .path17 {
+  &:before {
+    content: $prueba-guitar-hero1-path17;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path18 {
+  &:before {
+    content: $prueba-guitar-hero1-path18;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path19 {
+  &:before {
+    content: $prueba-guitar-hero1-path19;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path20 {
+  &:before {
+    content: $prueba-guitar-hero1-path20;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path21 {
+  &:before {
+    content: $prueba-guitar-hero1-path21;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path22 {
+  &:before {
+    content: $prueba-guitar-hero1-path22;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path23 {
+  &:before {
+    content: $prueba-guitar-hero1-path23;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-guitar-hero1 .path24 {
+  &:before {
+    content: $prueba-guitar-hero1-path24;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-guitar-hero1 .path25 {
+  &:before {
+    content: $prueba-guitar-hero1-path25;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-guitar-hero1 .path26 {
+  &:before {
+    content: $prueba-guitar-hero1-path26;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-guitar-hero1 .path27 {
+  &:before {
+    content: $prueba-guitar-hero1-path27;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-guitar-hero1 .path28 {
+  &:before {
+    content: $prueba-guitar-hero1-path28;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-guitar-hero1 .path29 {
+  &:before {
+    content: $prueba-guitar-hero1-path29;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-guitar-hero1 .path30 {
+  &:before {
+    content: $prueba-guitar-hero1-path30;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-guitar-hero1 .path31 {
+  &:before {
+    content: $prueba-guitar-hero1-path31;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-tamiya1 .path1 {
+  &:before {
+    content: $prueba-tamiya1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-tamiya1 .path2 {
+  &:before {
+    content: $prueba-tamiya1-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-tamiya1 .path3 {
+  &:before {
+    content: $prueba-tamiya1-path3;  
+    margin-left: -1em;  
+    color: rgb(74, 148, 204);
+  }
+}
+.prueba-tamiya1 .path4 {
+  &:before {
+    content: $prueba-tamiya1-path4;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-tamiya1 .path5 {
+  &:before {
+    content: $prueba-tamiya1-path5;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-tamiya1 .path6 {
+  &:before {
+    content: $prueba-tamiya1-path6;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-tamiya1 .path7 {
+  &:before {
+    content: $prueba-tamiya1-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-tamiya1 .path8 {
+  &:before {
+    content: $prueba-tamiya1-path8;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-tamiya1 .path9 {
+  &:before {
+    content: $prueba-tamiya1-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-tamiya1 .path10 {
+  &:before {
+    content: $prueba-tamiya1-path10;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-tamiya1 .path11 {
+  &:before {
+    content: $prueba-tamiya1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-tamiya1 .path12 {
+  &:before {
+    content: $prueba-tamiya1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-tamiya1 .path13 {
+  &:before {
+    content: $prueba-tamiya1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-tamiya1 .path14 {
+  &:before {
+    content: $prueba-tamiya1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-tamiya1 .path15 {
+  &:before {
+    content: $prueba-tamiya1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-tamiya1 .path16 {
+  &:before {
+    content: $prueba-tamiya1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-tamiya1 .path17 {
+  &:before {
+    content: $prueba-tamiya1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-tamiya1 .path18 {
+  &:before {
+    content: $prueba-tamiya1-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-tamiya1 .path19 {
+  &:before {
+    content: $prueba-tamiya1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-super-mario1 .path1 {
+  &:before {
+    content: $prueba-super-mario1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-super-mario1 .path2 {
+  &:before {
+    content: $prueba-super-mario1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-super-mario1 .path3 {
+  &:before {
+    content: $prueba-super-mario1-path3;  
+    margin-left: -1em;  
+    color: rgb(74, 148, 204);
+  }
+}
+.prueba-super-mario1 .path4 {
+  &:before {
+    content: $prueba-super-mario1-path4;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-super-mario1 .path5 {
+  &:before {
+    content: $prueba-super-mario1-path5;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-super-mario1 .path6 {
+  &:before {
+    content: $prueba-super-mario1-path6;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.prueba-super-mario1 .path7 {
+  &:before {
+    content: $prueba-super-mario1-path7;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.prueba-super-mario1 .path8 {
+  &:before {
+    content: $prueba-super-mario1-path8;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.prueba-super-mario1 .path9 {
+  &:before {
+    content: $prueba-super-mario1-path9;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.prueba-super-mario1 .path10 {
+  &:before {
+    content: $prueba-super-mario1-path10;  
+    margin-left: -1em;  
+    color: rgb(74, 148, 204);
+  }
+}
+.prueba-super-mario1 .path11 {
+  &:before {
+    content: $prueba-super-mario1-path11;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-super-mario1 .path12 {
+  &:before {
+    content: $prueba-super-mario1-path12;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-super-mario1 .path13 {
+  &:before {
+    content: $prueba-super-mario1-path13;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-super-mario1 .path14 {
+  &:before {
+    content: $prueba-super-mario1-path14;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-super-mario1 .path15 {
+  &:before {
+    content: $prueba-super-mario1-path15;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-super-mario1 .path16 {
+  &:before {
+    content: $prueba-super-mario1-path16;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-super-mario1 .path17 {
+  &:before {
+    content: $prueba-super-mario1-path17;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-super-mario1 .path18 {
+  &:before {
+    content: $prueba-super-mario1-path18;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-super-mario1 .path19 {
+  &:before {
+    content: $prueba-super-mario1-path19;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-super-mario1 .path20 {
+  &:before {
+    content: $prueba-super-mario1-path20;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.prueba-super-mario1 .path21 {
+  &:before {
+    content: $prueba-super-mario1-path21;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.prueba-super-mario1 .path22 {
+  &:before {
+    content: $prueba-super-mario1-path22;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-super-mario1 .path23 {
+  &:before {
+    content: $prueba-super-mario1-path23;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-super-mario1 .path24 {
+  &:before {
+    content: $prueba-super-mario1-path24;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-super-mario1 .path25 {
+  &:before {
+    content: $prueba-super-mario1-path25;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-super-mario1 .path26 {
+  &:before {
+    content: $prueba-super-mario1-path26;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-super-mario1 .path27 {
+  &:before {
+    content: $prueba-super-mario1-path27;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psp .path1 {
+  &:before {
+    content: $prueba-psp-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.prueba-psp .path2 {
+  &:before {
+    content: $prueba-psp-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-psp .path3 {
+  &:before {
+    content: $prueba-psp-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psp .path4 {
+  &:before {
+    content: $prueba-psp-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psp .path5 {
+  &:before {
+    content: $prueba-psp-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psp .path6 {
+  &:before {
+    content: $prueba-psp-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-psp .path7 {
+  &:before {
+    content: $prueba-psp-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path1 {
+  &:before {
+    content: $prueba-pes1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-pes1 .path2 {
+  &:before {
+    content: $prueba-pes1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-pes1 .path3 {
+  &:before {
+    content: $prueba-pes1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path4 {
+  &:before {
+    content: $prueba-pes1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path5 {
+  &:before {
+    content: $prueba-pes1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path6 {
+  &:before {
+    content: $prueba-pes1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path7 {
+  &:before {
+    content: $prueba-pes1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path8 {
+  &:before {
+    content: $prueba-pes1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path9 {
+  &:before {
+    content: $prueba-pes1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path10 {
+  &:before {
+    content: $prueba-pes1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path11 {
+  &:before {
+    content: $prueba-pes1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path12 {
+  &:before {
+    content: $prueba-pes1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path13 {
+  &:before {
+    content: $prueba-pes1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path14 {
+  &:before {
+    content: $prueba-pes1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path15 {
+  &:before {
+    content: $prueba-pes1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path16 {
+  &:before {
+    content: $prueba-pes1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path17 {
+  &:before {
+    content: $prueba-pes1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path18 {
+  &:before {
+    content: $prueba-pes1-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path19 {
+  &:before {
+    content: $prueba-pes1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path20 {
+  &:before {
+    content: $prueba-pes1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path21 {
+  &:before {
+    content: $prueba-pes1-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path22 {
+  &:before {
+    content: $prueba-pes1-path22;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path23 {
+  &:before {
+    content: $prueba-pes1-path23;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path24 {
+  &:before {
+    content: $prueba-pes1-path24;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path25 {
+  &:before {
+    content: $prueba-pes1-path25;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path26 {
+  &:before {
+    content: $prueba-pes1-path26;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path27 {
+  &:before {
+    content: $prueba-pes1-path27;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path28 {
+  &:before {
+    content: $prueba-pes1-path28;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pes1 .path29 {
+  &:before {
+    content: $prueba-pes1-path29;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pokemon .path1 {
+  &:before {
+    content: $prueba-pokemon-path1;  
+    color: rgb(77, 80, 102);
+  }
+}
+.prueba-pokemon .path2 {
+  &:before {
+    content: $prueba-pokemon-path2;  
+    margin-left: -1em;  
+    color: rgb(65, 67, 86);
+  }
+}
+.prueba-pokemon .path3 {
+  &:before {
+    content: $prueba-pokemon-path3;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-pokemon .path4 {
+  &:before {
+    content: $prueba-pokemon-path4;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-pokemon .path5 {
+  &:before {
+    content: $prueba-pokemon-path5;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-pokemon .path6 {
+  &:before {
+    content: $prueba-pokemon-path6;  
+    margin-left: -1em;  
+    color: rgb(65, 67, 86);
+  }
+}
+.prueba-pokemon .path7 {
+  &:before {
+    content: $prueba-pokemon-path7;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 63);
+  }
+}
+.prueba-pokemon .path8 {
+  &:before {
+    content: $prueba-pokemon-path8;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-pokemon .path9 {
+  &:before {
+    content: $prueba-pokemon-path9;  
+    margin-left: -1em;  
+    color: rgb(65, 67, 86);
+  }
+}
+.prueba-pokemon .path10 {
+  &:before {
+    content: $prueba-pokemon-path10;  
+    margin-left: -1em;  
+    color: rgb(44, 47, 63);
+  }
+}
+.prueba-pokemon .path11 {
+  &:before {
+    content: $prueba-pokemon-path11;  
+    margin-left: -1em;  
+    color: rgb(91, 98, 140);
+  }
+}
+.prueba-pokemon .path12 {
+  &:before {
+    content: $prueba-pokemon-path12;  
+    margin-left: -1em;  
+    color: rgb(68, 76, 114);
+  }
+}
+.prueba-pokemon .path13 {
+  &:before {
+    content: $prueba-pokemon-path13;  
+    margin-left: -1em;  
+    color: rgb(91, 98, 140);
+  }
+}
+.prueba-pokemon .path14 {
+  &:before {
+    content: $prueba-pokemon-path14;  
+    margin-left: -1em;  
+    color: rgb(68, 76, 114);
+  }
+}
+.prueba-pokemon .path15 {
+  &:before {
+    content: $prueba-pokemon-path15;  
+    margin-left: -1em;  
+    color: rgb(65, 67, 86);
+  }
+}
+.prueba-pokemon .path16 {
+  &:before {
+    content: $prueba-pokemon-path16;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-pokemon .path17 {
+  &:before {
+    content: $prueba-pokemon-path17;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-pokemon .path18 {
+  &:before {
+    content: $prueba-pokemon-path18;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-pokemon .path19 {
+  &:before {
+    content: $prueba-pokemon-path19;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-pokemon .path20 {
+  &:before {
+    content: $prueba-pokemon-path20;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-pokemon .path21 {
+  &:before {
+    content: $prueba-pokemon-path21;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-pokemon .path22 {
+  &:before {
+    content: $prueba-pokemon-path22;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-pokemon .path23 {
+  &:before {
+    content: $prueba-pokemon-path23;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-pokemon .path24 {
+  &:before {
+    content: $prueba-pokemon-path24;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-pokemon .path25 {
+  &:before {
+    content: $prueba-pokemon-path25;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-pokemon .path26 {
+  &:before {
+    content: $prueba-pokemon-path26;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-pokemon .path27 {
+  &:before {
+    content: $prueba-pokemon-path27;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-pokemon .path28 {
+  &:before {
+    content: $prueba-pokemon-path28;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-pokemon .path29 {
+  &:before {
+    content: $prueba-pokemon-path29;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-pokemon .path30 {
+  &:before {
+    content: $prueba-pokemon-path30;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pokemon .path31 {
+  &:before {
+    content: $prueba-pokemon-path31;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pokemon .path32 {
+  &:before {
+    content: $prueba-pokemon-path32;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pokemon .path33 {
+  &:before {
+    content: $prueba-pokemon-path33;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pokemon .path34 {
+  &:before {
+    content: $prueba-pokemon-path34;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pokemon .path35 {
+  &:before {
+    content: $prueba-pokemon-path35;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pokemon .path36 {
+  &:before {
+    content: $prueba-pokemon-path36;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-pokemon .path37 {
+  &:before {
+    content: $prueba-pokemon-path37;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-we-pes1 .path1 {
+  &:before {
+    content: $prueba-we-pes1-path1;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-we-pes1 .path2 {
+  &:before {
+    content: $prueba-we-pes1-path2;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-we-pes1 .path3 {
+  &:before {
+    content: $prueba-we-pes1-path3;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-we-pes1 .path4 {
+  &:before {
+    content: $prueba-we-pes1-path4;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-we-pes1 .path5 {
+  &:before {
+    content: $prueba-we-pes1-path5;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-we-pes1 .path6 {
+  &:before {
+    content: $prueba-we-pes1-path6;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-we-pes1 .path7 {
+  &:before {
+    content: $prueba-we-pes1-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-we-pes1 .path8 {
+  &:before {
+    content: $prueba-we-pes1-path8;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-we-pes1 .path9 {
+  &:before {
+    content: $prueba-we-pes1-path9;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-we-pes1 .path10 {
+  &:before {
+    content: $prueba-we-pes1-path10;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-we-pes1 .path11 {
+  &:before {
+    content: $prueba-we-pes1-path11;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-we-pes1 .path12 {
+  &:before {
+    content: $prueba-we-pes1-path12;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-we-pes1 .path13 {
+  &:before {
+    content: $prueba-we-pes1-path13;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-we-pes1 .path14 {
+  &:before {
+    content: $prueba-we-pes1-path14;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-we-pes1 .path15 {
+  &:before {
+    content: $prueba-we-pes1-path15;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-we-pes1 .path16 {
+  &:before {
+    content: $prueba-we-pes1-path16;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-we-pes1 .path17 {
+  &:before {
+    content: $prueba-we-pes1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-grand-theft-auto .path1 {
+  &:before {
+    content: $prueba-grand-theft-auto-path1;  
+    color: rgb(152, 157, 160);
+  }
+}
+.prueba-grand-theft-auto .path2 {
+  &:before {
+    content: $prueba-grand-theft-auto-path2;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path3 {
+  &:before {
+    content: $prueba-grand-theft-auto-path3;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path4 {
+  &:before {
+    content: $prueba-grand-theft-auto-path4;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path5 {
+  &:before {
+    content: $prueba-grand-theft-auto-path5;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path6 {
+  &:before {
+    content: $prueba-grand-theft-auto-path6;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path7 {
+  &:before {
+    content: $prueba-grand-theft-auto-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path8 {
+  &:before {
+    content: $prueba-grand-theft-auto-path8;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path9 {
+  &:before {
+    content: $prueba-grand-theft-auto-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path10 {
+  &:before {
+    content: $prueba-grand-theft-auto-path10;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path11 {
+  &:before {
+    content: $prueba-grand-theft-auto-path11;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path12 {
+  &:before {
+    content: $prueba-grand-theft-auto-path12;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path13 {
+  &:before {
+    content: $prueba-grand-theft-auto-path13;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path14 {
+  &:before {
+    content: $prueba-grand-theft-auto-path14;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path15 {
+  &:before {
+    content: $prueba-grand-theft-auto-path15;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path16 {
+  &:before {
+    content: $prueba-grand-theft-auto-path16;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path17 {
+  &:before {
+    content: $prueba-grand-theft-auto-path17;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path18 {
+  &:before {
+    content: $prueba-grand-theft-auto-path18;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path19 {
+  &:before {
+    content: $prueba-grand-theft-auto-path19;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path20 {
+  &:before {
+    content: $prueba-grand-theft-auto-path20;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path21 {
+  &:before {
+    content: $prueba-grand-theft-auto-path21;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path22 {
+  &:before {
+    content: $prueba-grand-theft-auto-path22;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path23 {
+  &:before {
+    content: $prueba-grand-theft-auto-path23;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-grand-theft-auto .path24 {
+  &:before {
+    content: $prueba-grand-theft-auto-path24;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path25 {
+  &:before {
+    content: $prueba-grand-theft-auto-path25;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path26 {
+  &:before {
+    content: $prueba-grand-theft-auto-path26;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path27 {
+  &:before {
+    content: $prueba-grand-theft-auto-path27;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path28 {
+  &:before {
+    content: $prueba-grand-theft-auto-path28;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.prueba-grand-theft-auto .path29 {
+  &:before {
+    content: $prueba-grand-theft-auto-path29;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path30 {
+  &:before {
+    content: $prueba-grand-theft-auto-path30;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path31 {
+  &:before {
+    content: $prueba-grand-theft-auto-path31;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path32 {
+  &:before {
+    content: $prueba-grand-theft-auto-path32;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path33 {
+  &:before {
+    content: $prueba-grand-theft-auto-path33;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-grand-theft-auto .path34 {
+  &:before {
+    content: $prueba-grand-theft-auto-path34;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-grand-theft-auto .path35 {
+  &:before {
+    content: $prueba-grand-theft-auto-path35;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-grand-theft-auto .path36 {
+  &:before {
+    content: $prueba-grand-theft-auto-path36;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-grand-theft-auto .path37 {
+  &:before {
+    content: $prueba-grand-theft-auto-path37;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-grand-theft-auto .path38 {
+  &:before {
+    content: $prueba-grand-theft-auto-path38;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-grand-theft-auto .path39 {
+  &:before {
+    content: $prueba-grand-theft-auto-path39;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-grand-theft-auto .path40 {
+  &:before {
+    content: $prueba-grand-theft-auto-path40;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-grand-theft-auto .path41 {
+  &:before {
+    content: $prueba-grand-theft-auto-path41;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-grand-theft-auto .path42 {
+  &:before {
+    content: $prueba-grand-theft-auto-path42;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-grand-theft-auto .path43 {
+  &:before {
+    content: $prueba-grand-theft-auto-path43;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path1 {
+  &:before {
+    content: $prueba-gears-of-war1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-gears-of-war1 .path2 {
+  &:before {
+    content: $prueba-gears-of-war1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-gears-of-war1 .path3 {
+  &:before {
+    content: $prueba-gears-of-war1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path4 {
+  &:before {
+    content: $prueba-gears-of-war1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path5 {
+  &:before {
+    content: $prueba-gears-of-war1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path6 {
+  &:before {
+    content: $prueba-gears-of-war1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path7 {
+  &:before {
+    content: $prueba-gears-of-war1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path8 {
+  &:before {
+    content: $prueba-gears-of-war1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path9 {
+  &:before {
+    content: $prueba-gears-of-war1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path10 {
+  &:before {
+    content: $prueba-gears-of-war1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path11 {
+  &:before {
+    content: $prueba-gears-of-war1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path12 {
+  &:before {
+    content: $prueba-gears-of-war1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path13 {
+  &:before {
+    content: $prueba-gears-of-war1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-gears-of-war1 .path14 {
+  &:before {
+    content: $prueba-gears-of-war1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-2k-sports1 .path1 {
+  &:before {
+    content: $prueba-2k-sports1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-2k-sports1 .path2 {
+  &:before {
+    content: $prueba-2k-sports1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-2k-sports1 .path3 {
+  &:before {
+    content: $prueba-2k-sports1-path3;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-2k-sports1 .path4 {
+  &:before {
+    content: $prueba-2k-sports1-path4;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-2k-sports1 .path5 {
+  &:before {
+    content: $prueba-2k-sports1-path5;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-2k-sports1 .path6 {
+  &:before {
+    content: $prueba-2k-sports1-path6;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-2k-sports1 .path7 {
+  &:before {
+    content: $prueba-2k-sports1-path7;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-2k-sports1 .path8 {
+  &:before {
+    content: $prueba-2k-sports1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-2k-sports1 .path9 {
+  &:before {
+    content: $prueba-2k-sports1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-2k-sports1 .path10 {
+  &:before {
+    content: $prueba-2k-sports1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-2k-sports1 .path11 {
+  &:before {
+    content: $prueba-2k-sports1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-2k-sports1 .path12 {
+  &:before {
+    content: $prueba-2k-sports1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-2k-sports1 .path13 {
+  &:before {
+    content: $prueba-2k-sports1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-2k-sports1 .path14 {
+  &:before {
+    content: $prueba-2k-sports1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-2k-sports1 .path15 {
+  &:before {
+    content: $prueba-2k-sports1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-konami1 .path1 {
+  &:before {
+    content: $prueba-konami1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-konami1 .path2 {
+  &:before {
+    content: $prueba-konami1-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-konami1 .path3 {
+  &:before {
+    content: $prueba-konami1-path3;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-konami1 .path4 {
+  &:before {
+    content: $prueba-konami1-path4;  
+    margin-left: -1em;  
+    color: rgb(247, 172, 22);
+  }
+}
+.prueba-konami1 .path5 {
+  &:before {
+    content: $prueba-konami1-path5;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-konami1 .path6 {
+  &:before {
+    content: $prueba-konami1-path6;  
+    margin-left: -1em;  
+    color: rgb(244, 155, 25);
+  }
+}
+.prueba-konami1 .path7 {
+  &:before {
+    content: $prueba-konami1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-konami1 .path8 {
+  &:before {
+    content: $prueba-konami1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-konami1 .path9 {
+  &:before {
+    content: $prueba-konami1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-konami1 .path10 {
+  &:before {
+    content: $prueba-konami1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-konami1 .path11 {
+  &:before {
+    content: $prueba-konami1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-konami1 .path12 {
+  &:before {
+    content: $prueba-konami1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-konami1 .path13 {
+  &:before {
+    content: $prueba-konami1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-konami1 .path14 {
+  &:before {
+    content: $prueba-konami1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-konami1 .path15 {
+  &:before {
+    content: $prueba-konami1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-konami1 .path16 {
+  &:before {
+    content: $prueba-konami1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-boy1 .path1 {
+  &:before {
+    content: $prueba-game-boy1-path1;  
+    color: rgb(110, 220, 249);
+  }
+}
+.prueba-game-boy1 .path2 {
+  &:before {
+    content: $prueba-game-boy1-path2;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.prueba-game-boy1 .path3 {
+  &:before {
+    content: $prueba-game-boy1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-boy1 .path4 {
+  &:before {
+    content: $prueba-game-boy1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-boy1 .path5 {
+  &:before {
+    content: $prueba-game-boy1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-boy1 .path6 {
+  &:before {
+    content: $prueba-game-boy1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-boy1 .path7 {
+  &:before {
+    content: $prueba-game-boy1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-boy1 .path8 {
+  &:before {
+    content: $prueba-game-boy1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-game-boy1 .path9 {
+  &:before {
+    content: $prueba-game-boy1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-fifa .path1 {
+  &:before {
+    content: $prueba-fifa-path1;  
+    color: rgb(152, 157, 160);
+  }
+}
+.prueba-fifa .path2 {
+  &:before {
+    content: $prueba-fifa-path2;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-fifa .path3 {
+  &:before {
+    content: $prueba-fifa-path3;  
+    margin-left: -1em;  
+    color: rgb(152, 157, 160);
+  }
+}
+.prueba-fifa .path4 {
+  &:before {
+    content: $prueba-fifa-path4;  
+    margin-left: -1em;  
+    color: rgb(152, 157, 160);
+  }
+}
+.prueba-fifa .path5 {
+  &:before {
+    content: $prueba-fifa-path5;  
+    margin-left: -1em;  
+    color: rgb(152, 157, 160);
+  }
+}
+.prueba-fifa .path6 {
+  &:before {
+    content: $prueba-fifa-path6;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-fifa .path7 {
+  &:before {
+    content: $prueba-fifa-path7;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.prueba-fifa .path8 {
+  &:before {
+    content: $prueba-fifa-path8;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-fifa .path9 {
+  &:before {
+    content: $prueba-fifa-path9;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.prueba-fifa .path10 {
+  &:before {
+    content: $prueba-fifa-path10;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.prueba-fifa .path11 {
+  &:before {
+    content: $prueba-fifa-path11;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.prueba-fifa .path12 {
+  &:before {
+    content: $prueba-fifa-path12;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-fifa .path13 {
+  &:before {
+    content: $prueba-fifa-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-fifa .path14 {
+  &:before {
+    content: $prueba-fifa-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-fifa .path15 {
+  &:before {
+    content: $prueba-fifa-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-fifa .path16 {
+  &:before {
+    content: $prueba-fifa-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-dota-21 .path1 {
+  &:before {
+    content: $prueba-dota-21-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-dota-21 .path2 {
+  &:before {
+    content: $prueba-dota-21-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-dota-21 .path3 {
+  &:before {
+    content: $prueba-dota-21-path3;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-dota-21 .path4 {
+  &:before {
+    content: $prueba-dota-21-path4;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-dota-21 .path5 {
+  &:before {
+    content: $prueba-dota-21-path5;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-dota-21 .path6 {
+  &:before {
+    content: $prueba-dota-21-path6;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-dota-21 .path7 {
+  &:before {
+    content: $prueba-dota-21-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-dota-21 .path8 {
+  &:before {
+    content: $prueba-dota-21-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-dota-21 .path9 {
+  &:before {
+    content: $prueba-dota-21-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-dota-21 .path10 {
+  &:before {
+    content: $prueba-dota-21-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-dota-21 .path11 {
+  &:before {
+    content: $prueba-dota-21-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-dota-21 .path12 {
+  &:before {
+    content: $prueba-dota-21-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-dota-21 .path13 {
+  &:before {
+    content: $prueba-dota-21-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-dota-21 .path14 {
+  &:before {
+    content: $prueba-dota-21-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-dota-21 .path15 {
+  &:before {
+    content: $prueba-dota-21-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path1 {
+  &:before {
+    content: $prueba-assassins-creed1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-assassins-creed1 .path2 {
+  &:before {
+    content: $prueba-assassins-creed1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-assassins-creed1 .path3 {
+  &:before {
+    content: $prueba-assassins-creed1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path4 {
+  &:before {
+    content: $prueba-assassins-creed1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path5 {
+  &:before {
+    content: $prueba-assassins-creed1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path6 {
+  &:before {
+    content: $prueba-assassins-creed1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path7 {
+  &:before {
+    content: $prueba-assassins-creed1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path8 {
+  &:before {
+    content: $prueba-assassins-creed1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path9 {
+  &:before {
+    content: $prueba-assassins-creed1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path10 {
+  &:before {
+    content: $prueba-assassins-creed1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path11 {
+  &:before {
+    content: $prueba-assassins-creed1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path12 {
+  &:before {
+    content: $prueba-assassins-creed1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path13 {
+  &:before {
+    content: $prueba-assassins-creed1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path14 {
+  &:before {
+    content: $prueba-assassins-creed1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path15 {
+  &:before {
+    content: $prueba-assassins-creed1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path16 {
+  &:before {
+    content: $prueba-assassins-creed1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path17 {
+  &:before {
+    content: $prueba-assassins-creed1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path18 {
+  &:before {
+    content: $prueba-assassins-creed1-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-assassins-creed1 .path19 {
+  &:before {
+    content: $prueba-assassins-creed1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-namco1 .path1 {
+  &:before {
+    content: $prueba-namco1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-namco1 .path2 {
+  &:before {
+    content: $prueba-namco1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-namco1 .path3 {
+  &:before {
+    content: $prueba-namco1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-namco1 .path4 {
+  &:before {
+    content: $prueba-namco1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-namco1 .path5 {
+  &:before {
+    content: $prueba-namco1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-namco1 .path6 {
+  &:before {
+    content: $prueba-namco1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-namco1 .path7 {
+  &:before {
+    content: $prueba-namco1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-namco1 .path8 {
+  &:before {
+    content: $prueba-namco1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-namco1 .path9 {
+  &:before {
+    content: $prueba-namco1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-zynga1 .path1 {
+  &:before {
+    content: $prueba-zynga1-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-zynga1 .path2 {
+  &:before {
+    content: $prueba-zynga1-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-zynga1 .path3 {
+  &:before {
+    content: $prueba-zynga1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-zynga1 .path4 {
+  &:before {
+    content: $prueba-zynga1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-zynga1 .path5 {
+  &:before {
+    content: $prueba-zynga1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-zynga1 .path6 {
+  &:before {
+    content: $prueba-zynga1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-zynga1 .path7 {
+  &:before {
+    content: $prueba-zynga1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-zynga1 .path8 {
+  &:before {
+    content: $prueba-zynga1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-zynga1 .path9 {
+  &:before {
+    content: $prueba-zynga1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-zynga1 .path10 {
+  &:before {
+    content: $prueba-zynga1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-capcom1 .path1 {
+  &:before {
+    content: $prueba-capcom1-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.prueba-capcom1 .path2 {
+  &:before {
+    content: $prueba-capcom1-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-capcom1 .path3 {
+  &:before {
+    content: $prueba-capcom1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-capcom1 .path4 {
+  &:before {
+    content: $prueba-capcom1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-capcom1 .path5 {
+  &:before {
+    content: $prueba-capcom1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-capcom1 .path6 {
+  &:before {
+    content: $prueba-capcom1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-capcom1 .path7 {
+  &:before {
+    content: $prueba-capcom1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-capcom1 .path8 {
+  &:before {
+    content: $prueba-capcom1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-capcom1 .path9 {
+  &:before {
+    content: $prueba-capcom1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-capcom1 .path10 {
+  &:before {
+    content: $prueba-capcom1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-valve1 .path1 {
+  &:before {
+    content: $prueba-valve1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-valve1 .path2 {
+  &:before {
+    content: $prueba-valve1-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-valve1 .path3 {
+  &:before {
+    content: $prueba-valve1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-valve1 .path4 {
+  &:before {
+    content: $prueba-valve1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-valve1 .path5 {
+  &:before {
+    content: $prueba-valve1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-valve1 .path6 {
+  &:before {
+    content: $prueba-valve1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-valve1 .path7 {
+  &:before {
+    content: $prueba-valve1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-valve1 .path8 {
+  &:before {
+    content: $prueba-valve1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-valve1 .path9 {
+  &:before {
+    content: $prueba-valve1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path1 {
+  &:before {
+    content: $prueba-bandai-1-path1;  
+    color: rgb(255, 136, 40);
+  }
+}
+.prueba-bandai-1 .path2 {
+  &:before {
+    content: $prueba-bandai-1-path2;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-bandai-1 .path3 {
+  &:before {
+    content: $prueba-bandai-1-path3;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-bandai-1 .path4 {
+  &:before {
+    content: $prueba-bandai-1-path4;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-bandai-1 .path5 {
+  &:before {
+    content: $prueba-bandai-1-path5;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-bandai-1 .path6 {
+  &:before {
+    content: $prueba-bandai-1-path6;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-bandai-1 .path7 {
+  &:before {
+    content: $prueba-bandai-1-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-bandai-1 .path8 {
+  &:before {
+    content: $prueba-bandai-1-path8;  
+    margin-left: -1em;  
+    color: rgb(252, 117, 26);
+  }
+}
+.prueba-bandai-1 .path9 {
+  &:before {
+    content: $prueba-bandai-1-path9;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-bandai-1 .path10 {
+  &:before {
+    content: $prueba-bandai-1-path10;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-bandai-1 .path11 {
+  &:before {
+    content: $prueba-bandai-1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path12 {
+  &:before {
+    content: $prueba-bandai-1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path13 {
+  &:before {
+    content: $prueba-bandai-1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path14 {
+  &:before {
+    content: $prueba-bandai-1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path15 {
+  &:before {
+    content: $prueba-bandai-1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path16 {
+  &:before {
+    content: $prueba-bandai-1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path17 {
+  &:before {
+    content: $prueba-bandai-1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path18 {
+  &:before {
+    content: $prueba-bandai-1-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path19 {
+  &:before {
+    content: $prueba-bandai-1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path20 {
+  &:before {
+    content: $prueba-bandai-1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path21 {
+  &:before {
+    content: $prueba-bandai-1-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai-1 .path22 {
+  &:before {
+    content: $prueba-bandai-1-path22;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-rovio1 .path1 {
+  &:before {
+    content: $prueba-rovio1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-rovio1 .path2 {
+  &:before {
+    content: $prueba-rovio1-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-rovio1 .path3 {
+  &:before {
+    content: $prueba-rovio1-path3;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-rovio1 .path4 {
+  &:before {
+    content: $prueba-rovio1-path4;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-rovio1 .path5 {
+  &:before {
+    content: $prueba-rovio1-path5;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-rovio1 .path6 {
+  &:before {
+    content: $prueba-rovio1-path6;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-rovio1 .path7 {
+  &:before {
+    content: $prueba-rovio1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-rovio1 .path8 {
+  &:before {
+    content: $prueba-rovio1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-rovio1 .path9 {
+  &:before {
+    content: $prueba-rovio1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-rovio1 .path10 {
+  &:before {
+    content: $prueba-rovio1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-rovio1 .path11 {
+  &:before {
+    content: $prueba-rovio1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-rovio1 .path12 {
+  &:before {
+    content: $prueba-rovio1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-rovio1 .path13 {
+  &:before {
+    content: $prueba-rovio1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-rovio1 .path14 {
+  &:before {
+    content: $prueba-rovio1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai2 .path1 {
+  &:before {
+    content: $prueba-bandai2-path1;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-bandai2 .path2 {
+  &:before {
+    content: $prueba-bandai2-path2;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-bandai2 .path3 {
+  &:before {
+    content: $prueba-bandai2-path3;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-bandai2 .path4 {
+  &:before {
+    content: $prueba-bandai2-path4;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-bandai2 .path5 {
+  &:before {
+    content: $prueba-bandai2-path5;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-bandai2 .path6 {
+  &:before {
+    content: $prueba-bandai2-path6;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-bandai2 .path7 {
+  &:before {
+    content: $prueba-bandai2-path7;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-bandai2 .path8 {
+  &:before {
+    content: $prueba-bandai2-path8;  
+    margin-left: -1em;  
+    color: rgb(244, 244, 244);
+  }
+}
+.prueba-bandai2 .path9 {
+  &:before {
+    content: $prueba-bandai2-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-bandai2 .path10 {
+  &:before {
+    content: $prueba-bandai2-path10;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-bandai2 .path11 {
+  &:before {
+    content: $prueba-bandai2-path11;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-bandai2 .path12 {
+  &:before {
+    content: $prueba-bandai2-path12;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-bandai2 .path13 {
+  &:before {
+    content: $prueba-bandai2-path13;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-bandai2 .path14 {
+  &:before {
+    content: $prueba-bandai2-path14;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-bandai2 .path15 {
+  &:before {
+    content: $prueba-bandai2-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai2 .path16 {
+  &:before {
+    content: $prueba-bandai2-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai2 .path17 {
+  &:before {
+    content: $prueba-bandai2-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai2 .path18 {
+  &:before {
+    content: $prueba-bandai2-path18;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai2 .path19 {
+  &:before {
+    content: $prueba-bandai2-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-bandai2 .path20 {
+  &:before {
+    content: $prueba-bandai2-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation-1 .path1 {
+  &:before {
+    content: $prueba-playstation-1-path1;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-playstation-1 .path2 {
+  &:before {
+    content: $prueba-playstation-1-path2;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-playstation-1 .path3 {
+  &:before {
+    content: $prueba-playstation-1-path3;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-playstation-1 .path4 {
+  &:before {
+    content: $prueba-playstation-1-path4;  
+    margin-left: -1em;  
+    color: rgb(74, 148, 204);
+  }
+}
+.prueba-playstation-1 .path5 {
+  &:before {
+    content: $prueba-playstation-1-path5;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-playstation-1 .path6 {
+  &:before {
+    content: $prueba-playstation-1-path6;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-playstation-1 .path7 {
+  &:before {
+    content: $prueba-playstation-1-path7;  
+    margin-left: -1em;  
+    color: rgb(234, 71, 59);
+  }
+}
+.prueba-playstation-1 .path8 {
+  &:before {
+    content: $prueba-playstation-1-path8;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-playstation-1 .path9 {
+  &:before {
+    content: $prueba-playstation-1-path9;  
+    margin-left: -1em;  
+    color: rgb(216, 43, 39);
+  }
+}
+.prueba-playstation-1 .path10 {
+  &:before {
+    content: $prueba-playstation-1-path10;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.prueba-playstation-1 .path11 {
+  &:before {
+    content: $prueba-playstation-1-path11;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-playstation-1 .path12 {
+  &:before {
+    content: $prueba-playstation-1-path12;  
+    margin-left: -1em;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-playstation-1 .path13 {
+  &:before {
+    content: $prueba-playstation-1-path13;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-playstation-1 .path14 {
+  &:before {
+    content: $prueba-playstation-1-path14;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.prueba-playstation-1 .path15 {
+  &:before {
+    content: $prueba-playstation-1-path15;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.prueba-playstation-1 .path16 {
+  &:before {
+    content: $prueba-playstation-1-path16;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.prueba-playstation-1 .path17 {
+  &:before {
+    content: $prueba-playstation-1-path17;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.prueba-playstation-1 .path18 {
+  &:before {
+    content: $prueba-playstation-1-path18;  
+    margin-left: -1em;  
+    color: rgb(59, 188, 86);
+  }
+}
+.prueba-playstation-1 .path19 {
+  &:before {
+    content: $prueba-playstation-1-path19;  
+    margin-left: -1em;  
+    color: rgb(41, 165, 61);
+  }
+}
+.prueba-playstation-1 .path20 {
+  &:before {
+    content: $prueba-playstation-1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation-1 .path21 {
+  &:before {
+    content: $prueba-playstation-1-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-xbox1 .path1 {
+  &:before {
+    content: $prueba-xbox1-path1;  
+    color: rgb(141, 216, 61);
+  }
+}
+.prueba-xbox1 .path2 {
+  &:before {
+    content: $prueba-xbox1-path2;  
+    margin-left: -1em;  
+    color: rgb(141, 216, 61);
+  }
+}
+.prueba-xbox1 .path3 {
+  &:before {
+    content: $prueba-xbox1-path3;  
+    margin-left: -1em;  
+    color: rgb(141, 216, 61);
+  }
+}
+.prueba-xbox1 .path4 {
+  &:before {
+    content: $prueba-xbox1-path4;  
+    margin-left: -1em;  
+    color: rgb(141, 216, 61);
+  }
+}
+.prueba-xbox1 .path5 {
+  &:before {
+    content: $prueba-xbox1-path5;  
+    margin-left: -1em;  
+    color: rgb(121, 196, 34);
+  }
+}
+.prueba-xbox1 .path6 {
+  &:before {
+    content: $prueba-xbox1-path6;  
+    margin-left: -1em;  
+    color: rgb(121, 196, 34);
+  }
+}
+.prueba-xbox1 .path7 {
+  &:before {
+    content: $prueba-xbox1-path7;  
+    margin-left: -1em;  
+    color: rgb(121, 196, 34);
+  }
+}
+.prueba-xbox1 .path8 {
+  &:before {
+    content: $prueba-xbox1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-xbox1 .path9 {
+  &:before {
+    content: $prueba-xbox1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-xbox1 .path10 {
+  &:before {
+    content: $prueba-xbox1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-xbox1 .path11 {
+  &:before {
+    content: $prueba-xbox1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-xbox1 .path12 {
+  &:before {
+    content: $prueba-xbox1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path1 {
+  &:before {
+    content: $prueba-ubisoft1-path1;  
+    color: rgb(152, 157, 160);
+  }
+}
+.prueba-ubisoft1 .path2 {
+  &:before {
+    content: $prueba-ubisoft1-path2;  
+    margin-left: -1em;  
+    color: rgb(129, 134, 137);
+  }
+}
+.prueba-ubisoft1 .path3 {
+  &:before {
+    content: $prueba-ubisoft1-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.prueba-ubisoft1 .path4 {
+  &:before {
+    content: $prueba-ubisoft1-path4;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-ubisoft1 .path5 {
+  &:before {
+    content: $prueba-ubisoft1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path6 {
+  &:before {
+    content: $prueba-ubisoft1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path7 {
+  &:before {
+    content: $prueba-ubisoft1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path8 {
+  &:before {
+    content: $prueba-ubisoft1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path9 {
+  &:before {
+    content: $prueba-ubisoft1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path10 {
+  &:before {
+    content: $prueba-ubisoft1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path11 {
+  &:before {
+    content: $prueba-ubisoft1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path12 {
+  &:before {
+    content: $prueba-ubisoft1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path13 {
+  &:before {
+    content: $prueba-ubisoft1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path14 {
+  &:before {
+    content: $prueba-ubisoft1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path15 {
+  &:before {
+    content: $prueba-ubisoft1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path16 {
+  &:before {
+    content: $prueba-ubisoft1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-ubisoft1 .path17 {
+  &:before {
+    content: $prueba-ubisoft1-path17;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sony1 .path1 {
+  &:before {
+    content: $prueba-sony1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-sony1 .path2 {
+  &:before {
+    content: $prueba-sony1-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-sony1 .path3 {
+  &:before {
+    content: $prueba-sony1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sony1 .path4 {
+  &:before {
+    content: $prueba-sony1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sony1 .path5 {
+  &:before {
+    content: $prueba-sony1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sony1 .path6 {
+  &:before {
+    content: $prueba-sony1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sony1 .path7 {
+  &:before {
+    content: $prueba-sony1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sony1 .path8 {
+  &:before {
+    content: $prueba-sony1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path1 {
+  &:before {
+    content: $prueba-crytek1-path1;  
+    color: rgb(110, 220, 249);
+  }
+}
+.prueba-crytek1 .path2 {
+  &:before {
+    content: $prueba-crytek1-path2;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.prueba-crytek1 .path3 {
+  &:before {
+    content: $prueba-crytek1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path4 {
+  &:before {
+    content: $prueba-crytek1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path5 {
+  &:before {
+    content: $prueba-crytek1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path6 {
+  &:before {
+    content: $prueba-crytek1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path7 {
+  &:before {
+    content: $prueba-crytek1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path8 {
+  &:before {
+    content: $prueba-crytek1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path9 {
+  &:before {
+    content: $prueba-crytek1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path10 {
+  &:before {
+    content: $prueba-crytek1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path11 {
+  &:before {
+    content: $prueba-crytek1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path12 {
+  &:before {
+    content: $prueba-crytek1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path13 {
+  &:before {
+    content: $prueba-crytek1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path14 {
+  &:before {
+    content: $prueba-crytek1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path15 {
+  &:before {
+    content: $prueba-crytek1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-crytek1 .path16 {
+  &:before {
+    content: $prueba-crytek1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sega1 .path1 {
+  &:before {
+    content: $prueba-sega1-path1;  
+    color: rgb(74, 148, 204);
+  }
+}
+.prueba-sega1 .path2 {
+  &:before {
+    content: $prueba-sega1-path2;  
+    margin-left: -1em;  
+    color: rgb(40, 132, 188);
+  }
+}
+.prueba-sega1 .path3 {
+  &:before {
+    content: $prueba-sega1-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sega1 .path4 {
+  &:before {
+    content: $prueba-sega1-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sega1 .path5 {
+  &:before {
+    content: $prueba-sega1-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sega1 .path6 {
+  &:before {
+    content: $prueba-sega1-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sega1 .path7 {
+  &:before {
+    content: $prueba-sega1-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sega1 .path8 {
+  &:before {
+    content: $prueba-sega1-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sega1 .path9 {
+  &:before {
+    content: $prueba-sega1-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sega1 .path10 {
+  &:before {
+    content: $prueba-sega1-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sega1 .path11 {
+  &:before {
+    content: $prueba-sega1-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sega1 .path12 {
+  &:before {
+    content: $prueba-sega1-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-sega1 .path13 {
+  &:before {
+    content: $prueba-sega1-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii-u1 .path1 {
+  &:before {
+    content: $prueba-wii-u1-path1;  
+    color: rgb(110, 220, 249);
+  }
+}
+.prueba-wii-u1 .path2 {
+  &:before {
+    content: $prueba-wii-u1-path2;  
+    margin-left: -1em;  
+    color: rgb(110, 220, 249);
+  }
+}
+.prueba-wii-u1 .path3 {
+  &:before {
+    content: $prueba-wii-u1-path3;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.prueba-wii-u1 .path4 {
+  &:before {
+    content: $prueba-wii-u1-path4;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.prueba-wii-u1 .path5 {
+  &:before {
+    content: $prueba-wii-u1-path5;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.prueba-wii-u1 .path6 {
+  &:before {
+    content: $prueba-wii-u1-path6;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-wii-u1 .path7 {
+  &:before {
+    content: $prueba-wii-u1-path7;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-wii-u1 .path8 {
+  &:before {
+    content: $prueba-wii-u1-path8;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-wii-u1 .path9 {
+  &:before {
+    content: $prueba-wii-u1-path9;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-wii-u1 .path10 {
+  &:before {
+    content: $prueba-wii-u1-path10;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-wii-u1 .path11 {
+  &:before {
+    content: $prueba-wii-u1-path11;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii-u1 .path12 {
+  &:before {
+    content: $prueba-wii-u1-path12;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii-u1 .path13 {
+  &:before {
+    content: $prueba-wii-u1-path13;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii-u1 .path14 {
+  &:before {
+    content: $prueba-wii-u1-path14;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii-u1 .path15 {
+  &:before {
+    content: $prueba-wii-u1-path15;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii-u1 .path16 {
+  &:before {
+    content: $prueba-wii-u1-path16;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii-u1 .path17 {
+  &:before {
+    content: $prueba-wii-u1-path17;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii-u1 .path18 {
+  &:before {
+    content: $prueba-wii-u1-path18;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii-u1 .path19 {
+  &:before {
+    content: $prueba-wii-u1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii-u1 .path20 {
+  &:before {
+    content: $prueba-wii-u1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii-u1 .path21 {
+  &:before {
+    content: $prueba-wii-u1-path21;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii-u1 .path22 {
+  &:before {
+    content: $prueba-wii-u1-path22;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii-u1 .path23 {
+  &:before {
+    content: $prueba-wii-u1-path23;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii-u1 .path24 {
+  &:before {
+    content: $prueba-wii-u1-path24;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii-u1 .path25 {
+  &:before {
+    content: $prueba-wii-u1-path25;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii1 .path1 {
+  &:before {
+    content: $prueba-wii1-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-wii1 .path2 {
+  &:before {
+    content: $prueba-wii1-path2;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-wii1 .path3 {
+  &:before {
+    content: $prueba-wii1-path3;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-wii1 .path4 {
+  &:before {
+    content: $prueba-wii1-path4;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-wii1 .path5 {
+  &:before {
+    content: $prueba-wii1-path5;  
+    margin-left: -1em;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-wii1 .path6 {
+  &:before {
+    content: $prueba-wii1-path6;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii1 .path7 {
+  &:before {
+    content: $prueba-wii1-path7;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii1 .path8 {
+  &:before {
+    content: $prueba-wii1-path8;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii1 .path9 {
+  &:before {
+    content: $prueba-wii1-path9;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii1 .path10 {
+  &:before {
+    content: $prueba-wii1-path10;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii1 .path11 {
+  &:before {
+    content: $prueba-wii1-path11;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii1 .path12 {
+  &:before {
+    content: $prueba-wii1-path12;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii1 .path13 {
+  &:before {
+    content: $prueba-wii1-path13;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-wii1 .path14 {
+  &:before {
+    content: $prueba-wii1-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii1 .path15 {
+  &:before {
+    content: $prueba-wii1-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii1 .path16 {
+  &:before {
+    content: $prueba-wii1-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii1 .path17 {
+  &:before {
+    content: $prueba-wii1-path17;  
+    margin-left: -1em;  
+    color: rgb(35, 31, 32);
+  }
+}
+.prueba-wii1 .path18 {
+  &:before {
+    content: $prueba-wii1-path18;  
+    margin-left: -1em;  
+    color: rgb(35, 31, 32);
+  }
+}
+.prueba-wii1 .path19 {
+  &:before {
+    content: $prueba-wii1-path19;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-wii1 .path20 {
+  &:before {
+    content: $prueba-wii1-path20;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path1 {
+  &:before {
+    content: $prueba-nintendo-ds-path1;  
+    color: rgb(110, 220, 249);
+  }
+}
+.prueba-nintendo-ds .path2 {
+  &:before {
+    content: $prueba-nintendo-ds-path2;  
+    margin-left: -1em;  
+    color: rgb(69, 198, 229);
+  }
+}
+.prueba-nintendo-ds .path3 {
+  &:before {
+    content: $prueba-nintendo-ds-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path4 {
+  &:before {
+    content: $prueba-nintendo-ds-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path5 {
+  &:before {
+    content: $prueba-nintendo-ds-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path6 {
+  &:before {
+    content: $prueba-nintendo-ds-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path7 {
+  &:before {
+    content: $prueba-nintendo-ds-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path8 {
+  &:before {
+    content: $prueba-nintendo-ds-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path9 {
+  &:before {
+    content: $prueba-nintendo-ds-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path10 {
+  &:before {
+    content: $prueba-nintendo-ds-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path11 {
+  &:before {
+    content: $prueba-nintendo-ds-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path12 {
+  &:before {
+    content: $prueba-nintendo-ds-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path13 {
+  &:before {
+    content: $prueba-nintendo-ds-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path14 {
+  &:before {
+    content: $prueba-nintendo-ds-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo-ds .path15 {
+  &:before {
+    content: $prueba-nintendo-ds-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path1 {
+  &:before {
+    content: $prueba-playstation-path1;  
+    color: rgb(242, 212, 34);
+  }
+}
+.prueba-playstation .path2 {
+  &:before {
+    content: $prueba-playstation-path2;  
+    margin-left: -1em;  
+    color: rgb(244, 189, 37);
+  }
+}
+.prueba-playstation .path3 {
+  &:before {
+    content: $prueba-playstation-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path4 {
+  &:before {
+    content: $prueba-playstation-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path5 {
+  &:before {
+    content: $prueba-playstation-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path6 {
+  &:before {
+    content: $prueba-playstation-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path7 {
+  &:before {
+    content: $prueba-playstation-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path8 {
+  &:before {
+    content: $prueba-playstation-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path9 {
+  &:before {
+    content: $prueba-playstation-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path10 {
+  &:before {
+    content: $prueba-playstation-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path11 {
+  &:before {
+    content: $prueba-playstation-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path12 {
+  &:before {
+    content: $prueba-playstation-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path13 {
+  &:before {
+    content: $prueba-playstation-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path14 {
+  &:before {
+    content: $prueba-playstation-path14;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path15 {
+  &:before {
+    content: $prueba-playstation-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-playstation .path16 {
+  &:before {
+    content: $prueba-playstation-path16;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo .path1 {
+  &:before {
+    content: $prueba-nintendo-path1;  
+    color: rgb(234, 232, 232);
+  }
+}
+.prueba-nintendo .path2 {
+  &:before {
+    content: $prueba-nintendo-path2;  
+    margin-left: -1em;  
+    color: rgb(211, 209, 209);
+  }
+}
+.prueba-nintendo .path3 {
+  &:before {
+    content: $prueba-nintendo-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo .path4 {
+  &:before {
+    content: $prueba-nintendo-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo .path5 {
+  &:before {
+    content: $prueba-nintendo-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo .path6 {
+  &:before {
+    content: $prueba-nintendo-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo .path7 {
+  &:before {
+    content: $prueba-nintendo-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo .path8 {
+  &:before {
+    content: $prueba-nintendo-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo .path9 {
+  &:before {
+    content: $prueba-nintendo-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo .path10 {
+  &:before {
+    content: $prueba-nintendo-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo .path11 {
+  &:before {
+    content: $prueba-nintendo-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo .path12 {
+  &:before {
+    content: $prueba-nintendo-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.prueba-nintendo .path13 {
+  &:before {
+    content: $prueba-nintendo-path13;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+
