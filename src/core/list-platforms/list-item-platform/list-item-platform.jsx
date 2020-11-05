@@ -8,8 +8,7 @@ import ListItemAvatar from "@material-ui/core/ListItemAvatar";
 import Avatar from "@material-ui/core/Avatar";
 import ExpandLess from "@material-ui/icons/ExpandLess";
 import ExpandMore from "@material-ui/icons/ExpandMore";
-import Icon306752Gaming from "../../../components/Icons/Icon-306752-gaming";
-import IconFont from "../../../components/icon/icon-font";
+import PlatformIcon from "../../../helpers/platform-icon";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,10 +40,7 @@ export default function ListItemPlatform({ parentPlatform }) {
     >
       <ListItemAvatar>
         <Avatar>
-          <Icon306752Gaming
-            kind="049-game console"
-            onClick={() => alert("clicked on icon")}
-          />
+          <PlatformIcon name={item.slug} />
         </Avatar>
       </ListItemAvatar>
       <ListItemText primary={item.name} />
@@ -58,7 +54,7 @@ export default function ListItemPlatform({ parentPlatform }) {
       <ListItem button key={parentPlatform.id} onClick={handleClick}>
         <ListItemAvatar>
           <Avatar>
-            <IconFont icon="icon-playstation1"></IconFont>
+            <PlatformIcon name={parentPlatform.slug} />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary={parentPlatform.name} />
