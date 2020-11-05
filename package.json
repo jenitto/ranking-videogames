@@ -16,8 +16,10 @@
     "react-intl": "^5.8.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
+    "reset-css": "^5.0.1",
     "rxjs": "^6.6.3",
-    "rxjs-compat": "^6.6.3"
+    "rxjs-compat": "^6.6.3",
+    "styled-components": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

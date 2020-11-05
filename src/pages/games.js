@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import GameCard from "../components/game-card";
+import Grid from "@material-ui/core/Grid";
+import CardGame from "../components/cards/card-game/card-game";
 import { getGamesByPlatforms } from "../services/rawg-service";
 
 export default function Games() {
@@ -11,43 +12,33 @@ export default function Games() {
   useEffect(() => {
     getGamesByPlatforms(id, { ordering: "metacritic-released" })
       .then((res) => {
-        console.log("axios RAWL: ", res.data);
-        console.log(res.data.results);
         setGames(res.data.results);
       })
       .catch((error) => {
-        console.log("Error!", error);
+        // console.log("Error!", error);
       });
-    // getRawgGamesFetch()
-    //   .then((response) => response.json())
-    //   .then((data) => console.log("fetch RAWL:", data))
-    //   .catch((err) => {
-    //     console.log(err);
-    //   });
-    // getGamesDBGamesAxios()
-    //   .then((res) => {
-    //     console.log("axios thegamesdb", res.data);
-    //   })
-    //   .catch((error) => {
-    //     console.log("Error!", error);
-    //   });
-    // getGamesDBGamesFetch()
-    //   .then((response) => response.json())
-    //   .then((data) => console.log("fetch thegamesdb", data))
-    //   .catch((err) => {
-    //     console.log(err);
-    //   });
   }, [id]);
 
   return (
     <>
-      {games.map((game) => (
-        <GameCard
-          key={game.id}
-          image={game.background_image}
-          title={game.name}
-        ></GameCard>
-      ))}
+      <Grid container spacing={3}>
+        {games.map((game) => (
+          <Grid item sm={12} md={6} lg={4} xl={2}>
+            <CardGame
+              key={game.id}
+              title={game.name}
+              subtitle={game.released.substring(0, 4)}
+              iconName="fas fa-heart"
+              btnIcon="fas fa-arrow-right"
+              bgPhoto={game.background_image}
+              secondSubtitle={game.genres.map((genre) => genre.name).join(", ")}
+              totalReviews={game.ratings_count}
+              ratingAverage={game.rating}
+              metacritic={game.metacritic}
+            />
+          </Grid>
+        ))}
+      </Grid>
     </>
   );
 }
