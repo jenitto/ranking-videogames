@@ -1,23 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import { Switch, Route } from "react-router-dom";
 import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Toolbar from "@material-ui/core/Toolbar";
 import List from "@material-ui/core/List";
-import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import InboxIcon from "@material-ui/icons/MoveToInbox";
 import MailIcon from "@material-ui/icons/Mail";
+import ListPlatforms from "../list-platforms/list-platforms";
 import Header from "../header/header";
-import { RAWG_BASE_URL, API_HOST, API_KEY } from "../../config/rawg";
-import {
-  THEGAMESDB_URL_BASE,
-  THEGAMESDB_API_KEY,
-} from "../../config/thegamesdb";
+import Games from "../../pages/games";
+import Home from "../../pages/home";
 
 const drawerWidth = 240;
 
@@ -58,45 +56,6 @@ export default function Layout() {
   const classes = useStyles();
   const [drawerOpen, setDrawerOpen] = useState(true);
 
-  useEffect(() => {
-    fetch(RAWG_BASE_URL, {
-      method: "GET",
-      headers: {
-        "x-rapidapi-host": API_HOST,
-        "x-rapidapi-key": API_KEY,
-      },
-    })
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
-
-  // useEffect(() => {
-  //   fetch(
-  //     THEGAMESDB_URL_BASE +
-  //       "v1/Games/ByPlatformID" +
-  //       THEGAMESDB_API_KEY +
-  //       "&id=3",
-  //     {
-  //       method: "GET",
-  //       mode: "no-cors",
-  //       headers: {
-  //         accept: "application/json",
-  //         "Content-Type": "application/json",
-  //       },
-  //     }
-  //   )
-  //     .then((response) => {
-  //       console.log(response);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // }, []);
-
   const _handleToggleDrawer = () => setDrawerOpen(!drawerOpen);
 
   return (
@@ -121,6 +80,8 @@ export default function Layout() {
       >
         <Toolbar />
         <div className={classes.drawerContainer}>
+          <ListPlatforms />
+          <Divider />
           <List>
             {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
               <ListItem className={classes.listItem} button key={text}>
@@ -146,22 +107,14 @@ export default function Layout() {
       </Drawer>
       <main className={classes.content}>
         <Toolbar />
-        Enrutado!
-        <Typography paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus
-          dolor purus non enim praesent elementum facilisis leo vel. Risus at
-          ultrices mi tempus imperdiet. Semper risus in hendrerit gravida rutrum
-          quisque non tellus. Convallis convallis tellus id interdum velit
-          laoreet id donec ultrices. Odio morbi quis commodo odio aenean sed
-          adipiscing. Amet nisl suscipit adipiscing bibendum est ultricies
-          integer quis. Cursus euismod quis viverra nibh cras. Metus vulputate
-          eu scelerisque felis imperdiet proin fermentum leo. Mauris commodo
-          quis imperdiet massa tincidunt. Cras tincidunt lobortis feugiat
-          vivamus at augue. At augue eget arcu dictum varius duis at consectetur
-          lorem. Velit sed ullamcorper morbi tincidunt. Lorem donec massa sapien
-          faucibus et molestie ac.
-        </Typography>
+        <Switch>
+          <Route path="/platform/:id">
+            <Games />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
       </main>
     </div>
   );
