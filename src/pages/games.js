@@ -10,7 +10,9 @@ export default function Games() {
   const [games, setGames] = useState([]);
 
   useEffect(() => {
-    getGamesByPlatforms(id, { ordering: "metacritic-released" })
+    getGamesByPlatforms(id, {
+      ordering: "metacritic-released",
+    })
       .then((res) => {
         setGames(res.data.results);
       })
@@ -27,14 +29,12 @@ export default function Games() {
             <CardGame
               key={game.id}
               title={game.name}
-              subtitle={game.released.substring(0, 4)}
-              iconName="fas fa-heart"
-              btnIcon="fas fa-arrow-right"
+              subtitle={game.released?.substring(0, 4) || ""}
               bgPhoto={game.background_image}
-              secondSubtitle={game.genres.map((genre) => genre.name).join(", ")}
-              totalReviews={game.ratings_count}
-              ratingAverage={game.rating}
-              metacritic={game.metacritic}
+              tag={
+                game.metacritic ||
+                Math.round((game.rating * 100) / game.rating_top)
+              }
             />
           </Grid>
         ))}

@@ -1,112 +1,94 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-// import FavoriteIcon from "@material-ui/icons/Favorite";
-import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import StarRating from "../../../helpers/star-rating";
 
 const Container = styled.div`
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.7)),
-    url(${(props) => props.bgPhoto});
+  background: url(${(props) => props.bgPhoto}), ${(props) => props.bgColor};
+  background-position: center top;
   background-size: cover;
-  border-radius: 8px;
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 8px 8px 10px 10px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.07);
   display: flex;
-  flex-direction: column;
-  background-position: center center;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
+  align-items: flex-end;
+  height: 300px;
 `;
 
 const Content = styled.div`
-  width: 100%;
-  border-radius: 8px;
-  position: relative;
-  top: 50px;
-  color: white;
+  border-radius: 0px 0px 8px 8px;
   background-color: white;
+  width: 100%;
   padding: 20px;
-  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.07);
-`;
-
-const Title = styled.span`
-  font-size: 18px;
-  font-weight: 800;
-  color: ${(props) => props.color};
-`;
-
-const Subtitle = styled.span`
-  margin-top: 8px;
-  font-size: 14px;
-  display: block;
-  color: ${(props) => props.color};
-`;
-
-const Top = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row-reverse;
-  width: 100%;
 `;
 
-const Btn = styled.span`
-  color: ${(props) => props.color};
-  background-color: ${(props) => props.bgColor};
-  display: flex;
-  align-items: center;
-  justify-content: center;
+const ContentColumn = styled.div``;
+
+const Title = styled.span`
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+`;
+
+const Subtitle = styled.span`
+  font-size: 14px;
+`;
+
+const TagContainer = styled.div`
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 3px;
+  text-align: center;
+  color: #444;
   height: 32px;
   width: 32px;
-  border-radius: 16px;
-  cursor: pointer;
+  line-height: 32px;
+  border: 1px solid #444;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.07);
 `;
 
-const ReviewsContainer = styled.div`
-  margin-bottom: 15px;
-  font-size: 10px;
-  color: #9ca1ae;
+const TagText = styled.span``;
+
+const IconContainer = styled.div`
+  color: ${(props) => props.iconColor};
 `;
 
 const CardGame = ({
   title,
   subtitle,
-  titleColor = "#1F2126",
-  subtitleColor = "#9CA1AE",
+  tag,
+  tagBg = "#368BE3",
+  tagColor = "white",
+  iconName,
+  iconSize = 2,
   bgPhoto,
-  secondSubtitle,
-  btnColor = "white",
-  ratingAverage,
-  metacritic,
-  totalReviews,
+  bgColor = "#DBE0E6",
+  iconColor = "rgba(67, 72, 77, 0.2)",
 }) => (
-  <Container bgPhoto={bgPhoto}>
-    <Top>
-      <Btn color={btnColor}>
-        <FavoriteBorderIcon />
-      </Btn>
-    </Top>
-
+  <Container bgPhoto={bgPhoto} bgColor={bgColor}>
+    {tag && (
+      <TagContainer tagBg={tagBg} tagColor={tagColor}>
+        <TagText>{tag}</TagText>
+      </TagContainer>
+    )}
     {(title || subtitle) && (
       <Content>
-        <ReviewsContainer>
-          <StarRating rating={ratingAverage} />
-          {totalReviews && (
-            <span>
-              {`${totalReviews === 1 ? "1 review" : `${totalReviews} reviews`}`}
-            </span>
-          )}
-          <div>
-            <span>Rating: {ratingAverage}</span>
-            {metacritic && <span> / Metacritic: {metacritic}</span>}
-          </div>
-        </ReviewsContainer>
-        {title && <Title color={titleColor}>{title}</Title>}
-        {subtitle && <Subtitle color={subtitleColor}>{subtitle}</Subtitle>}
-        {secondSubtitle && (
-          <Subtitle color={subtitleColor}>{secondSubtitle}</Subtitle>
+        <ContentColumn>
+          {title && <Title>{title}</Title>}
+          {subtitle && <Subtitle>{subtitle}</Subtitle>}
+        </ContentColumn>
+        {iconName && (
+          <IconContainer iconColor={iconColor}>
+            <i className={`${iconName} fa-${iconSize}x`} />
+          </IconContainer>
         )}
       </Content>
     )}
@@ -116,14 +98,14 @@ const CardGame = ({
 CardGame.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
+  tag: PropTypes.string,
+  tagBg: PropTypes.string,
+  tagColor: PropTypes.string,
+  iconName: PropTypes.string,
+  iconSize: PropTypes.number,
   bgPhoto: PropTypes.string,
-  btnBg: PropTypes.string,
-  btnColor: PropTypes.string,
-  secondTitle: PropTypes.string,
-  secondSubtitle: PropTypes.string,
-  ratingAverage: PropTypes.number,
-  metacritic: PropTypes.number,
-  totalReviews: PropTypes.number,
+  bgColor: PropTypes.string,
+  iconColor: PropTypes.string,
 };
 
 export default CardGame;
