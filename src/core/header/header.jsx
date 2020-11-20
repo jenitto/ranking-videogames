@@ -169,7 +169,7 @@ export default function Header({ className, onToggleDrawerMode }) {
   );
 
   return (
-    <div className={classes.grow}>
+    <>
       <AppBar position="fixed" className={className}>
         <Toolbar>
           <IconButton
@@ -237,7 +237,7 @@ export default function Header({ className, onToggleDrawerMode }) {
       </AppBar>
       {renderMobileMenu}
       {renderMenu}
-    </div>
+    </>
   );
 }
 

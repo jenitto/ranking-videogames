@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Link, Switch, Route } from "react-router-dom";
 import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
@@ -16,6 +16,7 @@ import ListPlatforms from "../list-platforms/list-platforms";
 import Header from "../header/header";
 import Games from "../../pages/games";
 import Home from "../../pages/home";
+import MiniContainer from "../../pages/mini.container";
 
 const drawerWidth = 240;
 
@@ -80,6 +81,12 @@ export default function Layout() {
       >
         <Toolbar />
         <div className={classes.drawerContainer}>
+          <ListItem button component={Link} exact to={`/mini/79`}>
+            <ListItemIcon>
+              <InboxIcon />
+            </ListItemIcon>
+            <ListItemText primary="SNES-Mini" />
+          </ListItem>
           <ListPlatforms />
           <Divider />
           <List>
@@ -110,6 +117,9 @@ export default function Layout() {
         <Switch>
           <Route path="/platform/:id">
             <Games />
+          </Route>
+          <Route path="/mini/:id">
+            <MiniContainer />
           </Route>
           <Route path="/">
             <Home />

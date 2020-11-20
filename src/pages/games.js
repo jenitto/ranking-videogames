@@ -11,7 +11,7 @@ export default function Games() {
 
   useEffect(() => {
     getGamesByPlatforms(id, {
-      ordering: "metacritic-released",
+      ordering: "-metacritic",
     })
       .then((res) => {
         setGames(res.data.results);

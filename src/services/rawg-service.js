@@ -5,10 +5,10 @@ import {
   RAWG_ENDPOINTS,
 } from "../config/rawg-config";
 
-// To reverse sort add '-released' to the field:
-// Example: getGamesByPlatforms(id, { ordering: "metacritic-released" })
+// To reverse sort add to start '-' to the field:
+// Example: getGamesByPlatforms(id, { ordering: "-released" })
 // To get multiple id, separate with commas:
-// Example: getGamesByPlatforms('1,2,3', { ordering: "metacritic-released" })
+// Example: getGamesByPlatforms('1,2,3', { ordering: "metacritic" })
 
 const global_params = { key: RAWG_API_KEY };
 
