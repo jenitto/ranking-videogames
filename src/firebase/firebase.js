@@ -19,15 +19,12 @@ class Firebase {
 
 // firebase.firestore.collection("platforms").add(element);
 
-// const getPlatforms = () => {
-//   firebase.firestore
-//     .collection("platforms")
-//     .orderBy("name", "desc")
-//     .onSnapshot(handleSnaphsot);
-// };
-// function handleSnaphsot(snapshot) {
-//   console.log(snapshot.docs);
-// }
+// firebase.firestore
+//       .collection("platforms")
+//       .orderBy("name", "asc")
+//       .onSnapshot((snaps) => {
+//         setPlatforms(snaps.docs.map((doc) => doc.data()));
+//       });
 
 // firebase.db.ref("platforms/" + element.name).set(element);
 
