@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useIntl } from "react-intl";
 import PropTypes from "prop-types";
 import { fade, makeStyles } from "@material-ui/core/styles";
@@ -16,7 +17,8 @@ import AccountCircle from "@material-ui/icons/AccountCircle";
 import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MoreIcon from "@material-ui/icons/MoreVert";
-import { Link } from "react-router-dom";
+import LinearProgress from "@material-ui/core/LinearProgress";
+import { useGlobalLoading } from "../providers/GlobalLoaderProvider";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -87,6 +89,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Header({ className, onToggleDrawerMode }) {
   const classes = useStyles();
   const intl = useIntl();
+  const { isLoading } = useGlobalLoading();
 
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
@@ -234,6 +237,7 @@ export default function Header({ className, onToggleDrawerMode }) {
             </IconButton>
           </div>
         </Toolbar>
+        {isLoading && <LinearProgress />}
       </AppBar>
       {renderMobileMenu}
       {renderMenu}

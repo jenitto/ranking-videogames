@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import firebase, { FirebaseContext } from "./firebase";
+import GlobalLoaderProvider from "./core/providers/GlobalLoaderProvider";
 import Layout from "./core/layout/layout";
 import "./App.scss";
 
@@ -23,11 +24,13 @@ function App() {
   return (
     <FirebaseContext.Provider value={{ firebase }}>
       <ThemeProvider theme={theme}>
-        <BrowserRouter>
-          <div className="App">
-            <Layout />
-          </div>
-        </BrowserRouter>
+        <GlobalLoaderProvider>
+          <BrowserRouter>
+            <div className="App">
+              <Layout />
+            </div>
+          </BrowserRouter>
+        </GlobalLoaderProvider>
       </ThemeProvider>
     </FirebaseContext.Provider>
   );

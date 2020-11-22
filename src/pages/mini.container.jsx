@@ -11,22 +11,26 @@ import Select from "@material-ui/core/Select";
 import CardGameHorizontal from "../components/cards/card-game-horizontal/card-game-horizontal";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
+import { useGlobalLoading } from "../core/providers/GlobalLoaderProvider";
 
 export default function MiniContainer() {
   let { id } = useParams();
+  const { setIsLoading } = useGlobalLoading();
   const [selectedGames, setSelectedGames] = useState([]);
   const [games, setGames] = useState([]);
   const [params, setParams] = useState({ ordering: "-rating" });
 
   // API interaction
-  const getGames = () =>
-    getGamesByPlatforms(id, params)
+  const getGames = () => {
+    setIsLoading(true);
+    const res = getGamesByPlatforms(id, params);
+    res
       .then((res) => {
+        setIsLoading(false);
         setGames(res.data.results);
       })
-      .catch((error) => {
-        // console.log("Error!", error);
-      });
+      .catch((err) => console.log("Error!", err));
+  };
 
   useEffect(() => {
     getGames();

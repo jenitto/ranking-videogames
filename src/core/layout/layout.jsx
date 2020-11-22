@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Layout() {
+export default function Layout({ isLoading }) {
   const classes = useStyles();
   const [drawerOpen, setDrawerOpen] = useState(true);
 
@@ -65,6 +65,7 @@ export default function Layout() {
       <Header
         className={classes.appBar}
         onToggleDrawerMode={_handleToggleDrawer}
+        isLoading={isLoading}
       ></Header>
       <Drawer
         variant="permanent"
