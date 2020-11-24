@@ -11,6 +11,9 @@ import CardGameHorizontal from "../components/cards/card-game-horizontal/card-ga
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
 import Grow from "@material-ui/core/Grow";
+import CircularProgress from "@material-ui/core/CircularProgress";
+import Box from "@material-ui/core/Box";
+import InfiniteScroll from "react-infinite-scroller";
 import { getGamesByPlatforms } from "../services/rawg-service";
 import { useGlobalLoading } from "../core/providers/GlobalLoaderProvider";
 
@@ -19,7 +22,9 @@ export default function MiniContainer() {
   const { setIsLoading } = useGlobalLoading();
   const [selectedGames, setSelectedGames] = useState([]);
   const [games, setGames] = useState([]);
-  const [params, setParams] = useState({ ordering: "-rating" });
+  const [params, setParams] = useState({ ordering: "-rating", page: 1 });
+  const [hasMore, setHasMore] = useState(true);
+  const [loadingMore, setLoadingMore] = useState(false);
 
   // API interaction
   const getGames = () => {
@@ -27,18 +32,38 @@ export default function MiniContainer() {
     const res = getGamesByPlatforms(id, params);
     res
       .then((res) => {
+        setHasMore(!!res.data.next);
+        setGames([...games, ...res.data.results]);
         setIsLoading(false);
-        setGames(res.data.results);
+        setLoadingMore(false);
       })
-      .catch((err) => console.log("Error!", err));
+      .catch((err) => {
+        setIsLoading(false);
+        setHasMore(false);
+        setLoadingMore(false);
+        console.log("Error!", err);
+      });
   };
 
   useEffect(() => {
     getGames();
   }, [params, id]);
 
-  const handleSearchValue = (e) => setParams({ ...params, search: e });
-  const handleOrder = (e) => setParams({ ...params, ordering: e });
+  const onLoadMore = () => {
+    if (!loadingMore) {
+      setLoadingMore(true);
+      setParams({ ...params, page: params.page + 1 });
+    }
+  };
+
+  const handleSearchValue = (e) => {
+    setGames([]);
+    setParams({ ...params, search: e, page: 1 });
+  };
+  const handleOrder = (e) => {
+    setGames([]);
+    setParams({ ...params, ordering: e, page: 1 });
+  };
   // End API interaction
 
   // a little function to help us with reordering the result
@@ -181,47 +206,64 @@ export default function MiniContainer() {
               <MenuItem value="-released">Year (DESC)</MenuItem>
             </Select>
           </FormControl>
-          <Droppable droppableId="droppable2">
-            {(provided, snapshot) => (
-              <div
-                ref={provided.innerRef}
-                style={getListStyle(snapshot.isDraggingOver)}
-              >
-                {games.map((game, index) => (
-                  <Draggable
-                    key={game.id}
-                    draggableId={game.slug}
-                    index={index}
-                  >
-                    {(provided, snapshot) => (
-                      <Grow in={true} timeout={50 * index}>
-                        <div
-                          ref={provided.innerRef}
-                          {...provided.draggableProps}
-                          {...provided.dragHandleProps}
-                          style={getItemStyle(
-                            snapshot.isDragging,
-                            provided.draggableProps.style
-                          )}
-                        >
-                          <CardGameHorizontal
-                            title={game.name}
-                            subtitle={game.released?.substring(0, 4) || ""}
-                            bgPhoto={game.background_image}
-                            tag={
-                              game.metacritic ||
-                              Math.round((game.rating * 100) / game.rating_top)
-                            }
-                          />
-                        </div>
-                      </Grow>
-                    )}
-                  </Draggable>
-                ))}
-                {provided.placeholder}
-              </div>
-            )}
-          </Droppable>
+          <InfiniteScroll
+            pageStart={1}
+            initialLoad={false}
+            loadMore={onLoadMore}
+            hasMore={hasMore}
+            loader={
+              loadingMore && (
+                <Box position="relative" textAlign="center" margin="16px">
+                  <CircularProgress />
+                </Box>
+              )
+            }
+            useWindow={true}
+          >
+            <Droppable droppableId="droppable2">
+              {(provided, snapshot) => (
+                <div
+                  ref={provided.innerRef}
+                  style={getListStyle(snapshot.isDraggingOver)}
+                >
+                  {games.map((game, index) => (
+                    <Draggable
+                      key={game.id}
+                      draggableId={game.slug}
+                      index={index}
+                    >
+                      {(provided, snapshot) => (
+                        <Grow in={true} timeout={50 * index}>
+                          <div
+                            ref={provided.innerRef}
+                            {...provided.draggableProps}
+                            {...provided.dragHandleProps}
+                            style={getItemStyle(
+                              snapshot.isDragging,
+                              provided.draggableProps.style
+                            )}
+                          >
+                            <CardGameHorizontal
+                              title={game.name}
+                              subtitle={game.released?.substring(0, 4) || ""}
+                              bgPhoto={game.background_image}
+                              tag={
+                                game.metacritic ||
+                                Math.round(
+                                  (game.rating * 100) / game.rating_top
+                                )
+                              }
+                            />
+                          </div>
+                        </Grow>
+                      )}
+                    </Draggable>
+                  ))}
+                  {provided.placeholder}
+                </div>
+              )}
+            </Droppable>
+          </InfiniteScroll>
         </Grid>
       </DragDropContext>
     </Grid>
