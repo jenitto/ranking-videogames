@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link, Switch, Route } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, Switch, Route, useLocation } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -44,8 +44,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function Layout({ isLoading }) {
+  const location = useLocation();
+
   const classes = useStyles();
   const [drawerOpen, setDrawerOpen] = useState(false);
+
+  useEffect(() => setDrawerOpen(false), [location]);
 
   const _handleToggleDrawer = () => setDrawerOpen(!drawerOpen);
 
