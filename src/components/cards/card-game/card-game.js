@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import Skeleton from "@material-ui/lab/Skeleton";
 import LazyImage from "../../lazy-image/lazyImage";
 
 const Container = styled.div`
@@ -13,7 +14,7 @@ const Container = styled.div`
 `;
 
 const Cover = styled.div`
-  height: 208px;
+  height: 224px;
   width: 100%;
   position: absolute;
   top: 0;
@@ -42,76 +43,51 @@ const Subtitle = styled.span`
   font-size: 14px;
 `;
 
-const TagContainer = styled.div`
-  position: absolute;
-  top: 30px;
-  right: 20px;
-  background-color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  text-transform: uppercase;
-  border-radius: 3px;
-  text-align: center;
-  color: #444;
-  height: 32px;
-  width: 32px;
-  line-height: 32px;
-  border: 1px solid #444;
-  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.07);
-`;
-
-const TagText = styled.span``;
-
-const IconContainer = styled.div`
-  color: ${(props) => props.iconColor};
-`;
-
-const CardGame = ({
-  title,
-  subtitle,
-  tag,
-  tagBg = "#368BE3",
-  tagColor = "white",
-  iconName,
-  iconSize = 2,
-  bgPhoto,
-  iconColor = "rgba(67, 72, 77, 0.2)",
-}) => (
+const CardGame = ({ title, subtitle, bgPhoto, skeleton = false }) => (
   <Container>
     <Cover>
-      <LazyImage src={bgPhoto} alt={`Img of ${title}`} />
+      {skeleton ? (
+        <Skeleton animation="wave" variant="rect" height={224} />
+      ) : (
+        <LazyImage src={bgPhoto} alt={`Img of ${title}`} />
+      )}
     </Cover>
-    {tag && (
-      <TagContainer tagBg={tagBg} tagColor={tagColor}>
-        <TagText>{tag}</TagText>
-      </TagContainer>
-    )}
-    {(title || subtitle) && (
-      <Content>
-        <ContentColumn>
-          {title && <Title>{title}</Title>}
-          {subtitle && <Subtitle>{subtitle}</Subtitle>}
-        </ContentColumn>
-        {iconName && (
-          <IconContainer iconColor={iconColor}>
-            <i className={`${iconName} fa-${iconSize}x`} />
-          </IconContainer>
+    <Content>
+      <ContentColumn>
+        <Title>
+          {skeleton ? (
+            <Skeleton
+              animation="wave"
+              variant="rect"
+              height={10}
+              width={200}
+              style={{ marginBottom: 6 }}
+            />
+          ) : (
+            title
+          )}
+        </Title>
+        {skeleton ? (
+          <Skeleton
+            animation="wave"
+            height={10}
+            width="80%"
+            style={{ marginBottom: 6 }}
+          />
+        ) : (
+          subtitle && <Subtitle>{subtitle}</Subtitle>
         )}
-      </Content>
-    )}
+      </ContentColumn>
+    </Content>
   </Container>
 );
 
 CardGame.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  tag: PropTypes.string,
-  tagBg: PropTypes.string,
-  tagColor: PropTypes.string,
-  iconName: PropTypes.string,
-  iconSize: PropTypes.number,
   bgPhoto: PropTypes.string,
   iconColor: PropTypes.string,
+  skeleton: PropTypes.bool,
 };
 
 export default CardGame;
