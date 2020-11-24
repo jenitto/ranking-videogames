@@ -3,21 +3,26 @@ import { useParams } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import CardGame from "../components/cards/card-game/card-game";
 import { getGamesByPlatforms } from "../services/rawg-service";
+import { useGlobalLoading } from "../core/providers/GlobalLoaderProvider";
 
 export default function Games() {
   let { id } = useParams();
+  const { setIsLoading } = useGlobalLoading();
 
   const [games, setGames] = useState([]);
 
   useEffect(() => {
+    setIsLoading(true);
     getGamesByPlatforms(id, {
       ordering: "-metacritic",
     })
       .then((res) => {
+        setIsLoading(false);
         setGames(res.data.results);
       })
       .catch((error) => {
-        // console.log("Error!", error);
+        setIsLoading(false);
+        console.log("Error!", error);
       });
   }, [id]);
 

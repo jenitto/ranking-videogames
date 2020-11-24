@@ -1,10 +1,12 @@
 import React, { useEffect, useContext, useState } from "react";
 import CardGame from "../components/cards/card-game/card-game";
-import { getPlatforms } from "../services/rawg-service";
 import FirebaseContext from "../firebase/context";
+import { useGlobalLoading } from "../core/providers/GlobalLoaderProvider";
+// import { getPlatforms } from "../services/rawg-service";
 
 export default function Home() {
   const { firebase } = useContext(FirebaseContext);
+  const { setIsLoading } = useGlobalLoading();
   const [platforms, setPlatforms] = useState([]);
 
   useEffect(() => {
@@ -16,10 +18,12 @@ export default function Home() {
     //     console.log("Error!", error);
     //   });
 
+    setIsLoading(true);
     firebase.firestore
       .collection("platforms")
       .orderBy("name", "asc")
       .onSnapshot((snaps) => {
+        setIsLoading(false);
         setPlatforms(snaps.docs.map((doc) => doc.data()));
       });
   }, []);
