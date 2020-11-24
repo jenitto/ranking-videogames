@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link, Switch, Route } from "react-router-dom";
-import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -12,6 +11,7 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import InboxIcon from "@material-ui/icons/MoveToInbox";
 import MailIcon from "@material-ui/icons/Mail";
+import Hidden from "@material-ui/core/Hidden";
 import ListPlatforms from "../list-platforms/list-platforms";
 import Header from "../header/header";
 import Games from "../../pages/games";
@@ -28,23 +28,13 @@ const useStyles = makeStyles((theme) => ({
     zIndex: theme.zIndex.drawer + 1,
   },
   drawer: {
-    width: drawerWidth,
-    flexShrink: 0,
+    [theme.breakpoints.up("sm")]: {
+      width: drawerWidth,
+      flexShrink: 0,
+    },
   },
-  drawerOpen: {
+  drawerPaper: {
     width: drawerWidth,
-    transition: theme.transitions.create("width", {
-      easing: theme.transitions.easing.sharp,
-      duration: theme.transitions.duration.enteringScreen,
-    }),
-  },
-  drawerClose: {
-    transition: theme.transitions.create("width", {
-      easing: theme.transitions.easing.sharp,
-      duration: theme.transitions.duration.leavingScreen,
-    }),
-    overflowX: "hidden",
-    width: theme.spacing(7) + 1,
   },
   listItem: { maxHeight: "48px" },
   content: {
@@ -55,9 +45,43 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Layout({ isLoading }) {
   const classes = useStyles();
-  const [drawerOpen, setDrawerOpen] = useState(true);
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
   const _handleToggleDrawer = () => setDrawerOpen(!drawerOpen);
+
+  const renderMenu = () => (
+    <>
+      <ListItem button component={Link} exact to={`/mini/79`}>
+        <ListItemIcon>
+          <InboxIcon />
+        </ListItemIcon>
+        <ListItemText primary="SNES-Mini" />
+      </ListItem>
+      <ListPlatforms />
+      <Divider />
+      <List>
+        {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
+          <ListItem className={classes.listItem} button key={text}>
+            <ListItemIcon>
+              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+            </ListItemIcon>
+            <ListItemText primary={text} />
+          </ListItem>
+        ))}
+      </List>
+      <Divider />
+      <List>
+        {["All mail", "Trash", "Spam"].map((text, index) => (
+          <ListItem className={classes.listItem} button key={text}>
+            <ListItemIcon>
+              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+            </ListItemIcon>
+            <ListItemText primary={text} />
+          </ListItem>
+        ))}
+      </List>
+    </>
+  );
 
   return (
     <div className={classes.root}>
@@ -67,52 +91,27 @@ export default function Layout({ isLoading }) {
         onToggleDrawerMode={_handleToggleDrawer}
         isLoading={isLoading}
       ></Header>
-      <Drawer
-        variant="permanent"
-        className={clsx(classes.drawer, {
-          [classes.drawerOpen]: drawerOpen,
-          [classes.drawerClose]: !drawerOpen,
-        })}
-        classes={{
-          paper: clsx({
-            [classes.drawerOpen]: drawerOpen,
-            [classes.drawerClose]: !drawerOpen,
-          }),
-        }}
-      >
-        <Toolbar />
-        <div className={classes.drawerContainer}>
-          <ListItem button component={Link} exact to={`/mini/79`}>
-            <ListItemIcon>
-              <InboxIcon />
-            </ListItemIcon>
-            <ListItemText primary="SNES-Mini" />
-          </ListItem>
-          <ListPlatforms />
-          <Divider />
-          <List>
-            {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-              <ListItem className={classes.listItem} button key={text}>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            ))}
-          </List>
-          <Divider />
-          <List>
-            {["All mail", "Trash", "Spam"].map((text, index) => (
-              <ListItem className={classes.listItem} button key={text}>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            ))}
-          </List>
-        </div>
-      </Drawer>
+      <Hidden smUp implementation="css">
+        <Drawer
+          variant="temporary"
+          open={drawerOpen}
+          onClose={_handleToggleDrawer}
+          classes={{
+            paper: classes.drawerPaper,
+          }}
+          ModalProps={{
+            keepMounted: true, // Better open performance on mobile.
+          }}
+        >
+          {renderMenu()}
+        </Drawer>
+      </Hidden>
+      <Hidden xsDown implementation="css">
+        <Drawer variant="permanent" className={classes.drawer}>
+          <Toolbar />
+          <div className={classes.drawerContainer}>{renderMenu()}</div>
+        </Drawer>
+      </Hidden>
       <main className={classes.content}>
         <Toolbar />
         <Switch>

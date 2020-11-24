@@ -18,6 +18,7 @@ import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import LinearProgress from "@material-ui/core/LinearProgress";
+import { Hidden } from "@material-ui/core";
 import { useGlobalLoading } from "../providers/GlobalLoaderProvider";
 
 const useStyles = makeStyles((theme) => ({
@@ -28,12 +29,8 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(2),
   },
   title: {
-    display: "none",
     color: "inherit",
     textDecoration: "none",
-    [theme.breakpoints.up("sm")]: {
-      display: "block",
-    },
   },
   search: {
     position: "relative",
@@ -43,12 +40,8 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: fade(theme.palette.common.white, 0.25),
     },
     marginRight: theme.spacing(2),
-    marginLeft: 0,
-    width: "100%",
-    [theme.breakpoints.up("sm")]: {
-      marginLeft: theme.spacing(3),
-      width: "auto",
-    },
+    marginLeft: theme.spacing(3),
+    width: "auto",
   },
   searchIcon: {
     padding: theme.spacing(0, 2),
@@ -175,15 +168,17 @@ export default function Header({ className, onToggleDrawerMode }) {
     <>
       <AppBar position="fixed" className={className}>
         <Toolbar>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="open drawer"
-            onClick={onToggleDrawerMode}
-          >
-            <MenuIcon />
-          </IconButton>
+          <Hidden smUp implementation="css">
+            <IconButton
+              edge="start"
+              className={classes.menuButton}
+              color="inherit"
+              aria-label="open drawer"
+              onClick={onToggleDrawerMode}
+            >
+              <MenuIcon />
+            </IconButton>
+          </Hidden>
           <Typography className={classes.title} variant="h6" noWrap>
             <Link className={classes.title} to="/">
               Rank Video Games
