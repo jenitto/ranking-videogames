@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
+import LazyImage from "../../lazy-image/lazyImage";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,11 +28,9 @@ const CardGameHorizontal = ({ title, subtitle, bgPhoto }) => {
 
   return (
     <Card className={classes.root}>
-      <CardMedia
-        className={classes.cover}
-        image={bgPhoto}
-        title="Live from space album cover"
-      />
+      <div className={classes.cover}>
+        <LazyImage src={bgPhoto} alt={`Img of ${title}`} />
+      </div>
       <div className={classes.details}>
         <CardContent className={classes.content}>
           <Typography component="h5" variant="h5">

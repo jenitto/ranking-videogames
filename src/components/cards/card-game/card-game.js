@@ -1,17 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import LazyImage from "../../lazy-image/lazyImage";
 
 const Container = styled.div`
   position: relative;
-  background: url(${(props) => props.bgPhoto}), ${(props) => props.bgColor};
-  background-position: center top;
-  background-size: cover;
   border-radius: 8px 8px 10px 10px;
   box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.07);
   display: flex;
   align-items: flex-end;
   height: 300px;
+`;
+
+const Cover = styled.div`
+  height: 208px;
+  width: 100%;
+  position: absolute;
+  top: 0;
 `;
 
 const Content = styled.div`
@@ -70,10 +75,12 @@ const CardGame = ({
   iconName,
   iconSize = 2,
   bgPhoto,
-  bgColor = "#DBE0E6",
   iconColor = "rgba(67, 72, 77, 0.2)",
 }) => (
-  <Container bgPhoto={bgPhoto} bgColor={bgColor}>
+  <Container>
+    <Cover>
+      <LazyImage src={bgPhoto} alt={`Img of ${title}`} />
+    </Cover>
     {tag && (
       <TagContainer tagBg={tagBg} tagColor={tagColor}>
         <TagText>{tag}</TagText>
@@ -104,7 +111,6 @@ CardGame.propTypes = {
   iconName: PropTypes.string,
   iconSize: PropTypes.number,
   bgPhoto: PropTypes.string,
-  bgColor: PropTypes.string,
   iconColor: PropTypes.string,
 };
 

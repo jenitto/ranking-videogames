@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import { getGamesByPlatforms } from "../services/rawg-service";
 import TextField from "@material-ui/core/TextField";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import SearchIcon from "@material-ui/icons/Search";
@@ -11,6 +10,8 @@ import Select from "@material-ui/core/Select";
 import CardGameHorizontal from "../components/cards/card-game-horizontal/card-game-horizontal";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
+import Grow from "@material-ui/core/Grow";
+import { getGamesByPlatforms } from "../services/rawg-service";
 import { useGlobalLoading } from "../core/providers/GlobalLoaderProvider";
 
 export default function MiniContainer() {
@@ -116,34 +117,36 @@ export default function MiniContainer() {
                 style={getListStyle(snapshot.isDraggingOver)}
               >
                 {selectedGames.map((game, index) => (
-                  <Draggable
-                    key={game.id}
-                    draggableId={game.slug}
-                    index={index}
-                  >
-                    {(provided, snapshot) => (
-                      <div
-                        ref={provided.innerRef}
-                        {...provided.draggableProps}
-                        {...provided.dragHandleProps}
-                        style={getItemStyle(
-                          snapshot.isDragging,
-                          provided.draggableProps.style
-                        )}
-                      >
-                        <CardGameHorizontal
-                          key={game.id}
-                          title={game.name}
-                          subtitle={game.released?.substring(0, 4) || ""}
-                          bgPhoto={game.background_image}
-                          tag={
-                            game.metacritic ||
-                            Math.round((game.rating * 100) / game.rating_top)
-                          }
-                        />
-                      </div>
-                    )}
-                  </Draggable>
+                  <Grow key={game.id} in={true} timeout={50 * index}>
+                    <Draggable
+                      key={game.id}
+                      draggableId={game.slug}
+                      index={index}
+                    >
+                      {(provided, snapshot) => (
+                        <div
+                          ref={provided.innerRef}
+                          {...provided.draggableProps}
+                          {...provided.dragHandleProps}
+                          style={getItemStyle(
+                            snapshot.isDragging,
+                            provided.draggableProps.style
+                          )}
+                        >
+                          <CardGameHorizontal
+                            key={game.id}
+                            title={game.name}
+                            subtitle={game.released?.substring(0, 4) || ""}
+                            bgPhoto={game.background_image}
+                            tag={
+                              game.metacritic ||
+                              Math.round((game.rating * 100) / game.rating_top)
+                            }
+                          />
+                        </div>
+                      )}
+                    </Draggable>
+                  </Grow>
                 ))}
                 {provided.placeholder}
               </div>
@@ -191,26 +194,27 @@ export default function MiniContainer() {
                     index={index}
                   >
                     {(provided, snapshot) => (
-                      <div
-                        ref={provided.innerRef}
-                        {...provided.draggableProps}
-                        {...provided.dragHandleProps}
-                        style={getItemStyle(
-                          snapshot.isDragging,
-                          provided.draggableProps.style
-                        )}
-                      >
-                        <CardGameHorizontal
-                          key={game.id}
-                          title={game.name}
-                          subtitle={game.released?.substring(0, 4) || ""}
-                          bgPhoto={game.background_image}
-                          tag={
-                            game.metacritic ||
-                            Math.round((game.rating * 100) / game.rating_top)
-                          }
-                        />
-                      </div>
+                      <Grow in={true} timeout={50 * index}>
+                        <div
+                          ref={provided.innerRef}
+                          {...provided.draggableProps}
+                          {...provided.dragHandleProps}
+                          style={getItemStyle(
+                            snapshot.isDragging,
+                            provided.draggableProps.style
+                          )}
+                        >
+                          <CardGameHorizontal
+                            title={game.name}
+                            subtitle={game.released?.substring(0, 4) || ""}
+                            bgPhoto={game.background_image}
+                            tag={
+                              game.metacritic ||
+                              Math.round((game.rating * 100) / game.rating_top)
+                            }
+                          />
+                        </div>
+                      </Grow>
                     )}
                   </Draggable>
                 ))}
