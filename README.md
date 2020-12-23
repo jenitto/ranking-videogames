@@ -3,6 +3,9 @@ Este es un proyecto de ejemplo, no tiene el objetivo de ser una app real.
 
 Proyecto de prueba con React. El objetivo de este proyecto es de entrenamiento, para probar a conectarse a una base de datos en Firebase, lanzar peticiones con Axios a una API pública [RAWG API](https://rawg.io/apidocs), probar la suite de componentes de [Material UI](https://material-ui.com/es/), skeletons, lazy loading de imágenes y el drag and drop de Atlassian.
 
+## Live app
+[Live app](https://rank-videogames.netlify.app)
+
 ## Available Scripts
 
 In the project directory, you can run:
